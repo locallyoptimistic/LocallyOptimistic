@@ -1,4 +1,4 @@
-baseURL = "https://wonderful-mayer-c2886e.netlify.com/"
+baseURL = "https://locallyoptimistic.netlify.com/"
 languageCode = "en"
 title = "Locally Optimistic"
 theme = "hugo-nuo"
