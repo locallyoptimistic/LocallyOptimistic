@@ -37,13 +37,13 @@ copyright = "© The Locally Optimistic Team and respective authors"
   paginate = 10
 
   # Choose your social networks
-  twitter = "locally_optimistic"
+  twitter = "LocallyOptimistic"
   github = "swiftsam/LocallyOptimistic"
  
   # Google Webmaster
   # https://www.google.com/webmasters/
-  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+  googleSiteVerification = ""
 
   # Bing Webmaster
   # https://www.bing.com/toolbox/webmaster/
-  msValidate = "22596E34341DD1D17D6022C44647E587"
+  msValidate = ""
