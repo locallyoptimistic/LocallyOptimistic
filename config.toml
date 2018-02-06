@@ -1,0 +1,49 @@
+baseURL = "http://locallyoptimistic.com"
+languageCode = "en"
+title = "Locally Optimistic"
+theme = "hugo-nuo"
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+# Disqus Username
+disqusShortname = "disqus_shortname"
+
+# Google Analytics UA number
+googleAnalytics = "UA-XXXXXXXX-X"
+
+# Copyright of your post
+copyright = "© The Locally Optimistic Team and respective authors"
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+
+# Add your own params here
+[params]
+  avatar = "/img/avatar.jpg"
+  seotitle = "Locally Optimistic"
+  subtitle = ""
+  description = ""
+  paginate = 10
+
+  # Choose your social networks
+  twitter = "locally_optimistic"
+  github = "swiftsam/LocallyOptimistic"
+ 
+  # Google Webmaster
+  # https://www.google.com/webmasters/
+  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+
+  # Bing Webmaster
+  # https://www.bing.com/toolbox/webmaster/
+  msValidate = "22596E34341DD1D17D6022C44647E587"
