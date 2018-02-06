@@ -6,3 +6,10 @@ menu: "main"
 weight: 50
 ---
 
+Locally Optimistic is
+
+* Scott Breitenother
+* Michael Kaminsky
+* Jung Lee
+* Sam Swift
+

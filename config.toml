@@ -6,6 +6,12 @@ enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
 
+[context.production.environment]
+  HUGO_VERSION = "0.26"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.26"
+
 # Disqus Username
 disqusShortname = "disqus_shortname"
 
