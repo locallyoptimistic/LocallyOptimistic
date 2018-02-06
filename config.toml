@@ -7,10 +7,10 @@ PygmentsCodeFences = true
 canonifyurls = true
 
 [context.production.environment]
-  HUGO_VERSION = "0.35"
+  HUGO_VERSION = "0.36"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.35"
+  HUGO_VERSION = "0.36"
 
 # Disqus Username
 disqusShortname = "disqus_shortname"
