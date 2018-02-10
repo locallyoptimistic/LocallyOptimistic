@@ -1,55 +1,104 @@
 baseURL = "https://locallyoptimistic.netlify.com/"
-languageCode = "en"
 title = "Locally Optimistic"
-theme = "hugo-nuo"
-enableRobotsTXT = true
-PygmentsCodeFences = true
-canonifyurls = true
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = ""
 
-[context.production.environment]
-  HUGO_VERSION = "0.36"
+theme = "minimo"
 
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.36"
+disqusShortname = ""
+googleAnalytics = ""
 
-# Disqus Username
-disqusShortname = "disqus_shortname"
+Paginate = 5
+preserveTaxonomyNames = true
 
-# Google Analytics UA number
-googleAnalytics = "UA-XXXXXXXX-X"
+enableRobotsTXT = true # generate robots.txt
 
-# Copyright of your post
-copyright = "© The Locally Optimistic Team and respective authors"
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
 
-# Initial site menu, you can extend menu with content.
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+
+[params.info]
+description = ""
+title404 = "Nothing's here!"
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = ""
+holder = ""
+startYear = ""
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+hideSocialMenu = false
+showReadingTime = true
+taxonomyCloudShuffle = true
+
+[params.sidebar]
+enable = true
+sticky = true
+
+[params.widgets]
+homepage = ["recent_posts"]
+sidebar = ["about","taxonomy_cloud"]
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+codepen = ""
+email = ""
+facebook = ""
+github = ""
+gitlab = ""
+instagram = ""
+linkedin = ""
+twitter = ""
+telegram = ""
+google_scholar = ""
+
+[params.social.config]
+platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar"]
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
 [[menu.main]]
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
+name = "Repo"
+weight = -10
+identifier = "repository"
+url = "https://github.com/swiftsam/LocallyOptimistic"
 
-[[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
+[blackfriday]
+hrefTargetBlank = true
 
-# Add your own params here
-[params]
-  avatar = "/img/avatar.jpg"
-  seotitle = "Locally Optimistic"
-  subtitle = ""
-  description = ""
-  paginate = 10
-
-  # Choose your social networks
-  twitter = "LocallyOptimistic"
-  github = "swiftsam/LocallyOptimistic"
- 
-  # Google Webmaster
-  # https://www.google.com/webmasters/
-  googleSiteVerification = ""
-
-  # Bing Webmaster
-  # https://www.bing.com/toolbox/webmaster/
-  msValidate = ""
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
