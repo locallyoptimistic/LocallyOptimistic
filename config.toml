@@ -1,12 +1,12 @@
-baseURL = "https://locallyoptimistic.netlify.com/"
+baseURL = "https://www.locallyoptimistic.com/"
 title = "Locally Optimistic"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
 theme = "minimo"
 
-disqusShortname = ""
-googleAnalytics = ""
+disqusShortname = "locallyoptimistic"
+googleAnalytics = "UA-345857-22"
 
 Paginate = 5
 preserveTaxonomyNames = true
@@ -58,7 +58,7 @@ appID = ""
 pageID = ""
 
 [params.opengraph.twitter]
-page = "" # Twitter page username
+page = "LocalOptimistic" # Twitter page username
 
 [params.seo]
 # Title Separator: - – — · • * ⋆ | ~ « » < >
