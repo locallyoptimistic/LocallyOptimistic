@@ -1,104 +1,38 @@
 baseURL = "https://www.locallyoptimistic.com/"
 title = "Locally Optimistic"
-# for smart copyright line, leave this blank and check [params.copyright]
-copyright = ""
-
-theme = "minimo"
+theme = "hugo-nuo"
 
 disqusShortname = "locallyoptimistic"
 googleAnalytics = "UA-345857-22"
 
 Paginate = 5
 preserveTaxonomyNames = true
+languageCode = "en"
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
 
-enableRobotsTXT = true # generate robots.txt
+# Copyright of your post
+copyright = "© Locally Optimistic"
 
-# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
-pygmentsCodefences = true
-
-# Missing translations will default to this content language
-defaultContentLanguage = "en"
-
-[params.info]
-description = ""
-title404 = "Nothing's here!"
-
-[params.assets]
-favicon = "favicon.ico"
-customCSS = ["css/custom.css"]
-customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
-
-[params.copyright]
-prefix = ""
-holder = ""
-startYear = ""
-suffix = ""
-
-[params.settings]
-# date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
-hideEntryNavigation = ["page"] # boolean / array of sections
-hideSocialMenu = false
-showReadingTime = true
-taxonomyCloudShuffle = true
-
-[params.sidebar]
-enable = true
-sticky = true
-
-[params.widgets]
-homepage = ["recent_posts"]
-sidebar = ["about","taxonomy_cloud"]
-
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
-
-[params.opengraph.twitter]
-page = "LocalOptimistic" # Twitter page username
-
-[params.seo]
-# Title Separator: - – — · • * ⋆ | ~ « » < >
-titleSeparator = "•"
-
-[params.social]
-codepen = ""
-email = ""
-facebook = ""
-github = ""
-gitlab = ""
-instagram = ""
-linkedin = ""
-twitter = ""
-telegram = ""
-google_scholar = ""
-
-[params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar"]
-
-[taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
-
-[permalinks]
-page = "/:slug/"
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
 
 [[menu.main]]
-name = "Repo"
-weight = -10
-identifier = "repository"
-url = "https://github.com/swiftsam/LocallyOptimistic"
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
 
-[blackfriday]
-hrefTargetBlank = true
-
-[languages]
-# edit this block for your own language
-[languages.en]
-lang = "en"
-languageName = "English"
-weight = 1
+# Add your own params here
+[params]
+  author = "Locally Optimistic"
+  avatar = "/img/logo.png"
+  seotitle = "Locally Optimisitc"
+  subtitle = "A blog about data organizations"
+  description = ""
+  paginate = 10
