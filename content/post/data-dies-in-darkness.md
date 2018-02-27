@@ -8,9 +8,7 @@ tags:
  - org
 ---
 
-# Data Dies in Darkness 
 ### Building the Data Quality Flywheel
-
 
 The fastest way to doom an analytics team (and any hope of building a data-driven organization) is to present data and analyses that are often flawed or inconsistent. When people don't believe they can trust the data, they'll stop using them (and, if you're an analytics leader, you might be soon looking for a new job).
 

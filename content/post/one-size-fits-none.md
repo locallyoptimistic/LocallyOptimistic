@@ -8,8 +8,6 @@ tags:
  - team
 ---
 
-# One Size Fits None
-
 People often ask us for advice about building out an analytics organization -- How to structure the team? What skills to hire for? Do we need engineers? What about data scientists? How big should the team be? Unfortunately, there's no easy answer to these questions because the best analytics team is the one that is best able to support the organization as a whole, and different organizations may have very different needs.
 
 In this post we'll discuss some of the different dimensions that are import to evaluate when thinking about how to structure an analytics team, and we'll discuss how those different dimensions led us to build very different teams at Casper and at Harry's. 
