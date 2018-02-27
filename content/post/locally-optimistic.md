@@ -11,7 +11,7 @@ Welcome to Locally Optimistic -- a blog for current and aspiring data analytics 
 If you have content that you'd like to contribute (or if you just want to chat about data stuff), please reach out.
 
 
-[Michael](kaminsky.michael@gmail.com)
-Scott
-Jung
-Sam
+* [Michael](kaminsky.michael@gmail.com)
+* Scott
+* Jung
+* Sam
