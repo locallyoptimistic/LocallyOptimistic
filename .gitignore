@@ -1,2 +1,4 @@
 # Ignore Swap Files
 *.sw*
+.Rproj.user
+public/*
