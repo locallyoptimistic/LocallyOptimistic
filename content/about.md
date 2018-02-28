@@ -1,10 +1,9 @@
 ---
 title: "About"
 date: "2018-02-05"
-type: "single"
+layout: "about"
 menu: "main"
 weight: 50
-comments: "false" 
 ---
 
 Welcome to Locally Optimistic -- a blog for current and aspiring data analytics leaders. Started in NYC in early 2018 as an outgrowth of a slack channel / extremely informal meetup group, we hope to share our thoughts / opinions / experiences / trials / tribulations with others in the community.
