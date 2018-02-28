@@ -2,18 +2,18 @@ library(ggplot2)
 library(tidyverse)
 
 bands <- tibble(
-  y_min = seq(0, 4, .4),
-  y_max = seq(1, 5, .4)
+  y_min = seq(0, 4.15, .83),
+  y_max = seq(.83, 5, .83)
 ) %>%
   mutate(band = 1:n())
 
 line <- tibble(x = c(
-  rgamma(n = 3000000, shape = 2, scale = 1.1) + .25,
-  rnorm(n = 700000,  mean = 3.75, sd = .6),
-  rnorm(n = 68000, mean = 4.4, sd = .16),
-  rnorm(n = 110000, mean = 5, sd = .25),
-  rnorm(n = 340000, mean = 6, sd = .5),
-  rnorm(n = 120000, mean = 6.7, sd = 1)
+  rgamma(n = 2900000, shape = 2, scale = 1.1) + .25,
+  rnorm(n  =  700000, mean = 3.75, sd = .6),
+  rnorm(n  =   68000, mean = 4.4, sd = .16),
+  rnorm(n  =  110000, mean = 5, sd = .25),
+  rnorm(n  =  340000, mean = 6, sd = .5),
+  rnorm(n  =  120000, mean = 6.7, sd = 1)
 )) %>%
   mutate(bin = round(x, 2)) %>%
   count(bin) %>%
@@ -22,7 +22,7 @@ line <- tibble(x = c(
 
 
 ggplot() +
-  geom_rect(data = bands, xmin = 0, xmax = 10, aes(ymin = y_min, ymax =y_max, fill = factor(band))) +
+  geom_rect(data = bands, xmin = 0, xmax = 10, aes(ymin = y_min, ymax = y_max, fill = factor(band))) +
   geom_ribbon(data = line, aes(x = bin, ymin = 0, ymax = n_scale),fill = "#ffffff") +
   geom_line(data = line, aes(x = bin, y = n_scale), color = "black") +
   annotate(geom = "text",
@@ -53,10 +53,21 @@ ggplot() +
            hjust = 0, vjust = 0,
            size = 20,
            fontface = "bold") +
-  scale_fill_brewer() +
+  scale_fill_brewer(palette = "Blues") +
   scale_x_continuous(limits = c(0,10), breaks = NULL) +
   scale_y_continuous(limits = c(0,10), breaks = NULL) +
   labs(x = "", y = "") +
-  theme_bw() + theme(legend.position = "none")
+  theme_void() + theme(legend.position = "none")
 
 ggsave()
+
+
+ggplot() +
+  geom_rect(data = bands, xmin = 0, xmax = 10, aes(ymin = y_min, ymax = y_max, fill = factor(band))) +
+  geom_ribbon(data = line, aes(x = bin, ymin = 0, ymax = n_scale),fill = "#ffffff") +
+  geom_line(data = line, aes(x = bin, y = n_scale), color = "black") +
+  scale_fill_brewer(palette = "Blues") +
+  scale_x_continuous(limits = c(0,10), breaks = NULL) +
+  scale_y_continuous(limits = c(0,10), breaks = NULL) +
+  labs(x = "", y = "") +
+  theme_void() + theme(legend.position = "none")

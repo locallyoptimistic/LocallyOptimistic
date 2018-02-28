@@ -1,0 +1,27 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+      <p class="post-meta">@{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }} · {{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</p>
+    </header>
+    <article class="post-content">{{ .Content }}</article>
+    <footer class="post-footer">
+      {{ if isset .Params "tags" }}
+      <ul class="post-tags">
+        {{ range $tag := .Params.tags }}
+          <li><a href="/tags/{{ $tag | urlize }}"><span class="tag">{{ $tag | title }}</span></a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      <p class="post-copyright">
+        {{ if .Site.Copyright }}{{ .Site.Copyright }}{{ end }}{{ if gt (div (sub now.Unix .Lastmod.Unix) 86400) 100 }}This post was published <strong>{{ div (sub now.Unix .Lastmod.Unix) 86400 }}</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.{{ end }}
+      </p>
+    </footer>
+    {{ if ne .Params.comments false }}
+      {{ if .Site.DisqusShortname }}{{ template "_internal/disqus.html" . }}
+      {{ else }}{{ end }}
+    {{ end }}
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}

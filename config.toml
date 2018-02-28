@@ -2,9 +2,6 @@ baseURL = "https://www.locallyoptimistic.com/"
 title = "Locally Optimistic"
 theme = "hugo-nuo"
 
-disqusShortname = "locallyoptimistic"
-googleAnalytics = "UA-345857-22"
-
 Paginate = 5
 preserveTaxonomyNames = true
 languageCode = "en"
@@ -12,16 +9,13 @@ enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
 
-# Copyright of your post
+disqusShortname = "locallyoptimistic"
+googleAnalytics = "UA-345857-22"
 copyright = "© Locally Optimistic"
 
-# Initial site menu, you can extend menu with content.
-[[menu.main]]
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+# Initial site menu, you can extend menu with content.
 [[menu.main]]
   name = "Tags"
   weight = 30
@@ -36,3 +30,6 @@ copyright = "© Locally Optimistic"
   subtitle = "A blog about data organizations"
   description = ""
   paginate = 10
+
+  github = "swiftsam/LocallyOptimistic"
+  twitter = "localoptimistic"

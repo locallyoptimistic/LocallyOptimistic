@@ -1,0 +1,49 @@
+.avatar {
+
+  margin-top: inherit;
+  width: inherit;
+  height: 8rem;
+  border-radius: inherit;
+  border: 0;
+  transition: none;
+  box-shadow: 0 0 black;
+}
+
+.avatar:hover {
+  transform:inherit;
+}
+
+/*
+.avatar {
+  margin-top: 3rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 4px solid $media-border;
+  box-shadow: 0 1px 4px $box-shadow-darker;
+  transition: all $easing $speed;
+
+  &:hover {
+    transform: inherit;
+  }
+
+  @media screen and (max-width: $tablet) {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0;
+    border: 2px solid $media-border;
+  }
+}
+*/
+
+.site-header {
+  padding:0;
+}
+
+a.logo {
+  opacity:1;
+}
+
