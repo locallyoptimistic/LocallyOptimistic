@@ -19,6 +19,7 @@ There are two techniques I rely on for ensuring data and analytical quality:
 While the first technique (good analysis review) is very important, in this post I'm going to focus on the second. The internal data quality flyweel is not only an incredibly powerful tool for thinking about adding value as a data and analytics team, it will also pay dividends in data quality for years to come.
 
 When people talk about data quality, they often describe the *symptoms* of data quality issues. Here are some examples:
+
 * Reporting numbers changing over time
 * Unclear definitions of metrics
 * Inconsistent numbers across (and within) teams or reports
