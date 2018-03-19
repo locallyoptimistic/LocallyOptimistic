@@ -6,7 +6,7 @@ tags:
  - analytics
  - attribution
  - marketing
- ---
+---
 
 ## What this post is and isn't
 This is not a comparison of attribution vendors or methodologies. There are already a wealth of resources that offer overviews of the attribution landscape. Each company has their own unique attribution challenge and there is no one size fits all solution. Do your research and look at the tools that companies with similar business models use.
