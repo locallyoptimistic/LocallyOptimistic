@@ -19,13 +19,8 @@ There are two techniques I rely on for ensuring data and analytical quality:
 
 While the first technique (good analysis review) is very important, in this post I'm going to focus on the second which is an incredibly powerful tool for thinking about not only adding value as a data and analytics team, but will pay ongoing dividends in data quality for years to come.
 
-When people talk about data quality, they often describe the *symptoms* of data quality issues. Like:
-
-<<<<<<< HEAD
 When people talk about data quality, they often describe the *symptoms* of data quality issues. Here are some examples:
 
-=======
->>>>>>> parent of 6e28fed... Word and formatting edits
 * Reporting numbers changing over time
 * Unclear definitions of metrics
 * Inconsistent numbers across teams or reports
