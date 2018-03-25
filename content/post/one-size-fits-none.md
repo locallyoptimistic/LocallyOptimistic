@@ -1,7 +1,7 @@
 ---
 author: Michael Kaminsky
 title: "One Size Fits None"
-date: "2018-02-11"
+date: "2018-04-01"
 tags: 
  - analytics
  - org
@@ -10,7 +10,7 @@ tags:
 
 People often ask us for advice about building out an analytics organization -- How to structure the team? What skills to hire for? Do we need engineers? What about data scientists? How big should the team be? Unfortunately, there's no easy answer to these questions because the best analytics team is the one that is best able to support the organization as a whole, and different organizations may have very different needs.
 
-In this post we'll discuss some of the different dimensions that are import to evaluate when thinking about how to structure an analytics team, and we'll discuss how those different dimensions led us to build very different teams at Casper and at Harry's. 
+In this post I'll discuss some of the different dimensions that are import to evaluate when thinking about how to structure an analytics team.
 
 ## Important Dimensions to Consider
 
@@ -40,7 +40,7 @@ In a less analytical org, the analytics team will spend more time actually doing
 
 A very interesting situation arises when you have multiple partner teams of varying skill-levels: maybe the acquisition marketing team is extremely data saavy but the supply chain team is not. In a situation like this you have to think carefully about how to meet the different needs of these different teams *efficiently*. You'd want to empower the acquisition marketing team without getting in their way, and you'd want to make sure that you're not leaving the supply chain team in the lurch with tools they can't use.
 
-This is a common problem we've observed where the "power users" on one or two teams end up being the only ones in the organization who can really make use of all of the data available because they're the ones most often interacting with the analytics team. It's important to think about how everyone, not just the most technically saavy, is able to leverage the tools that your buidling.
+This is a common problem we've observed where the "power users" on one or two teams end up being the only ones in the organization who can really make use of all of the data available because they're the ones most often interacting with the analytics team. It's important to think about how everyone, not just the most technically saavy, is able to leverage the tools that your building.
 
 ### Engineering Support
 
@@ -52,14 +52,8 @@ Perhaps most importantly, it's critical to understand what the most pressing pro
 
 Obviously a team of data scientists or stasticians with graduate degrees is going to work on very different problems than a team of BI analysts with only a few years of experience.
 
-## Analytics at Harry's (Michael)
+## Concluding Thoughts
 
-When I joined Harry's as the first dedicated analytics hire, I was shocked to find that the organization was already consistently performing very sophisticated analyses. Because the team (at the time) was made up largely of former consultants and bankers, there was no shortage of analytic talent at the excel-modeling and visualization level, but there was a large shortage of tools to help them perform their tasks quickly and efficiently. We had lots of self-taught SQL users but no one thinking about the data models that would simplify their multi-hundred line queries into simple reports. We had lots of complicated excel models, but no way to distribute those outputs to others in the organization. 
+A common mistake that we've observed too frequently happens when an org hires a statistician as the first member of a data team without any BI tooling or engineering support. That poor statistician ends up spending all of their time trying to write ETL (which they're learning on the job) and automate reporting tasks (often by re-inventing BI software) rather than actually doing ... statistics. 
 
-Because we had so many people across the team who could self-serve analyses at a very high level, I focused all of my attention on building the tools that could empower each of those individuals to work more effectively. The "analytics" team therefore did very few analyses, but invested a lot of time in software engineering to support the analyses being done by the rest of the organization. We focused on building great data warehousing tooling with sane data models so that our power users could self-serve more effectively. Our goal was to get clean, consistent data into the hands of our users so they could do all hte "last mile" analyses and modelling themselves.
-
-This of course required that we hire an extremely technical analytics team. In addition to hyper-technical data analysts, We hired "analytics engineers" who could help us write the production software we needed to support the tools that fit best with the needs of our organization. During the first two years the team existed, we spent the bulk of our time building tools rather than actually doing analyses.
-
-As the organization has grown and we've started hiring more domain experts with less generalized analytics experience, the analytcs team has had to start providing more actual "analysis" support across the company. As such, the relative proportion of analysts to engineers has shifted accordingly and we spend a lot more time thinking critically about the business questions facing the company and how we can actually use the tools we've built to answer them. While we still work hard to build useful tools, we remain cognizant of the needs of our business partners and are always adjusting to meeting them where they are.
-
-## Analytics at Casper (Scott)
+While there's no magic bullet to designing the right analytics org for your company, by being thoughtful about the actual needs of your organization and what the highest-leverage activities for an analytics team will be, you can avoid many of them common pitfalls that afflict analytics organizations. 
