@@ -4,3 +4,4 @@
 * Capitalize the first letter and proper nouns in titles
 * Capitalize branded software (e.g., Excel)
 * To abbreviate `for example` use `e.g.,`
+* Always spell check
