@@ -62,7 +62,7 @@ Data inconsistencies may come from the unique characteristics of a tactic (e.g.,
 
 
 ## Next steps
-So how does this help? As I said at the beginning of the post, I came up with these five factors to create a (semi) objective approach to evaluate attribution solutions. Attribution is confusing and there is no perfect, turn key solution. Unfortunately, this post could not solve your unique attribution challenge, because it is your unique challenge. At the end of the day, you can view these five factors as a dilemma or an empowering framework. As you can imagine, I prefer the latter. 
+So how does this help? As I said at the beginning of the post, I came up with these five factors to create a (semi) objective approach to evaluate attribution solutions. Attribution is confusing and there is no perfect, turn key solution. Unfortunately, this post could not solve your unique attribution challenge, because it is your unique challenge. At the end of the day, you can view these five factors as an unsolvable dilemma or an empowering framework. As you can imagine, I prefer the latter. Good luck!
 
 This is just version one of the framework - if you have thoughts or feedback, please share it here or send it my way!
 
