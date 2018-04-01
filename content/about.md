@@ -14,7 +14,11 @@ If you have content that you'd like to contribute (or if you just want to chat a
 
 ### Michael Kaminsky
 
-Michael is the Director of Analytics at Harry's ... 
+<img src="/img/mk_face.png" width="200">
+
+Michael cut his teeth applying econometric research methods to a variety of fields from environmental economics to child welfare policy to healthcare outcomes and treatment efficacy. Currently, he leads the analytics team at Harry's helping the new-wave men's grooming brand "make better decisions faster."
+
+In his spare time Michael drinks too much coffee, reads, and occasionally thinks about going to the gym.
 
 ### Scott Breitenother
 
