@@ -18,9 +18,9 @@ By "intelligent applications" I am referring to data products that use statistic
 The basic idea of the "data platform" is this:
 * Your data warehouse should be the data *source* for model training and prediction-making
 * Your data warehouse should be the data *repository* for predictions that are made
-* Your intelligent applications can access the warehouse and make use of the central store of predictions in whatever way makes the most sense
+* Your intelligent applications should access the warehouse and make use of the central store of predictions in whatever way makes the most sense
 
-There are a number of pros and cons to approaching the world this way. I will start with the pros and then discuss some of the cons at the end of this post.
+There are a number of pros and cons to approaching your data infrastructure this way. I will start with the pros and then discuss some of the cons at the end of this post.
 
 ## Good Reasons to Invest in the Central Data Platform
 
@@ -28,13 +28,19 @@ There are a number of pros and cons to approaching the world this way. I will st
 * Reduce application-management overhead for data scientists
 
 ### De-risk ML applications
-Every good Data Scientist working on production data products has the same persistent nightmare that will jolt them out of bed in the middle of the night, the question ringing out "dear lord what if my model is not actually predicting what I think it is predicting?". This is a good fear to have, and it is the most common way that good AI projects go bad.  
+Every good Data Scientist working on production data products has the same persistent nightmare that will jolt them out of bed in the middle of the night, the question ringing out "dear lord .   
 
-The reason this is so common is that often the bulk of the work that goes into a new data product involves assembling and cleaning the requisite data so that it can be fit with a model. The modeling piece of the project generally requires about 6 lines of code that start with `from scikit learn import`. The preponderance of blog posts to the contrary, most of the work in the project will not involve machine learning, but rather "data munging" and feature generation.  
+Every good Data Scientist working on production data products has encountered the following nightmarish question at least once: "what if my model is not actually predicting what I think it is predicting?" This is a good fear to have because it is the most common way that good AI projects go bad.
 
-Unfortunately, it is really easy to screw this up and, due to ["data drift"](https://streamsets.com/reports/data-drift/), it is even easier to let your model slowly and nefariously get out of sync from what the data really mean. When this happen, your model is no longer predicting what you think it is predicting, and performance slowly degrades. In the worst case scenario, you never realize that performance is degrading because your measures for monitoring the model performance have drifted as well!
+One reason this is so common is that, generally, the bulk of the work that goes
+into a new data product involves assembling and cleaning the requisite data to feed to a model. The modeling piece of the project generally
+requires about 6 lines of code that start with `from scikit learn import`. The
+preponderance of blog posts to the contrary, most of the work in the project
+will not involve machine learning, but rather "data munging", outcome definition, sample selection, and feature generation.  
 
-If you build your models on top of your data warehouse, you can take advantage of all of the data cleaning and munging you have done to support the business. Even better, you can train your models against the KPIs that the business *actually uses.*
+Unfortunately, it is really easy to screw this up and, due to ["data drift"](https://streamsets.com/reports/data-drift/), it is even easier to let your model slowly and nefariously get out of sync from what the data really mean. When this happens, your model is no longer predicting what you think it is predicting, and performance slowly degrades. In the worst case scenario, you never realize that performance is degrading because your measures for monitoring the model performance have drifted as well!
+
+If you build your models on top of your data warehouse, you can take advantage of all of the data cleaning and munging you have done to support the business. Even better, you can train your models against the KPIs that the business *actually uses*.
 
 This not only speeds up development (Data Scientists spend less time munging and more time modeling), but it makes your intelligent applications more robust because you are taking advantage of the data quality flywheel you have already built. 
 
@@ -42,7 +48,7 @@ This not only speeds up development (Data Scientists spend less time munging and
 
 Many intelligent products have a very simple and similar structure at their core (at least, for the "intelligent" component). All of these applications want to extract data from a source, apply some model to the data to get predictions, and then store those predictions somewhere. (Some applications may also include a model-refitting component as well.)
 
-This process can be naturally abstracted and fits well within the data-warehouse-as-platform model I have described. Rather than having data scientists attempt to write and manage their own one-off applications for each of the intelligent applications you build, you can have your engineering team build an abstract "intelligent jobs" platform that can handle extracting data from the warehouse, applying some arbitrary model, and then writing results back into the warehouse (which can then be used by any other application.) 
+This process can be naturally abstracted and fits well within the data-warehouse-as-platform model I have described. Rather than having Data Scientists attempt to write and manage their own one-off applications for each of the intelligent applications you build, you can have your Engineering team build an abstract "intelligent jobs" platform that can handle extracting data from the warehouse, applying some arbitrary model, and then writing results back into the warehouse (which can then be used by any other application.) 
 
 In this way you can maximize the time your data scientists spend building high-quality models and minimize the time they spend trying to corral AWS configurations.  
 
@@ -54,7 +60,7 @@ In this way you can maximize the time your data scientists spend building high-q
 
 ### Operational requirements
 
-This is by far the most important and scariest concern. All of the sudden ETL failures have gone from an inconvenient annoyance for business users to generating meaningfully degraded service for your customers. If you don't yet have a mature tool for writing, managing, and monitoring ETL then you do not (yet) want to pursue this "data platform" path. 
+This is the most important and scariest concern. In this model, ETL failures have gone from an inconvenient annoyance for business users to generating meaningfully degraded service for your customers. If you don't yet have a mature tool for writing, managing, and monitoring ETL then you do not (yet) want to pursue this "data platform" path. 
 
 The question you need to access yourself is: how seriously do we want to take our data products? If intelligent tools and systems are fundamental to your business and provide a meaningful competitive advantage, then you should be taking your ETL and model building extremely seriously anyway!
 
@@ -62,7 +68,7 @@ If intelligent tools and systems *aren't* fundamental to your business or your c
 
 ### Real-time concerns
 
-Occasionally, when I am describing this model, people will raise the concern that since their data warehouse is not real-time (e.g., because they only do a nightly ETL job ) they can't support their real-time customer-facing ML applications.
+Occasionally, when I am describing this model, people will raise the concern that since their data warehouse is not real-time (e.g., because they only do a nightly ETL job) they can't support their real-time customer-facing ML applications.
 
 For the most part, I think this is not even a real concern and can be solved with either simple product compromises or hybrid off-line and on-line learning approaches.
 
