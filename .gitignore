@@ -1,4 +1,5 @@
 # Ignore Swap Files
 *.sw*
 .Rproj.user
+.DS_store
 public/*
