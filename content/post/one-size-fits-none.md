@@ -15,7 +15,7 @@ In this post I will discuss some of the different dimensions that are import to 
 ## Important Dimensions to Consider
 
 * Ambient technical ability at the company (Is the company made up of former software engineers or former creatives?)
-* Baseline level of analytic ability (hat is the likelihood that a randomly selected person in the company will know how to use a pivot table?)
+* Baseline level of analytic ability (what is the likelihood that a randomly selected person in the company will know how to use a pivot table?)
 * Distribution and variance of analytical skills (Is there a wide variance where some teams have more skill than others?)
 * Engineering support (How much dedicated engineering support can you rely on?)
 * Business intelligence vs statistical learning (Are you trying to generate reports for operational measurement or build complex models to feed into your product?)
