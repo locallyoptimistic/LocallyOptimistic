@@ -1,7 +1,7 @@
 ---
 author: Scott Breitenother
 title: "The Attribution Dilemma"
-date: "2018-03-02"
+date: "2018-04-01"
 tags: 
  - analytics
  - attribution
