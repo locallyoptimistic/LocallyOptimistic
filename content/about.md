@@ -10,6 +10,8 @@ Welcome to Locally Optimistic -- a blog for current and aspiring data analytics 
 
 If you have content that you'd like to contribute (or if you just want to chat about data stuff), please reach out.
 
+Quick note: The views and opinions expressed on this blog are those of the authors and do not necessarily reflect the views of their employers
+
 ## Contributors
 
 ### Michael Kaminsky
@@ -18,7 +20,7 @@ Michael is the Director of Analytics at Harry's ...
 
 ### Scott Breitenother
 
-Scott is the VP Data & Analytics at Casper ... 
+Scott is the VP of Data & Analytics at Casper. He is a former Management Consultant (which is probably where he developed his love of frameworks and structure). When he's not counting mattresses, you can find him walking around Brooklyn with his wife and daughter.
 
 ### Sam Swift
 
