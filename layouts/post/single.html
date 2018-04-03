@@ -3,7 +3,7 @@
   <section class="main post-detail">
     <header class="post-header">
       <h1 class="post-title">{{ .Title }}</h1>
-      <p class="post-meta">@{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }} · {{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</p>
+      <p class="post-meta"><a href="/about#contributors">{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}</a> · {{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</p>
     </header>
     <article class="post-content">{{ .Content }}</article>
     <footer class="post-footer">
