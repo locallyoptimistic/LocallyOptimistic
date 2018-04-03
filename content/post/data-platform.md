@@ -16,6 +16,7 @@ In my last post, [data-dies-in-darkness](content/post/data-dies-in-darkness.md),
 By "intelligent applications" I am referring to data products that use statistical algorithms to automate or assist making complex decisions. This may include powering a segmentation algorithm that identifies which customers to send an email to, a product-recommendation pipeline, or an application for automatically handling and replying to customer-experience tickets. 
 
 The basic idea of the "data platform" is this:
+
 * Your data warehouse should be the data *source* for model training and prediction-making
 * Your data warehouse should be the data *repository* for predictions that are made
 * Your intelligent applications should access the warehouse and make use of the central store of predictions in whatever way makes the most sense

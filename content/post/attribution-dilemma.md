@@ -18,6 +18,7 @@ Instead, this blog offers a framework for Analysts and Marketers to interpret th
 At its heart, attribution (specifically multi-touch attribution) is a very simple problem - how do I divide credit for a conversion (e.g., pdp view, order completed, customer acquired, app downloaded) and give that credit to the factors that influenced the customer's behavior. This is important, because as an effective Marketer, you need to know the ROI of your marketing strategies. In order to calculate ROI you need to have both the cost and the results (not necessarily $s) at the strategy or tactic level (e.g., channel, campaign, creative).
 
 The complexity arrives when you realize you do not have perfect information. This challenge comes in two flavors:
+
 1. Data we can't collect - When someone converts (until we have chips in everyone's brains) we do not know of all the ways they were exposed to our brand (Did a friend tell them over drinks? Did they see a billboard? Did they see an advertisement on an unknown device?). We also don't know which of those events impacted their decision to convert.
 2. Data that is collected, but you can't access - The social networks and search engines we use have developed rich cross-device graphs, which they use for the targeting and measurement of advertising. These platforms do not expose their cross-device graphs to external parties, instead the platforms present aggregates. In some cases, these platforms will also restrict the capture of impression data
 
