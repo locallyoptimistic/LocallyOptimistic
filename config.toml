@@ -7,7 +7,7 @@ preserveTaxonomyNames = true
 languageCode = "en"
 enableRobotsTXT = true
 PygmentsCodeFences = true
-canonifyurls = false
+canonifyURLs = false
 
 disqusShortname = "locallyoptimistic"
 googleAnalytics = "UA-345857-22"
