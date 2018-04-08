@@ -36,4 +36,3 @@ Michael cut his teeth applying econometric research methods to a variety of fiel
 Sam is the Head of Data at [Bowery Farming](http://boweryfarming.com/how-it-works), where "seed funding" refers to budget allocations between kale and arugula. He hails from an academic background in behavioral economics, but has led data science teams in national intelligence and fintech before landing in agriculture. He enjoys building communities and hearing about the details of other people's projects, so don't be shy in the comments.
 
 [@swiftsam](https://twitter.com/swiftsam) | [linkedIn](https://www.linkedin.com/in/samswift/) | [web](http://swift.pw/)
-
