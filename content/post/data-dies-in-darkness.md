@@ -1,7 +1,7 @@
 ---
 author: Michael Kaminsky
 title: "Data Dies in Darkness"
-publishDate: "2018-04-03"
+publishDate: "2018-04-15"
 tags: 
  - analytics
  - data quality
