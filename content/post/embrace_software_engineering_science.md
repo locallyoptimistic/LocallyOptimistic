@@ -1,7 +1,8 @@
 ---
 title: Embrace software engineering and scientific thinking
 author: Sam Swift
-publishDate: '2018-04-01'
+publishDate: '2018-06-01'
+draft: true
 slug: embrace-software-engineering-and-science
 tags:
   - 
