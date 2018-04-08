@@ -1,7 +1,7 @@
 ---
 author: Michael Kaminsky
 title: "Investing in the Data Platform"
-date: "2018-03-19"
+publishDate: "2018-04-08"
 tags: 
  - analytics
  - data engineering
