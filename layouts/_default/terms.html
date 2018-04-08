@@ -1,0 +1,27 @@
+{{ define "title" }}
+  Tags | {{ if isset .Site.Params "seotitle" }}{{ .Site.Params.seotitle }}{{ else }}{{ .Site.Title }}{{ end }}
+{{ end }}
+
+{{ define "main" }}
+  {{ partial "header.html" . }}
+  <section class="main post-detail terms-list">
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+    </header>
+    <section>
+        {{ range .Data.Terms.ByCount }}
+            <h2><a href="/tags/{{.Name | urlize}}">{{ .Name }}</a></h2>
+            <ul class="archive-posts">
+              {{ range .Pages.ByDate }}
+                <li>
+                  <a href="{{ .Permalink }}">{{ .Title }}</a> --
+                    <span class = "post-meta" style = "font-size:.8em">{{ .Params.author }}, {{ .Date.Format "Jan 2, 2006" }}</span>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+    </section>
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}

@@ -1,43 +1,28 @@
 .avatar {
 
+  width:100%;
   margin-top: inherit;
-  width: inherit;
-  height: 8rem;
   border-radius: inherit;
   border: 0;
   transition: none;
   box-shadow: 0 0 black;
 }
 
+@media screen and (max-width: 800px) {
+
+    .avatar {
+      top:inherit;
+      position: absolute;
+      left: 1rem;
+      width: 7rem;
+      height: 3rem;
+      margin-top: 0;
+    }
+}
+
 .avatar:hover {
   transform:inherit;
 }
-
-/*
-.avatar {
-  margin-top: 3rem;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  border: 4px solid $media-border;
-  box-shadow: 0 1px 4px $box-shadow-darker;
-  transition: all $easing $speed;
-
-  &:hover {
-    transform: inherit;
-  }
-
-  @media screen and (max-width: $tablet) {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    width: 2rem;
-    height: 2rem;
-    margin-top: 0;
-    border: 2px solid $media-border;
-  }
-}
-*/
 
 .site-header {
   padding:0;
@@ -46,4 +31,36 @@
 a.logo {
   opacity:1;
 }
+
+
+.main {
+  max-width:55rem;
+}
+
+/*
+.post-content {
+  max-width:700px;
+}
+*/
+
+.post-content .portrait {
+  margin:1rem 2rem;
+  float:left;
+  clear:left;
+}
+
+.post-content .portrait img {
+  margin:0;
+}
+
+.break {
+  clear:both;
+}
+
+.post-detail #disqus_thread {
+  clear:both;
+  padding-top:3rem;
+}
+
+
 
