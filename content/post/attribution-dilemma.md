@@ -1,17 +1,16 @@
 ---
 author: Scott Breitenother
 title: "The Attribution Dilemma"
-publishDate: "2018-04-02"
+publishDate: "2018-04-08"
 tags: 
  - analytics
  - attribution
  - marketing
 ---
 
-## What this post is and isn't
-This is not a comparison of attribution vendors or methodologies. There are already a wealth of resources that offer overviews of the attribution landscape. Each company has their own unique attribution challenge and there is no one size fits all solution. Do your research and look at the tools that companies with similar business models use.
+Attribution is a tough challenge that is top of mind for every Marketing and Analytics leader out there. While marketing strategies and technologies may have evolved, the most important question has not changed - Is our marketing working? The right attribution solution should help you answer that question. But how do you find the right solution?
 
-Instead, this blog offers a framework for Analysts and Marketers to interpret the increasingly complex multi-touch attribution market. Use this framework to identify what aspects of an attribution solution are important to you.
+Unfortunately, there is no turnkey attribution solution that perfectly solves all of your measurement challenges. Each business has unique attribution challenges and there are a seemingly infinite number of vendors and methodologies out there. As a result, I created a framework to navigate the increasingly complex multi-touch attribution market, understand the trade offs between solutions and identify the optimal attribution solution. 
 
 
 ## What is the point of attribution and why is it hard?
@@ -20,19 +19,18 @@ At its heart, attribution (specifically multi-touch attribution) is a very simpl
 The complexity arrives when you realize you do not have perfect information. This challenge comes in two flavors:
 
 1. Data we can't collect - When someone converts (until we have chips in everyone's brains) we do not know of all the ways they were exposed to our brand (Did a friend tell them over drinks? Did they see a billboard? Did they see an advertisement on an unknown device?). We also don't know which of those events impacted their decision to convert.
-2. Data that is collected, but you can't access - The social networks and search engines we use have developed rich cross-device graphs, which they use for the targeting and measurement of advertising. These platforms do not expose their cross-device graphs to external parties, instead the platforms present aggregates. In some cases, these platforms will also restrict the capture of impression data
+2. Data that is collected, but you can't access - The social networks and search engines we use have developed rich cross-device graphs, which they use for the targeting and measurement of advertising. These platforms do not expose their cross-device graphs to external parties, instead the platforms present aggregates. In some cases, these platforms will also restrict the capture of impression data.
 
 
-## Introducing the dilemma
-In this world of incomplete information, how do you find the most optimal attribution solution for your business model? To help you navigate this challenge, I tried to distill the ideal attribution solution to five key characteristics: 
+## Introducing the framework
+In this world of incomplete information, how do you find the most optimal attribution solution for your business model? I distilled the ideal attribution solution to five key characteristics. While all five may not be achievable in an attribution solution, this framework will allow you to understand the trade offs between solutions. 
 
 1. Cross-device: Include all touchpoints across all devices
 2. Granular: Attribution, reporting and data access at the most granular level
 3. Neutral: Neutral, third party view of marketing performance
-4. Actionable: Reporting and analysis you can actual action on
+4. Actionable: Reporting and analysis you can actually action on
 5. Comprehensive: Reporting and analysis that covers all channels in detail
 
-The dilemma is that you cannot achieve all five.
 
 ## Digging in
 ### 1. Cross-device
@@ -63,9 +61,6 @@ Data inconsistencies may come from the unique characteristics of a tactic (e.g.,
 
 
 ## Next steps
-So how does this help? As I said at the beginning of the post, I came up with these five factors to create a (semi) objective approach to evaluate attribution solutions. Attribution is confusing and there is no perfect, turn key solution. Unfortunately, this post could not solve your unique attribution challenge, because it is your unique challenge. At the end of the day, you can view these five factors as an unsolvable dilemma or an empowering framework. As you can imagine, I prefer the latter. Good luck!
+Attribution is confusing and unfortunately there is no perfect, turn key solution. At the end of the day, you can view these five factors as an unsolvable dilemma or an empowering framework to find the optimal solution. As you can imagine, I prefer the latter. Good luck!
 
 This is just version one of the framework - if you have thoughts or feedback, please share it here or send it my way!
-
-
-
