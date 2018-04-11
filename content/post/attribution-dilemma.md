@@ -12,6 +12,7 @@ tags:
 This is not a comparison of attribution vendors or methodologies. There are already a wealth of resources that offer overviews of the attribution landscape. Each company has their own unique attribution challenge and there is no one size fits all solution. Do your research and look at the tools that companies with similar business models use.
 
 Instead, this blog offers a framework for Analysts and Marketers to interpret the increasingly complex multi-touch attribution market. Use this framework to identify what aspects of an attribution solution are important to you.
+<!--more-->
 
 
 ## What is the point of attribution and why is it hard?
