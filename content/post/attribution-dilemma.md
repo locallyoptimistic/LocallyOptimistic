@@ -8,9 +8,9 @@ tags:
  - marketing
 ---
 
-Attribution is a tough challenge that is top of mind for every Marketing and Analytics leader out there. While marketing strategies and technologies may have evolved, the most important question has not changed - Is our marketing working? The right attribution solution should help you answer that question. But how do you find the right solution?
+Attribution is a tough challenge that is top of mind for every Marketing and Analytics leader. While marketing strategies and technologies may have evolved, the most important question has not changed - Is our marketing working? The right attribution solution should help you answer that question. But how do you find the right solution?
 
-Unfortunately, there is no turnkey attribution solution that perfectly solves all of your measurement challenges. Each business has unique attribution challenges and there are a seemingly infinite number of vendors and methodologies out there. As a result, I created a framework to navigate the increasingly complex multi-touch attribution market, understand the trade offs between solutions and identify the optimal attribution solution. 
+Unfortunately, there is no turnkey attribution solution that perfectly solves all of your measurement challenges. Each business has unique attribution challenges and there are a seemingly infinite number of vendors and methodologies. As a result, I created a framework to navigate the increasingly complex multi-touch attribution market, understand the trade offs between solutions and identify the optimal attribution solution. 
 
 
 ## What is the point of attribution and why is it hard?
