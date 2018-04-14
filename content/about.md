@@ -19,14 +19,18 @@ Quick note: The views and opinions expressed on this blog are those of the autho
 
 ### Scott Breitenother
 
-Scott is the VP of Data & Analytics at Casper. He is a former Management Consultant (which is probably where he developed his love of frameworks and structure). When he's not counting mattresses, you can find him walking around Brooklyn with his wife and daughter.
+Scott is the VP of Data & Analytics at [Casper](https://casper.com/). He is a former Management Consultant (which is probably where he developed his love of frameworks and structure). When he's not counting mattresses, you can find him walking around Brooklyn with his wife and daughter.
+
+[linkedIn](https://www.linkedin.com/in/scottbreitenother/) 
 
 <div class="break"></div>
 {{< figure src="/img/mk_face.png" alt="Michael Kaminksy" width="200" title="" class="portrait" >}}
 
 ### Michael Kaminsky
 
-Michael cut his teeth applying econometric research methods to a variety of fields from environmental economics to child welfare policy to healthcare outcomes and treatment efficacy. Currently, he leads the analytics team at Harry's helping the new-wave men's grooming brand "make better decisions faster." In his spare time Michael drinks too much coffee, reads, and occasionally thinks about going to the gym.
+Michael cut his teeth applying econometric research methods to a variety of fields from environmental economics to child welfare policy to healthcare outcomes and treatment efficacy. Currently, he leads the analytics team at [Harry's](https://www.harrys.com) helping the new-wave men's grooming brand "make better decisions faster." In his spare time Michael drinks too much coffee, reads, and occasionally thinks about going to the gym.
+
+[linkedIn](https://www.linkedin.com/in/michael-the-data-guy-kaminsky/)
 
 <div class="break"></div>
 {{< figure src="/img/ss_face.png" alt="Sam Swift" width="200" title="" class="portrait" >}}
