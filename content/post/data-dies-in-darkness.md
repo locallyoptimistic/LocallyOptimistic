@@ -16,6 +16,7 @@ There are two techniques I rely on for ensuring data and analytical quality:
 
 1. Analysis audit and code review
 2. The internal data quality flywheel
+<!--more-->
 
 While the first technique (good analysis review) is very important, in this post I am going to focus on the second which is an incredibly powerful tool for thinking about not only adding value as a Data and Analytics team, but will pay ongoing dividends in data quality for years to come.
 
