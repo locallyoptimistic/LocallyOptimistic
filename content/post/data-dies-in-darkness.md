@@ -8,17 +8,19 @@ tags:
  - org
 ---
 
-## Building the Data Quality Flywheel
 
 The fastest way to doom an Analytics team (and any hope of building a data-driven organization) is to present data and analyses that are often flawed or inconsistent. When people don't believe they can trust the data, they will stop using them (and, if you are an analytics leader, you might be soon looking for a new job).
+<!--more-->
 
 There are two techniques I rely on for ensuring data and analytical quality:
 
 1. Analysis audit and code review
 2. The internal data quality flywheel
-<!--more-->
+
 
 While the first technique (good analysis review) is very important, in this post I am going to focus on the second which is an incredibly powerful tool for thinking about not only adding value as a Data and Analytics team, but will pay ongoing dividends in data quality for years to come.
+
+## Building the Data Quality Flywheel
 
 When people talk about data quality, they often describe the *symptoms* of data quality issues. Here are some examples:
 
