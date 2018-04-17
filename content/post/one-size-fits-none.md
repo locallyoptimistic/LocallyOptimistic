@@ -11,6 +11,7 @@ tags:
 People often ask for advice about building out an analytics organization -- How to structure the team? What skills to hire for? Do we need engineers? What about data scientists? How big should the team be? Unfortunately, there is no easy answer to these questions, because the best analytics team is the one that best supports the organization and its specific needs.  To make things even more complicated, A) different organizations have very different needs and B) your organization's needs today will be very different from its needs in the future.
 
 In this post I will discuss some of the different dimensions that are import to evaluate when thinking about how to structure an Analytics team.
+<!--more-->
 
 ## Important Dimensions to Consider
 
