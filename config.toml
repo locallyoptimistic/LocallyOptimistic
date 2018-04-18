@@ -26,7 +26,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
   author = "Locally Optimistic"
   avatar = "/img/logo.png"
-  seotitle = "Locally Optimisitc"
+  seotitle = "Locally Optimistic"
   subtitle = "A blog about data organizations"
   description = ""
   paginate = 10
