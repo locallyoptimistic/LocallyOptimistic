@@ -12,7 +12,7 @@ Many Data Scientists today come from a hard science background - statistics, mat
 In this post we'll discuss a few considerations that the Data Scientist should note during the model building and deployment process. As a running example to help illustrate this:
 
 <ul>
-<li>Imagine we work for an events platform in which a user can send an event (e.g. `happy birthday` or `please join us at our wedding`) to their guests using a web application</li>
+<li>Imagine we work for an events platform in which a user can send an event (e.g. "happy birthday" or "please join us for cocktail hour") to their guests using a web application</li>
 <li>We are tasked with building a classifier that, given a set of trained examples, can accurately classify a given event</li>
 <li>We cannot ask the user questions about the purposes of their event :)</li>
 </ul>
@@ -38,7 +38,7 @@ We all naturally want more data, more information. However the Data Scientist mu
 
 Our classification algorithm, like most, outputs a probability of belonging to a certain class. We then apply a decision function on top, e.g. `if P(event = 'birthday') > 0.5 then class = 'birthday'`. While understanding this decision function is important for the Business, what's more important is understanding the output of the model. Business stakeholders may or may not care what the probability of the best estimate is, just so long as they have a data point that is useful. They may need to count the number of birthdays or weddings. They may need to understand Year over Year growth in a specific category. Including probabilities or prediction intervals around our estimates may just cause confusion.
 
-The Data Scientist may think it is important to know which event came in second or third place. Take, for example, the case when an event is scored as 'birthday' with 50% probability and 'halloween' with 50% probability. It is likely to be a halloween-themed birthday party. In this case, it is arguable that the best classification is the one which is most useful to the Business. If there is a push to understand seasonal holidays, then adding to the pool of seasonal holidays (i.e. classifying as halloween) could be more valuable than adding to the pool of birthday parties.
+The Data Scientist may think it is important to know which event came in second or third place. Take, for example, the case when an event is scored as `birthday` with 50% probability and `halloween` with 50% probability. It is likely to be a halloween-themed birthday party. In this case, it is arguable that the best classification is the one which is most useful to the Business. If there is a push to understand seasonal holidays, then adding to the pool of seasonal holidays (i.e. classifying as halloween) could be more valuable than adding to the pool of birthday parties.
 
 It is important to understand what the Business will do with the output of our model. Remember that our ultimate goal is to empower the Business to make the best data-informed decision possible. To that end, providing 3 or 4 best estimates and asking the stakeholder to figure it out is suboptimal. **If they can't make a decision with our output, then our job isn't complete**.
 
@@ -59,7 +59,10 @@ In general, Data Analysts are closer to the Business than Data Scientists. The a
 
 Worse yet - imagine our query doesn't yield the same expected result as theirs, and it is likely their query that powers Operating reports. Before presenting our conclusions to the Business, we can be sure that they will perform the necessary sniff test to check that our output conforms to their expectations. Avoid the following scenario:
 
-Data Scientist - "You will be glad to know that yesterday we had 1000 birthdays and 1000 wedding invitations sent. 2000 total events!" Business Stakeholder - "That's great...but according to our daily Operating report, we had 3500 events sent yesterday."
+<ul>
+<li>Data Scientist - "You will be glad to know that yesterday we had 1000 birthdays and 1000 wedding invitations sent. 2000 total events!" 
+<li>Business Stakeholder - "That's great...but according to our daily Operating report, we had 3500 events sent yesterday."
+</ul>
 
 Leverage your analysts. Don't make obvious mistakes.
 
@@ -69,4 +72,6 @@ If you are lucky enough to work with Data Engineers, then you should certainly t
 
 # Conclusion
 
-In order to successfully deploy our model, we must cross our t's and dot our i's. This includes following industry best practices, being scientifically honest in our work, understanding bias in our data and challenging the Businesses assumptions throughout. In addition to the generic model building playbook, there are real world considerations that the Data practitioner needs to account for. Considerations such as which modeling choices best suit our specific problem, understanding how the Business will use our model, and recognizing that our team can add a lot of value. If we pay mind to these considerations, then we will be setting ourselves up for success.
+In order to successfully deploy our model, we must cross our t's and dot our i's. This includes following industry best practices, being scientifically honest in our work, understanding bias in our data and challenging the Businesses assumptions throughout. In addition to the generic model building playbook, there are real world considerations that the Data practitioner needs to account for. 
+
+Considerations such as which modeling choices best suit our specific problem, understanding how the Business will use our model, and recognizing that our team can add a lot of value. If we pay mind to these considerations, then we will be setting ourselves up for success.
