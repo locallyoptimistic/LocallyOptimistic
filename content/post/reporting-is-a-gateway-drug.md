@@ -2,6 +2,7 @@
 author: Scott Breitenother
 title: "Reporting is a Gateway Drug"
 publishDate: "2018-04-29"
+draft: true
 tags: 
  - analytics
  - stakeholders
