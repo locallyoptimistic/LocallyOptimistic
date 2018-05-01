@@ -15,6 +15,7 @@ I love doing reporting. Well I don't actually love doing reporting, but I love w
 
 ## Setting the scene
 You are starting an Analytics function from scratch and any of the following is true:
+
 * You have no idea what an Analytics team should do
 * You are still learning about your company's business model
 * You have a limited technical skill set
@@ -27,6 +28,7 @@ Don't panic or run for the door - take a look around. You may notice there are q
 
 ## Steps to success
 So how do you take reporting lemons and make analytics lemonade?
+
 1. Same report, but faster
 2. Evolve the report
 3. Add insights
