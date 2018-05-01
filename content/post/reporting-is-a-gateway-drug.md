@@ -46,8 +46,8 @@ This is not stubbornness or resistance to change. Your stakeholders operate thei
 
 My suggestion is to start with the seemingly unambitious goal of producing the exact same (or a very similar) report, only faster. I can guarantee your business stakeholder will be supportive. Here is how the conversation will go:
 
-You: Hi, can I do your reporting for you?
-Stakeholder: I don't understand why you would want to do this, but I am definitely not going to say no
+>You: Hi, can I do your reporting for you?
+>Stakeholder: I don't understand why you would want to do this, but I am definitely not going to say no
 
 At first it will not actually be faster. You are not just learning how to produce a single report... *you are taking a crash course in your stakeholder's world*. It is going to take a lot of work to understand the disparate data sources, the business logic and the subjective magic behind the report. However, once you understand how to create the report (and have felt the pain of actually owning the report) you will start to see opportunities to streamline the process. At first it will be little things like formulas or macros. Then maybe you hook up the Excel file directly to the database. Before you know it, the same report takes a fraction of the time. And what do you do with that extra time?
 
