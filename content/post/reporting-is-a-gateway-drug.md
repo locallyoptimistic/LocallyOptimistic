@@ -23,7 +23,7 @@ You are starting an Analytics function from scratch and any of the following is 
 
 Extra points if your organization knows analytics is important, but does not know exactly what the Analytics team should do.
 
-Don't panic or run for the door - take a look around. You may notice there are quite a few regular (daily, weekly, monthly) reports, typically compiled in Google Sheets or Excel. These are not simple copy and paste jobs or automated scripts that need to be run, these are complex, manual process that take up a non-negligible chunk someone's time. The source data usually sits in several different places and the transformations involve calculations, business logic and personal opinion. There is probably little to no documentation on the process and it is all in someone's head. And I know what you are thinking - no you can't just get rid of the reports - these reports are critical to running the business (e.g., what were sales yesterday). However, there may be future opportunities to optimize / rationalize the reports.
+Don't panic or run for the door - take a look around. You may notice there are quite a few regular (daily, weekly, monthly) reports, typically compiled in Google Sheets or Excel. These are not simple copy and paste jobs or automated scripts that need to be run, these are complex, manual processes that take up a non-negligible chunk of someone's time. The source data usually sits in several different places and the transformations involve calculations, business logic and personal opinion. There is probably little to no documentation on the process and it is all in someone's head. And I know what you are thinking - no you can't just get rid of the reports - these reports are critical to running the business (e.g., what were sales yesterday). However, there may be future opportunities to optimize / rationalize the reports.
 
 
 ## Steps to success
@@ -39,6 +39,7 @@ You may want to come in, analytics guns blazing and transform everything day one
 
 
 >You: Hi, I am in Analytics. I just did XYZ analysis and you should now measure yourself against this new KPI I created.
+>
 >Stakeholder: Um... thanks but no thanks. I am very busy and it seems like this is about to create a bunch more work for me.
 
 
