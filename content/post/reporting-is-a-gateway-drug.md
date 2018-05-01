@@ -39,7 +39,6 @@ You may want to come in, analytics guns blazing and transform everything day one
 
 
 >You: Hi, I am in Analytics. I just did XYZ analysis and you should now measure yourself against this new KPI I created.
-
 >Stakeholder: Um... thanks but no thanks. I am very busy and it seems like this is about to create a bunch more work for me.
 
 
