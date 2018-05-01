@@ -28,6 +28,7 @@ Don't panic or run for the door - take a look around. You may notice there are q
 
 ## Steps to success
 So how do you take reporting lemons and make analytics lemonade?
+
 1. Same report, but faster
 2. Evolve the report
 3. Add insights
