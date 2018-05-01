@@ -37,11 +37,11 @@ So how do you take reporting lemons and make analytics lemonade?
 ### 1. Same report, but faster
 You may want to come in, analytics guns blazing and transform everything day one. Let me tell you why this might not be the best idea - your stakeholders don't know you (and you probably don't know them). This is how it will go:
 
-```
-You: Hi, I am in Analytics. I just did XYZ analysis and you should now measure yourself against this new KPI I created.
 
-Stakeholder: Um... thanks but no thanks. I am very busy and it seems like this is about to create a bunch more work for me.
-```
+>You: Hi, I am in Analytics. I just did XYZ analysis and you should now measure yourself against this new KPI I created.
+
+>Stakeholder: Um... thanks but no thanks. I am very busy and it seems like this is about to create a bunch more work for me.
+
 
 This is not stubbornness or resistance to change. Your stakeholders operate their part of the business based on a set of metrics that have evolved over time. These metrics, though there may be room for refinement, are familiar and understood. Even in a trusting Analytics-stakeholder relationship, introducing new KPIs (or refining current KPIs) is a challenging process. If there is no existing relationship, your odds of success are pretty low. Also, as you are new to this area of business, you may have overlooked some of the nuance in the current KPIs. There is probably a good reason your stakeholder uses these particular metrics.
 
