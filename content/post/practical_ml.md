@@ -2,7 +2,7 @@
 author: Ilan Man
 title: "Practical Tips for Real-World Data Science"
 publishDate: "2018-05-13"
-draft: true
+draft: false
 tags: 
  - datascience
 ---
@@ -68,10 +68,9 @@ In general, Data Analysts are closer to the business than Data Scientists. The a
 
 Worse yet - imagine our query doesn't yield the same expected result as the Analysts' even though it is likely their query that powers operating reports. Before presenting our conclusions to the business, we can be sure that the stakeholder will perform the necessary sniff test to check that our output conforms to their expectations. Avoid the following scenario:
 
-<ul>
-<li>Data Scientist - "You will be glad to know that yesterday we had 1000 birthdays and 1000 wedding invitations sent. 2000 total events!" 
-<li>Business Stakeholder - "That's great...but according to our daily operating report, we had 3500 events sent yesterday."
-</ul>
+>Data Scientist: You will be glad to know that yesterday we had 1000 birthdays and 1000 wedding invitations sent. 2000 total events! 
+>
+>Business Stakeholder: That's great...but according to our daily operating report, we had 3500 events sent yesterday.
 
 Leverage your analysts. Don't make obvious mistakes.
 
