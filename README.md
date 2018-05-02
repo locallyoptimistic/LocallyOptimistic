@@ -5,7 +5,7 @@
 We manage the blog via pull-requests on github. Here is the worflow:
 1. If this is your first time contributing, Slack or email Sam Swift your github username so he can add you as a contributor
 2. Create a branch named after your post (e.g., `attribution-dilemma`). Branch names should be human readable and should ideally match the post title or a shortened version of the post title. All development of the post will occur within this branch
-3. Create a file in `content/posts/` with the same name as your branch (e.g. `attribution-dilemma.md`). 
+3. Create a file in `content/post/` with the same name as your branch (e.g. `attribution-dilemma.md`). 
 4. Add the following content to the top of the file. Replace the content in [brackets]:
 
 ```
@@ -36,7 +36,7 @@ Creating a new post:
 hugo new post/my-post.md
 ```
 
-A starter file will be created in `./content/posts/`. You can edit that file (make sure to pay attention to your [front-matter](https://gohugo.io/content-management/front-matter/)).
+A starter file will be created in `./content/post/`. You can edit that file (make sure to pay attention to your [front-matter](https://gohugo.io/content-management/front-matter/)).
 
 
 You can see the site with your post by running
