@@ -30,8 +30,6 @@ There are a number of pros and cons to approaching your data infrastructure this
 * Reduce application-management overhead for data scientists
 
 ### De-risk ML applications
-Every good Data Scientist working on production data products has the same persistent nightmare that will jolt them out of bed in the middle of the night, the question ringing out "dear lord .   
-
 Every good Data Scientist working on production data products has encountered the following nightmarish question at least once: "what if my model is not actually predicting what I think it is predicting?" This is a good fear to have because it is the most common way that good AI projects go bad.
 
 One reason this is so common is that, generally, the bulk of the work that goes
