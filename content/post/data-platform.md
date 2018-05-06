@@ -40,7 +40,7 @@ If you build your models on top of your data warehouse, you can take advantage o
 
 ### Reduce application-management overhead
 
-Many intelligent products have a very simple and similar structure at their core (at least, for the "intelligent" component). All of these applications want to extract data from a source, apply some model to the data to get predictions, and then store those predictions somewhere. (Some applications may also include a model-refitting component as well)
+Many intelligent products have a very simple and similar structure at their core (at least, for the "intelligent" component). All of these applications want to extract data from a source, apply some model to the data to get predictions, and then store those predictions somewhere. (Some applications may also include a model-refitting component as well.)
 
 This process can be naturally abstracted and fits well within the data-warehouse-as-platform model. Rather than your Data Scientists attempting to write and manage their own one-off applications for each of the intelligent applications, your Engineers can build an abstract "intelligent jobs" platform. The platform extracts data from the warehouse, applies some arbitrary model, and then writes results back into the warehouse (which can then be used by any other application). 
 
