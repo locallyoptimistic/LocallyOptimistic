@@ -41,6 +41,6 @@ A starter file will be created in `./content/posts/`. You can edit that file (ma
 
 You can see the site with your post by running
 ```
-hugo server -D
+hugo server -DF
 ```
 and navigating to [http://localhost:1313/](http://localhost:1313/).
