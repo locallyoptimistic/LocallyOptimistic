@@ -26,13 +26,13 @@ There are a number of pros and cons to approaching your data infrastructure this
 
 ## Good reasons to invest in the central data platform
 
-* De-risk ML applications by taking advantage of [ongoing data quality improvements](content/post/data-dies-in-darkness.md).
+* De-risk ML applications by taking advantage of [ongoing data quality improvements](content/post/data-dies-in-darkness.md)
 * Reduce application-management overhead for Data Scientists
 
 ### De-risk ML applications
 Every Data Scientist working on production data products has asked themselves the following nightmarish question at least once: "what if my model is not actually predicting what I think it is predicting?" This is a good fear to have, because it is the most common way that good AI projects go bad.
 
-One reason this fear is so common is that, generally, the bulk of the work that goes into a new data product involves assembling and cleaning the requisite data to feed to a model. The modeling piece of the project generally requires about 6 lines of code that start with `from scikit learn import`. The preponderance of blog posts to the contrary, most of the work in the project will not involve machine learning, but rather "data munging", outcome definition, sample selection, and feature generation.  
+One reason this fear is so common is that, generally, the bulk of the work that goes into a new data product involves assembling and cleaning the requisite data to feed to a model. The modeling piece of the project generally requires about 6 lines of code that start with `from sklearn import`. The preponderance of blog posts to the contrary, most of the work in the project will not involve machine learning, but rather "data munging", outcome definition, sample selection, and feature generation.  
 
 Unfortunately, it is really easy to screw this up and, due to ["data drift"](https://streamsets.com/reports/data-drift/), it is even easier to let your model slowly get out of sync from what the data really mean. When this happens, your model is no longer predicting what you think it is predicting and performance slowly degrades. In the worst case scenario, you never realize that performance is degrading, because your measures for monitoring the model performance have drifted as well!
 
