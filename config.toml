@@ -31,5 +31,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   description = ""
   paginate = 10
 
-  github = "swiftsam/LocallyOptimistic"
+  github = "locallyoptimistic/LocallyOptimistic"
   twitter = "localoptimistic"
