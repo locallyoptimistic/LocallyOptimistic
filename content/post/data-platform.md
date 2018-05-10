@@ -11,7 +11,7 @@ tags:
 
 Data warehouses are not just for business intelligence (BI) anymore. You can maximize the value of your data engineering, data science, and analytics work by investing in building out a multi-use data-platform that serves business users, Analysts, Statisticians, and intelligent applications.
 
-In my last post, [data-dies-in-darkness](content/post/data-dies-in-darkness.md), I described how you can improve your organization's data quality by exposing more data to more people. You can stretch this idea even farther by expanding the stakeholders of your data warehouse to include intelligent applications. 
+In my last post, [data-dies-in-darkness](content/post/data-dies-in-darkness), I described how you can improve your organization's data quality by exposing more data to more people. You can stretch this idea even farther by expanding the stakeholders of your data warehouse to include intelligent applications. 
 <!--more-->
 
 By "intelligent applications" I am referring to data products that use statistical algorithms to automate or assist making complex decisions. This may include powering a segmentation algorithm that identifies which customers to send an email to, a product-recommendation pipeline, or an application for automatically handling and replying to customer-experience tickets. 
