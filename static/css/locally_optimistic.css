@@ -18,6 +18,10 @@
       height: 3rem;
       margin-top: 0;
     }
+
+    .logo-holder {
+      margin-bottom:30px;
+    }
 }
 
 .avatar:hover {
