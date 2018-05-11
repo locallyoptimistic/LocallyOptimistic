@@ -47,6 +47,17 @@ a.logo {
 }
 */
 
+.post-cover{
+  position:absolute;
+  top:4.6rem;
+  right:0;
+  width:16rem;
+  height:16rem;
+  object-fit:cover;
+  font-family:'object-fit: cover;';
+  border-radius:3px
+}
+
 .post-content .portrait {
   margin:1rem 2rem;
   float:left;
