@@ -1,6 +1,7 @@
 ---
 author: Michael Kaminsky
 title: "Data Dies in Darkness"
+cover: "/img/data-dies-in-darkness.jpg"
 publishDate: "2018-04-15"
 tags: 
  - analytics
