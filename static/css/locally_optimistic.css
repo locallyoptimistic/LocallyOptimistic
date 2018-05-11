@@ -58,6 +58,10 @@ a.logo {
   border-radius:3px
 }
 
+.post-entry .post-cover+.post-summary{
+  padding-right:17rem
+}
+
 .post-content .portrait {
   margin:1rem 2rem;
   float:left;
