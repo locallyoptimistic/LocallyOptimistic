@@ -12,7 +12,7 @@ If you have content that you'd like to contribute (or if you just want to chat a
 
 Quick note: The views and opinions expressed on this blog are those of the authors and do not necessarily reflect the views of their employers
 
-## Principle contributors
+## Principle contributors & editors
 
 <div class="break"></div>
 {{< figure src="/img/sb_face.png" alt="Scott Breitenother" width="200" title="" class="portrait" >}}
@@ -41,5 +41,8 @@ Sam is the Head of Data at [Bowery Farming](http://boweryfarming.com/how-it-work
 
 [linkedIn](https://www.linkedin.com/in/samswift/) | [github](https://github.com/swiftsam) | [twitter](https://twitter.com/swiftsam) | [web](http://swift.pw/)
 
-## Supporters and guest contributors
-* Ilan Man - [linkedIn](https://www.linkedin.com/in/ilanman/) | [github](https://github.com/ilanman) | [twitter](https://twitter.com/ilanthedataman) | [web](http://www.ilanman.io/)
+## Guest contributors & supporters
+
+* Ilan Man - [linkedIn](https://www.linkedin.com/in/ilanman/) | [github](https://github.com/ilanman) | [twitter](https://twitter.com/ilanthedataman) | [web](http://www.ilanman.io)
+
+* Margarita Fomenko (illustration) - [web](https://www.mfomenko.com)
