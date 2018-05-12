@@ -11,6 +11,10 @@ tags:
 ---
 
 
+Agile software engineering practices have become the standard work management tool for modern software development teams. Are these techniques applicable to analytics, or is the nature of research prohibitively distinct from the nature of engineering?
+
+In this post I discuss some adjustments to the scrum methodology to make the process work better for analytics and data science teams.
+
 <!--more-->
 
 If you haven't already read them, you can find
@@ -22,3 +26,12 @@ If you haven't already read them, you can find
     * Built in slack time for exploration
     * AC includes “write the next story” 
 
+
+## Time-bound spikes for research
+
+For analytics teams, I recommend leveraging the notion of a time-bound "spike" on a particular subject
+
+
+## Built in slack time for exploration
+## ACs to "write the next story"
+## Peer-review in show-and-tell

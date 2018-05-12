@@ -4,7 +4,6 @@ title: "Agile Analytics, Part 2: The Bad Stuff"
 publishDate: "2018-06-03"
 draft: true
 tags: 
- - analytics
  - agile
  - scrum
  - process
@@ -31,6 +30,8 @@ Often, some of the highest value insights that an analytics team generate come f
 
 When you hear something like "Ooh shoot. I noticed that issue before but I was so focused on finishing my story before the sprint ended that I didn't look closer" then you may be suffering from this. This "illusion of effectiveness", where the team feels like they're getting all their stories done (collecting those sweet, sweet story points) is pernicious because it *feels* productive despite missing out on potential high-value opportunities. The analytics team is *supposed* to be generating novel insights, which means that there has to be some tolerance for unplanned investigations.
 
+As a researcher, I've often found that the most valuable insights I've generated have come from investigating something that looked odd or interesting and was only tangentially related to the task at hand. These sorts of exploratory analysis make up the "science" part of data science and we want to ensure that our analysts have the time and the inclination to pursue these opportunities and generate novel insights.
+
 ## Exploratory data analysis
 
 Exploratory data analysis is an important part of the "basic research" function of an analytics or data science team. Unfortunately, it's really hard to write "user stories" or "acceptance criteria" for this sort of work because ... the whole point is that you aren't sure what you're going to find, and it requires a researcher's intuition to know when the story is "done" (because there's always more things you *could* look into, but often those marginal investigations aren't valuable).
@@ -41,11 +42,13 @@ The nature of exploratory data analysis means that the objectives of the analysi
 
 When you're trying to build a model of customer churn, there's some amount of judgement and art that goes into doing good data science. The acceptance criteria of "predict which customers are going to churn" is too vague to be helpful and doesn't capture the art of investigating a problem by poking at it from multiple sides.  Additionally, it can be very difficult for someone external to write stories or be the product owner for the team. Often, the data scientists or analysts are *the* domain experts in the company and there isn't anyone else who is better informed about what the next step in a research program should be. 
 
-In user-facing product organizations, stories are often phrased like "as a customer trying to x, I should be able to y." This sort of framing often doesn't work well for research tasks. Finally, bringing in an external product manager can disrupt the "flow" of research and prioritize software "features" over generating valuable intelligence.
+In user-facing product organizations, stories are often phrased like "as a customer trying to x, I should be able to y." This sort of framing often doesn't work well for research tasks since there isn't a customer your building a product for. Finally, bringing in an external product manager can disrupt the "flow" of research and prioritize software "features" over generating valuable intelligence.
 
 ## Business-as-usual support
 
-In many analytics teams, there's a fair amount of business-as-usual reporting and analysis support. For example, the analytics team may be in charge of assembling the quarterly board deck, preparing reports for the monthly business reviews, or analyzing the results of ongoing A/B tests. While it's important to document the effort that goes into these tasks, they can make for vacuous "stories" and they aren't necessarily contributing new features or new research.
+In many analytics teams, there's a fair amount of business-as-usual reporting and analysis support. For example, the analytics team may be in charge of assembling the quarterly board deck, preparing reports for the monthly business reviews, or analyzing the results of ongoing A/B tests. Additionally, analytics teams need to be "on call" to support their business partners as questions come up ("how do I build this report?", "why doesn't this number match this other number?"). This sort of work falls outside of sprint planning, and if you don't account for it somehow, you'll end up consistently missing your sprint commitments.  
+
+Accounting for this work (and explaining it to stakeholders) can be tough, especially when it's highly variable and unplanned. You don't want to end up in a situation where you've over-committed the team and you end up dropping the ball on business-critical insight activities (e.g., "we have a big media opportunity, but we have to make a decision by Tuesday: can you help us figure out if we're already saturated in these markets?").
 
 # Conclusion
 
