@@ -56,6 +56,12 @@ Additionally, tracking both velocity as well as the amount of tasks or stories t
 
 Following our email example above, we might estimate that story at 13 points, a pretty big story (points are made up and all relative, but let's assume 13 is pretty big under our paradigm); there's some complexity associated with getting data out of our email system, and we're a bit worried that estimating the pull-forward effect could open a can of worms. Given how complex this is, we know that we'll need to delay working on the other big story we had scheduled for this period, so we're able to alert the appropriate stakeholders. If there's internal disagreement about the relative priority of these tasks, we can use the complexity estimates to structure our trade-off conversations.
 
+Here's an example of a story with ascending point complexity (using fibonacci pointing):
+* 2: Pull a conversion report on our new email campaign.
+* 5: Report open, click through, conversion, and unsubscribe rate. Compare to previous campaign.
+* 8: Examine net improvements in the rates compared to a control group and compared to the previous campaign.
+* 13: Do all of the above, and determine what proportion of the impact is simply pull-forward revenue.
+
 ## Two week chunks (sprinting)
 
 The pacing of a two-week sprint feels really good for doing analytics work. You have a built-in cadence for planning and prioritization meetings, and you end up with a nice firm upper limit on how long a research task can take without it surfacing to peers.  The cadence of  "sharing out" the results of what the analytics team accomplished generates both discipline and visibility. That additional bit of time pressure can often be a forcing function for healthy conversations about what scope to cut and what to keep ("I was going to run an additional sensitivity, but is it really that valuable?").  
