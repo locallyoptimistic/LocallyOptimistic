@@ -8,11 +8,11 @@ weight: 50
 
 Welcome to Locally Optimistic -- a blog for current and aspiring data analytics leaders. Started in NYC in early 2018 as an outgrowth of a slack channel / extremely informal meetup group, we hope to share our thoughts / opinions / experiences / trials / tribulations with others in the community.
 
-If you have content that you'd like to contribute (or if you just want to chat about data stuff), please reach out.
+If you have content that you would like to contribute (or if you just want to chat about data stuff), please reach out.
 
 Quick note: The views and opinions expressed on this blog are those of the authors and do not necessarily reflect the views of their employers
 
-## Principle contributors & editors
+## Principal contributors & editors
 
 <div class="break"></div>
 {{< figure src="/img/sb_face.png" alt="Scott Breitenother" width="200" title="" class="portrait" >}}
