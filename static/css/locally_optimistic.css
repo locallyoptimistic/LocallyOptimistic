@@ -47,21 +47,6 @@ a.logo {
 }
 */
 
-.post-cover{
-  position:absolute;
-  top:1rem;
-  right:0;
-  width:16rem;
-  height:16rem;
-  object-fit:cover;
-  font-family:'object-fit: cover;';
-  border-radius:3px
-}
-
-.post-entry .post-cover+.post-summary{
-  padding-right:17rem
-}
-
 .post-content .portrait {
   margin:1rem 2rem;
   float:left;
