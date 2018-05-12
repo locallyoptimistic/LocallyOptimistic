@@ -20,7 +20,7 @@ A few ground rules:
 * The editorial team at LocallyOptimistic has the final word on what content gets posted. We reserve the right to reject any post for any reason at any time.
 * We do not publish posts that are designed to promote a specific product or service.
 * We do not compensate authors.
-# We do not take compensation for publishing (no payola).
+* We do not take compensation for publishing (no payola).
 
 If you have an idea for a post you'd like to write, reach out to Michael Kaminsky or Scott Breitenother on slack, and we'll add you to our authors channel where we collaborate on preparing posts for publication. 
 
