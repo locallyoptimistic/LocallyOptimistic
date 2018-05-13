@@ -1,6 +1,7 @@
 ---
 author: Ilan Man
 title: "Practical Tips for Real-World Data Science"
+cover: "/img/practical_ml.jpg"
 publishDate: "2018-05-13"
 draft: false
 tags: 
