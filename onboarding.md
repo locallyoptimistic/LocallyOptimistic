@@ -2,7 +2,7 @@
 
 We are thrilled you have decided to join us.
 
-If you have not already, please [reach out](kaminsky.michael@gmail.com) to ask for an invite to our slack group. 
+If you have not already, please [reach out](mailto:kaminsky.michael@gmail.com) to ask for an invite to our slack group. 
 
 Once you have received your invite, please do the following:
 * Use your full name in your slack handle (this community will work best if we are all real humans)
