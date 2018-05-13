@@ -1,10 +1,10 @@
 # LocallyOptimistic Code of Conduct
 
-The LocallyOptimistic community is an inclusive community of current and future analytics leaders. We are committed to promoting diversity and providing and inclusive and safe environment for all of our community members.
+The LocallyOptimistic community is an inclusive community of current and future analytics leaders. We are committed to promoting diversity and providing an inclusive and safe environment for all of our community members.
 
-We do not tolerate harassment in any form. If you believe someone is violating the LocallyOptimistic Code of Conduct (or, genenrally doing anything that makes you feel uncomfortable), please [send our admin team an email](kaminsky.michael@gmail.com).
+We do not tolerate harassment in any form. If you believe someone is violating the LocallyOptimistic Code of Conduct (or, generally doing anything that makes you feel uncomfortable), please [send our admin team an email](kaminsky.michael@gmail.com).
 
-LocallyOptimistic community members strive to Be friendly, patient and welcoming. We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to, members of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion and mental and physical ability.
+LocallyOptimistic community members strive to be friendly, patient and welcoming. We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to, members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion and mental and physical ability.
 
 We expect everyone to:
 * Be considerate

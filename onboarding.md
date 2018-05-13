@@ -1,11 +1,11 @@
 # Welcome to Locally Optimistic
 
-We're thrilled you've decided to join us.
+We are thrilled you have decided to join us.
 
-If you haven't already, please [reach out](kaminsky.michael@gmail.com) to ask for an invite to our slack group. 
+If you have not already, please [reach out](kaminsky.michael@gmail.com) to ask for an invite to our slack group. 
 
-Once you've received your invite, please do the following:
-* Use your full name in your slack handle (this community will work best if we're all real humans)
+Once you have received your invite, please do the following:
+* Use your full name in your slack handle (this community will work best if we are all real humans)
 * Add a profile photo
 * Read our [code of conduct](./code_of_conduct.md)
 * Introduce yourself in the #general channel
@@ -22,10 +22,10 @@ A few ground rules:
 * We do not compensate authors.
 * We do not take compensation for publishing (no payola).
 
-If you have an idea for a post you'd like to write, reach out to Michael Kaminsky or Scott Breitenother on slack, and we'll add you to our authors channel where we collaborate on preparing posts for publication. 
+If you have an idea for a post you would like to write, reach out to Michael Kaminsky or Scott Breitenother on slack, and we will add you to our authors channel where we collaborate on preparing posts for publication. 
 
-* In order to contribute, we'll need your github account so we can add you as a collaborator on [the repository](https://github.com/locallyoptimistic/LocallyOptimistic).
+* In order to contribute, we will need your github account so we can add you as a collaborator on [the repository](https://github.com/locallyoptimistic/LocallyOptimistic).
 * To contribute, you should submit a pull request with your content and ask for a review in the #authors channel. The editorial team at LocallyOptimistic will review your post, and will likely request changes. 
-* Once you've made all of the requested changes, we'll determine where in the [post schedule](https://github.com/locallyoptimistic/LocallyOptimistic/wiki/Schedule) your content makes the most sense, and will set a publish date. (Note: we may re-schedule your post if we need to in order to ensure a good mix of content and authors.)
+* Once you have made all of the requested changes, we will determine where in the [post schedule](https://github.com/locallyoptimistic/LocallyOptimistic/wiki/Schedule) your content makes the most sense, and will set a publish date. (Note: we may re-schedule your post if we need to in order to ensure a good mix of content and authors.)
 
 If you want to workshop post ideas, we have a channel for that in the slack group at #post-ideas. If you have other questions or concerns, please reach out on slack.
