@@ -17,7 +17,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Service-level_agreement):
 
  >"A service-level agreement (SLA) is a commitment between a service provider and a client. Particular aspects of the service – quality, availability, responsibilities – are agreed between the service provider and the service user"
 
- It is a promise
+ It is a promise TO X
 
 ## Who is your client
 CEO / organizations vs teams
