@@ -1,6 +1,7 @@
 ---
 author: Michael Kaminsky
 title: "One Size Fits None"
+cover: "/img/one-size-fits-none.jpg"
 publishDate: "2018-04-01"
 tags: 
  - analytics
