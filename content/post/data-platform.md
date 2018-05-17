@@ -1,6 +1,7 @@
 ---
 author: Michael Kaminsky
 title: "Investing in the Data Platform"
+cover: "/img/data-platform.jpg"
 publishDate: "2018-05-06"
 tags: 
  - analytics
