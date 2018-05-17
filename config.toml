@@ -25,7 +25,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # Add your own params here
 [params]
   author = "Locally Optimistic"
-  avatar = "/img/logo.png"
+  avatar = "/img/logo_square.png"
   seotitle = "Locally Optimistic"
   subtitle = "A blog about data organizations"
   description = "Locally Optimistic is a blog for current and aspiring data analytics leaders"
