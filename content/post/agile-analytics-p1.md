@@ -1,6 +1,7 @@
 ---
 author: Michael Kaminsky
 title: "Agile Analytics, Part 1: The Good Stuff"
+cover: "/img/agile-analytics-p1.jpg"
 publishDate: "2018-05-20"
 tags: 
  - agile 
