@@ -2,7 +2,6 @@
 author: Michael Kaminsky
 title: "Agile Analytics, Part 1: The Good Stuff"
 publishDate: "2018-05-20"
-draft: true
 tags: 
  - agile 
  - scrum
@@ -14,9 +13,8 @@ Agile software engineering practices have become the standard work management to
 
 In my time as a data-science individual contributor, before I was introduced to the agile process, I sort of just ... worked on whatever I wanted, for as long as I thought was appropriate (???). If someone with an important title asked for something, I stopped whatever I was doing and worked on that. If I found a problem that I thought was interesting, I could lose entire days trying to solve it ("but really *why* does ggplot work like that?").
 
-There has to be a better way.
+There had to be a better way. For those unfamiliar, [here is a decent introduction to scrum](https://apiumhub.com/tech-blog-barcelona/scrum-sprint-explanation/). The key features for us are:
 
-For those unfamiliar, [here is a decent scrum introduction](https://apiumhub.com/tech-blog-barcelona/scrum-sprint-explanation/). The key features for us are:
 * Managing work in discrete time-delimited "sprints" (two weeks is a default)
 * Breaking tasks into "stories" that can be executed by team-members
 * Pointing stories for complexity
@@ -52,9 +50,10 @@ Points are assigned to stories reflecting the amount of complexity in the work. 
 
 Additionally, tracking both velocity as well as the number of tasks or stories added to a sprint outside of the normal planning process can be an incredibly useful tool for communicating with stakeholders and optimizing the workload. If you notice that half of your effort is getting allocated to one-off tasks that "pop up" outside of what your team is ostensibly committing to, you may want to revisit your process for triaging those asks!
 
-Following our email example above, we might estimate the story at 13 points, a pretty big story (points are made up and all relative, but let's assume 13 is pretty big under our paradigm); there is some complexity associated with getting data out of our email system, and we are a bit worried that estimating the pull-forward effect could open a can of worms. Given the complexity of this task, we know we will need to delay working on the other big story we had scheduled for this period, so we are able to alert the appropriate stakeholders. If there is disagreement about the relative priority of these tasks, we can use the complexity estimates to structure our trade-off conversations.
+Following our email example above, we might estimate that story at 13 points, a pretty big story (points are made up and all relative, but let's assume 13 is pretty big under our paradigm); there is some complexity associated with getting data out of our email system, and we are a bit worried that estimating the pull-forward effect could open a can of worms. Given the complexity of this task, we know we will need to delay working on the other big story we had scheduled for this period, so we are able to alert the appropriate stakeholders. If there is disagreement about the relative priority of these tasks, we can use the complexity estimates to structure our trade-off conversations.
 
 Here is an example of a story with ascending point complexity (using fibonacci pointing):
+
 * 2: Pull a conversion report on our new email campaign.
 * 5: Report open, click through, conversion, and unsubscribe rate. Compare to previous campaign.
 * 8: Examine net improvements in the rates compared to a control group and compared to the previous campaign.
@@ -69,7 +68,6 @@ Additionally, the sprint promotes coordination between Analytics and Engineering
 One thing I love to do is a show-and-tell at the end of every sprint. We bring all of the Analysts together to show off what they have accomplished over the last few weeks. One Analyst might show a new dashboarding tool she built, and another might walk through a python notebook he wrote to model the drivers of customer retention. This holds Analysts accountable to delivering something they're able to demo every two weeks and also helps share context across the organization.
 
 ## Explicit Prioritization
-
 Regularly bringing in stakeholders to review the backlog and align on prioritization is one of the most important things you can do as an analytics leader. The scrum process relies heavily on this explicit prioritization, and it gives you the tools to talk about what you are "committing" to and how different tasks of different complexity are getting done.  Of course, choosing which stakeholders to involve in this process is always a challenge (especially since prioritization is often owned by multiple PMs). I generally recommend utilizing two tiers of communication: 
 
 1. The first tier includes people who are actively involved in relevant ongoing projects (business partner stakeholders). This group should be able to directly discuss trade-offs in scope and actively participate in your sprint planning meeting. This group will likely change over time as the projects that you are actively working on are completed (once you complete the v1 distribution and logistics KPIs project, the distribution team member may not need to show up again). Of course, it is critical that all of these partners are empowered to represent their teams' needs so the in-person prioritization meeting can be effective.
