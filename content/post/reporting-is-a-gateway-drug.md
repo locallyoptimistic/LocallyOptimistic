@@ -1,6 +1,7 @@
 ---
 author: Scott Breitenother
 title: "Reporting is a Gateway Drug"
+cover: "/img/reporting-is-a-gateway-drug.jpg"
 publishDate: "2018-04-29"
 draft: false
 tags: 
