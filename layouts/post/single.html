@@ -5,6 +5,9 @@
       <h1 class="post-title">{{ .Title }}</h1>
       <p class="post-meta"><a href="/about#contributors">{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}</a> · {{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</p>
     </header>
+    {{ if isset .Params "cover" }}
+      <img class="post-cover" src="{{ .Params.cover }}" alt="{{ .Title }}">
+    {{ end }}
     <article class="post-content">{{ .Content }}</article>
     <footer class="post-footer">
       {{ if isset .Params "tags" }}
