@@ -1,5 +1,13 @@
-# Practical Data Science
- 
+---
+author: Ilan Man
+title: "More Tips for Practical Data Science"
+cover: ""
+publishDate: TBD
+draft: true
+tags:
+ - datascience
+---
+
 This is the second installment of my "Tips on Practical Data Science". In today's post we're going to discuss implications of a changing data distribution, some practical technical considerations, and the value of presenting your work. 
 <!--more-->
  
