@@ -3,7 +3,7 @@ author: Ilan Man
 title: "More Tips for Practical Data Science"
 cover: ""
 publishDate: TBD
-draft: true
+draft: false
 tags:
  - datascience
 ---
