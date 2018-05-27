@@ -10,6 +10,9 @@ tags:
  - SLA
 ---
 
+In my previous post I explored the concept of a data warehouse SLA as a tool to build a trusting stakeholder relationship. I also introduced a template to help you write your very own data warehouse SLA - a letter addressed to your stakeholder. In this post I walk through the meat of the SLA: services provided, expected performance, problem reporting, response time, monitoring processes, issue communication and stakeholder commitment. If you have not read [part one]({{< relref "data-warehouse-sla-p1.md" >}}), I highly recommend reading it first!
+
+## Writing you SLA
 
 ### Services provided
 At a 30,000 foot level you are providing data access. However, I recommend going as specific as possible when describing the data services provided. Greater specificity helps to align expectations on which fields are included and the definition of those fields (specificity also helps to frame future discussions when adding additional fields to the data warehouse). Field definition becomes increasingly important when the data is used to calculate individual performance and compensation.

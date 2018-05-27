@@ -42,13 +42,13 @@ The goal of writing an SLA to your internal stakeholders is not to create a deta
 
 Here is an SLA letter template partly inspired by the elements of an SLA described by Dinesh Verma in [Service Level Agreements on IP Networks](https://pdfs.semanticscholar.org/b526/8efaeac72624220bcdefa40cd44bf59aff90.pdf). Let's review the template here and then I will explore each section in more detail below and in part 2 of this post:
 
->Dear [stakeholder],
+>Dear **[stakeholder]**,
 >
 >One of the core goals of the Data team is to empower you to make data driven decisions, both big and small. We are excited to see you using the data warehouse and business intelligence tool to run your area of the business, and we realize the exceptional amount of trust you have placed on us to be custodians of that data. As such, we would like to formalize our commitment to you. 
 >
 >The Data team promises to deliver **[services provided]** at **[expected performance]**. If there are any issues you can **[problem reporting]** and we promise to resolve the problem in **[response time]**. However, we have also established internal **[monitoring processes]** so that if there is an issue, we aim to find it first and **[issue communication]**.
 >
->To help us continue to deliver these services, we ask for your **[stakeholder commitment]**
+>To help us continue to deliver these services, we ask for your **[stakeholder commitment]**.
 >
 >Sincerely,
 >
@@ -61,4 +61,4 @@ The first, and most important, element of the SLA is identifying stakeholder - w
 However, you may also have non-business area stakeholders with very specific requirements. For example, your Security & Compliance team may have concerns about PCI, PII and GDPR compliance. Alternatively, your CEO may prioritize consistent, neutral use of metrics across the business. For these stakeholders you will need a very different SLA, one that takes precedence over your other stakeholder SLAs.
 
 ## Part 2
-Hopefully I have convinced you of the importance of a data warehouse SLA and you are sitting at the edge of your seat waiting for part two!. In my follow up post, I will explore the data warehouse SLA from the most common perspective, that of a business stakeholder. I will review the remaining elements of our SLA template: services provided, expected performance, problem reporting, response time, monitoring processes and issue communication.
+Hopefully I have convinced you of the importance of a data warehouse SLA and you are sitting at the edge of your seat waiting for part two!. In my follow up post, I will explore the data warehouse SLA from the most common perspective, that of a business stakeholder. I will review the remaining elements of our SLA template: services provided, expected performance, problem reporting, response time, monitoring processes, issue communication and stakeholder commitment.
