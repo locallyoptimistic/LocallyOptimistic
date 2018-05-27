@@ -17,7 +17,7 @@ In my previous post [Reporting is a Gateway Drug](https://www.locallyoptimistic.
 
 Note: for the purposes of this post, when I use the term data warehouse to refer to the data warehouse and the tools stakeholders use to access data from the data warehouse (e.g., business intelligence tools).
 
-Also, quick shout out to [Rebecca Green](https://www.linkedin.com/in/rebecca-greene-31b98513/) and [Dylan Sather](https://www.linkedin.com/in/dylansather/) for providing great example of real world data warehouse SLAs.
+Also, quick shout out to [Rebecca Green](https://www.linkedin.com/in/rebecca-greene-31b98513/) and [Dylan Sather](https://www.linkedin.com/in/dylansather/) for sharing great example of real world data warehouse SLAs.
 
 ## What is an SLA?
 Sevice level agreement (SLA) is a term used in many different business contexts. You have SLAs between companies (e.g., AWS's 99.999% uptime), between departments (e.g., a Manufacturing team's product quality guarantee) and between companies and their customers (e.g., pizza delivery in 30 minutes or less). You may even have internal and external SLAs for the same metric (e.g., we promise our customers delivery in a week, but internally we aim for 4 days).
@@ -31,7 +31,7 @@ The word that jumps out to me right away is "commitment", or as I like to think 
 ## Why does a data warehouse need an SLA?
 In short, you need an SLA to build trust. You may have picked up a theme in my posts - I believe, in the field of Analytics, the stakeholder relationship is critical. Data warehouses are often operated by centralized shared service teams. This means the team that produces and maintains the data does not report to the teams that use the data to operate their areas of the business. Even for the most enlightened business leaders, it is challenging to accept that something so critical to your area of the business (the data warehouse), is operated by another team.
 
-In some ways, Analytics teams partially have themselves to blame - we have done such a great job espousing the benefits of data, but then we say have to go through us to get it. As a result, the stakeholder relationship with the data warehouse is like a trust fall - the stakeholder needs to know the data will be there when they need it. If your data warehouse SLA is a promise, your consistent delivery on that promise will build tremendous amounts of trust.
+In some ways, Analytics teams partially have themselves to blame - we have done such a great job espousing the benefits of data, but then we say you have to go through us to get it. As a result, the stakeholder relationship with the data warehouse is like a trust fall - the stakeholder needs to know the data will be there when they need it. If your data warehouse SLA is a promise, your consistent delivery on that promise will build tremendous amounts of trust.
 
 ## Writing you SLA
 
@@ -44,19 +44,24 @@ Here is an SLA letter template partly inspired by the elements of an SLA describ
 >
 >One of the core goals of the Data team is to empower you to make data driven decisions, both big and small. We are excited to see you using the data warehouse and business intelligence tool to run your area of the business, and we realize the exceptional amount of trust you have placed on us to be custodians of that data. As such, we would like to formalize our commitment to you. 
 >
->The Data team promises to **[services provided]** at **[expected performance level]**. If there are any issues you can **[problem reporting]** and we promise to resolve the problem in **[response time]**. However, we established **[monitoring processes]** so that if there is an issue, we will aim to find it first and **[issue communication]**.
-
+>The Data team promises to **[services provided]** at **[expected performance level]**. If there are any issues you can **[problem reporting]** and we promise to resolve the problem in **[response time]**. However, we established **[monitoring processes]** so that if there is an issue, we aim to find it first and **[issue communication]**.
+>
 >Sincerely,
+>
 >The Data team
 
 
 ### Stakeholder
-The first, and most important, question to answer is who your stakeholder is. You may have many stakeholders, each with different requirements. Most of them will be slight variations (e.g., the same promise with different KPIs). However, you may also have non-business area stakeholders with very specific requirements. For example, your Security & Compliance team may have concerns about PCI, PII and GDPR compliance. For these stakeholders you will need a very different SLA, one that takes precedence over your other stakeholder SLAs.
+The first, and most important, element of the SLA is identifying stakeholder - who are you writing the letter to? You may have many stakeholders, each with different capabilities and use cases, which means different SLA requirements. Most of your stakeholder requirements will be slight variations (e.g., the same promise with different KPIs).
 
-For the purposes of this article I will explore a data warehouse SLA from the perspective of a business stakeholder.
+However, you may also have non-business area stakeholders with very specific requirements. For example, your Security & Compliance team may have concerns about PCI, PII and GDPR compliance. Alternatively, your CEO may prioritize consistent, neutral use of metrics across the business. For these stakeholders you will need a very different SLA, one that takes precedence over your other stakeholder SLAs.
+
+In this post I explore a data warehouse SLA from the most common perspective, that of a business stakeholder.
 
 ### Services provided
-At a 30,000 foot level you are providing data access. However, I recommend going as specific as possible when describing the data services provided. Greater specificity helps to align expectations on which fields are included and the definition of those fields. Definitions become increasingly important when the data is used to calculate individual performance and compensation. The counter point is that you don't want to go overboard - you are not providing value to the business if you spend all your time working on a data dictionary. Find the right balance between specificity and the resources available to you.   
+At a 30,000 foot level you are providing data access. However, I recommend going as specific as possible when describing the data services provided. Greater specificity helps to align expectations on which fields are included and the definition of those fields (specificity also helps to frame future discussions when adding additional fields to the data warehouse). Definitions become increasingly important when the data is used to calculate individual performance and compensation.
+
+The counter point is that you don't want to go overboard - you are not providing value to the business if you spend all your time working on a data dictionary. You should not expect to have a detailed data dictionary early in the life of your data warehouse. Find the right balance between specificity and the resources available to you.
 
 Here are four examples of services provided with increasing specificity:
 1. Business area: "The Data team promises to provide sales data"
@@ -70,8 +75,8 @@ Imagine you find a magic data genie and you ask for the most detailed sales data
 
 Here are some common aspects of expected performance to include in your SLA:
 * Data freshness: How current is the data? Is the data live, updated every hour or ready at 7am every morning?
-* Query speed: Query speed is a challenging aspect to quantify as there may be many different types of data and queries that hit your data warehouse. Average query run time is a good place to start, but you may need to create a more specific metric (e.g., X% of queries finish in <Y seconds)
-* Data reliability / quality:
+* Query speed: Query speed is a challenging aspect to quantify as your data warehouse most likely supports several different use cases in your data warehouse (types of data and queries). Average query run time is a good place to start, but you may need to create a more nuanced metric (e.g., X% of queries finish in <Y seconds)
+* Data reliability / quality: 
 * Ease of use: 
 * Documentation
 
@@ -82,7 +87,17 @@ The challenge, however, changes when you have [intelligent applications](https:/
 ### Problem reporting
 * Notification of errors
 
+
 ### Response time
+As with any product, there are 
+
+
+The most simple problem - stale data, always makes me think of this quote from the late comedian Mitch Hedberg:
+
+>"Escalators don't break, they just temporarily become stairs. There should never be a sign that says 'Escalator Broken, Sorry for the Inconvenience'. It should say 'Escalator Temporarily Stairs, Sorry for the Convenience'"
+
+The data warehouse version of the sign is "Data warehouse temporarily has data from January 1, 2015 through two days ago, sorry for the convenience"
+
 
 
 ### Monitoring process
