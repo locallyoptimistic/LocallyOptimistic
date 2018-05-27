@@ -15,12 +15,12 @@ Yes, if you want to build a truly data-driven organization your data warehouse n
 In my previous post [Reporting is a Gateway Drug](https://www.locallyoptimistic.com/post/reporting-is-a-gateway-drug/) I explored reporting as a tool to build a trusting stakeholder relationship. In this post I explore trust through the concept of a data warehouse SLA and the people, process and tools you need to successfully implement the SLA.
 <!--more-->
 
-Note: for the purposes of this post, when I use the term data warehouse to refer to the data warehouse and the tools stakeholders use to access data from the data warehouse (e.g., business intelligence tools).
+Note: for the purposes of this post, I use the term data warehouse to refer to the data warehouse and the tools stakeholders use to access data from the data warehouse (e.g., business intelligence tools).
 
-Also, quick shout out to [Rebecca Green](https://www.linkedin.com/in/rebecca-greene-31b98513/) and [Dylan Sather](https://www.linkedin.com/in/dylansather/) for sharing great example of real world data warehouse SLAs.
+Also, quick shout out to [Rebecca Green](https://www.linkedin.com/in/rebecca-greene-31b98513/) and [Dylan Sather](https://www.linkedin.com/in/dylansather/) for sharing great examples of real world data warehouse SLAs.
 
 ## What is an SLA?
-Sevice level agreement (SLA) is a term used in many different business contexts. You have SLAs between companies (e.g., AWS's 99.999% uptime), between departments (e.g., a Manufacturing team's product quality guarantee) and between companies and their customers (e.g., pizza delivery in 30 minutes or less). You may even have internal and external SLAs for the same metric (e.g., we promise our customers delivery in a week, but internally we aim for 4 days).
+Sevice level agreement (SLA) is a term used in many different business contexts. You have SLAs between companies (e.g., AWS's 99.999% uptime), between departments (e.g., a Manufacturing team's product quality target) and between companies and their customers (e.g., pizza delivery in 30 minutes or less). You may even have internal and external SLAs for the same metric (e.g., we promise our customers delivery in a week, but internally we aim for 4 days).
 
 The underlying theme in all these SLAs is an attempt to define expectations for a relationship between two parties. I think this definition from [Wikipedia](https://en.wikipedia.org/wiki/Service-level_agreement) does a great job at explaining the core components of an SLA:
 
@@ -44,7 +44,7 @@ Here is an SLA letter template partly inspired by the elements of an SLA describ
 >
 >One of the core goals of the Data team is to empower you to make data driven decisions, both big and small. We are excited to see you using the data warehouse and business intelligence tool to run your area of the business, and we realize the exceptional amount of trust you have placed on us to be custodians of that data. As such, we would like to formalize our commitment to you. 
 >
->The Data team promises to **[services provided]** at **[expected performance level]**. If there are any issues you can **[problem reporting]** and we promise to resolve the problem in **[response time]**. However, we established **[monitoring processes]** so that if there is an issue, we aim to find it first and **[issue communication]**.
+>The Data team promises to deliver **[services provided]** at **[expected performance level]**. If there are any issues you can **[problem reporting]** and we promise to resolve the problem in **[response time]**. However, we established have also established internal **[monitoring processes]** so that if there is an issue, we aim to find it first and **[issue communication]**.
 >
 >Sincerely,
 >
@@ -59,7 +59,7 @@ However, you may also have non-business area stakeholders with very specific req
 In this post I explore a data warehouse SLA from the most common perspective, that of a business stakeholder.
 
 ### Services provided
-At a 30,000 foot level you are providing data access. However, I recommend going as specific as possible when describing the data services provided. Greater specificity helps to align expectations on which fields are included and the definition of those fields (specificity also helps to frame future discussions when adding additional fields to the data warehouse). Definitions become increasingly important when the data is used to calculate individual performance and compensation.
+At a 30,000 foot level you are providing data access. However, I recommend going as specific as possible when describing the data services provided. Greater specificity helps to align expectations on which fields are included and the definition of those fields (specificity also helps to frame future discussions when adding additional fields to the data warehouse). Field definition becomes increasingly important when the data is used to calculate individual performance and compensation.
 
 The counter point is that you don't want to go overboard - you are not providing value to the business if you spend all your time working on a data dictionary. You should not expect to have a detailed data dictionary early in the life of your data warehouse. Find the right balance between specificity and the resources available to you.
 
@@ -76,9 +76,8 @@ Imagine you find a magic data genie and you ask for the most detailed sales data
 Here are some common aspects of expected performance to include in your SLA:
 * Data freshness: How current is the data? Is the data live, updated every hour or ready at 7am every morning?
 * Query speed: Query speed is a challenging aspect to quantify as your data warehouse most likely supports several different use cases in your data warehouse (types of data and queries). Average query run time is a good place to start, but you may need to create a more nuanced metric (e.g., X% of queries finish in <Y seconds)
-* Data reliability / quality: 
-* Ease of use: 
-* Documentation
+* Data reliability / quality: Certainly you aspire to produce correct numbers, but it may not be possible to ensure perfection. I recommend tiering KPIs with descending levels of reliability - from your "bullet proof" metrics down to the numbers you put in the data warehouse for someone, but have not QA'd yet. I also recommend investing in the [Data Quality Flywheel](https://www.locallyoptimistic.com/post/data-dies-in-darkness/)
+* Ease of use / documentation: 
 
 While you should strive to build a robust analytics stack, you may never achieve the same reliability as your company's production level systems. For example, it is reasonable to expect that the systems that run the website of an ecommerce company will be more robust than their data warehouse. It costs a lot more when the website is down than when the data in the data warehouse is a few hours staler than usual. You could certainly build a robust data warehouse with production system level reliability - it all comes down to whether it makes sense to do this given your limited resources.
 
