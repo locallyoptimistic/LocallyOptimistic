@@ -2,7 +2,7 @@
 author: Scott Breitenother
 title: "Should Your Data Warehouse Have an SLA? (Part 2)"
 cover: "/img/data-warehouse-sla-p2.jpg"
-publishDate: "TBD"
+publishDate: "2019-05-28"
 draft: true
 tags: 
  - analytics
