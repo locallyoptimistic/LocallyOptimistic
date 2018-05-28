@@ -20,7 +20,7 @@ Imagine this: it's Saturday morning and something went wrong in your ETL process
 * grinding out bug-fixes in an after-hours panic for things that don't actually need to be fixed right away, or
 * failing to fix time-sensitive issue that are costing your business money by the minute.
 
-Now that you've [made your team indispensable]({{< relref "reporting-is-a-gateway-drug.md" >}}), and have started building out a [core piece of your company's technical infrastructure]({{< relref "data-platform.md" >}}), it's time to think about exactly what that responsibility means from a practical standpoint[^2].
+Now that you've [made your team indispensable]({{< relref "reporting-is-a-gateway-drug.md" >}}), and have started building out a [core piece of your company's technical infrastructure]({{< relref "data-platform.md" >}}), it is time to think about exactly what that responsibility means from a practical standpoint[^2].
 
 ## What is an SLA?
 SLA is a term used in many different business contexts. You have SLAs between companies (e.g., AWS's 99.999% uptime), between departments (e.g., a Manufacturing team's product quality target) and between companies and their customers (e.g., pizza delivery in 30 minutes or less). You may even have internal and external SLAs for the same metric (e.g., we promise our customers delivery in a week, but internally we aim for 4 days).
@@ -38,14 +38,14 @@ In some ways, Analytics teams partially have themselves to blame - we have done 
 
 While the data warehouse SLA should articulate your commitment to deliver exemplary data services, it should also include commitments from the stakeholder side. After all, all good relationships require both parties to participate. The stakeholder-Analytics relationship requires commitment and collaboration from both sides.
 
-That being said, it's important to determine *the right* SLA for your business. Committing to an SLA of 99.9999% uptime will require tons of careful engineering work and a rigorous on-call schedule. If you don't actually need such a high uptime commitment, you shouldn't have one! I'll be talking more about how to find the right SLA for you in part 2.
+That being said, it's important to determine *the right* SLA for your business. Committing to an SLA of 99.9999% uptime will require tons of careful engineering work and a rigorous on-call schedule. If you don't actually need such a high uptime commitment, you shouldn't have one! I will be talking more about how to find the right SLA for you in part two.
 
 ## Writing you SLA
 
 ### The template
 The goal of writing an SLA to your internal stakeholders is not to create a detailed legal document that covers every possible situation. Instead, your SLA with your stakeholders is designed to get everyone on the same page. Issues with stakeholders are often a result of misalignment of expectations. In the spirit of formalizing the promise we are making to our stakeholders, with whom we already have a collaborative, friendly relationship, let's write... a letter. 
 
-Here is an SLA letter template partly inspired by the elements of an SLA described by Dinesh Verma in [Service Level Agreements on IP Networks](https://pdfs.semanticscholar.org/b526/8efaeac72624220bcdefa40cd44bf59aff90.pdf). Let's review the template here and then I will explore each section in more detail below and in part 2 of this post:
+Here is an SLA letter template partly inspired by the elements of an SLA described by Dinesh Verma in [Service Level Agreements on IP Networks](https://pdfs.semanticscholar.org/b526/8efaeac72624220bcdefa40cd44bf59aff90.pdf). Let's review the template here and then I will explore each section in more detail below and in part two of this post:
 
 >Dear **[stakeholder]**,
 >
@@ -65,7 +65,7 @@ So, who are these "stakeholders"? You probably have many stakeholders, each with
 
 However, you may also have non-business area stakeholders with very specific requirements. For example, your Security & Compliance team may have concerns about PCI, PII and GDPR compliance. Alternatively, your CEO may prioritize consistent, neutral use of metrics across the business. For these stakeholders you will need a very different SLA, one that takes precedence over your other stakeholder SLAs.
 
-In general, you'll want to set clear expectations with everyone in the business who relies on your team's services to do their jobs. The next time your service goes down, keep track of who emails or slacks you, and use that list as your starting point!
+In general, you will want to set clear expectations with everyone in the business who relies on your team's services to do their jobs. The next time your service goes down, keep track of who emails or slacks you, and use that list as your starting point!
 
 ## Part 2
 Hopefully I have convinced you of the importance of a data warehouse SLA and you are sitting at the edge of your seat waiting for part two!. In my follow up post, I will explore the data warehouse SLA from the most common perspective, that of a business stakeholder. I will review the remaining elements of our SLA template: services provided, expected performance, problem reporting, response time, monitoring processes, issue communication and stakeholder commitment.
