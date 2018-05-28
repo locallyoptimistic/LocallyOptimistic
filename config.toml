@@ -28,8 +28,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   avatar = "/img/logo.png"
   seotitle = "Locally Optimistic"
   subtitle = "A blog about data organizations"
-  description = ""
+  description = "Locally Optimistic is a blog for current and aspiring data analytics leaders"
   paginate = 10
 
-  github = "swiftsam/LocallyOptimistic"
+  github = "locallyoptimistic/LocallyOptimistic"
   twitter = "localoptimistic"
