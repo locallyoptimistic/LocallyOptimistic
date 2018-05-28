@@ -3,7 +3,7 @@ author: Scott Breitenother
 title: "Should Your Data Warehouse Have an SLA? (Part 1)"
 cover: "/img/data-warehouse-sla-p1.jpg"
 publishDate: "2018-05-28"
-draft: true
+draft: false
 tags: 
  - analytics
  - data warehouse
@@ -20,10 +20,10 @@ Imagine this: it's Saturday morning and something went wrong in your ETL process
 * grinding out bug-fixes in an after-hours panic for things that don't actually need to be fixed right away, or
 * failing to fix time-sensitive issue that are costing your business money by the minute.
 
-Now that you've [made your team indispensable]({{< relref "reporting-is-a-gateway-drug.md" >}}), and have started building out a [core piece of your company's technical infrastructure]({{< relref "data-platform.md" >}}), it is time to think about exactly what that responsibility means from a practical standpoint[^2].
+Now that you have [made your team indispensable]({{< relref "reporting-is-a-gateway-drug.md" >}}), and have started building out a [core piece of your company's technical infrastructure]({{< relref "data-platform.md" >}}), it is time to think about exactly what that responsibility means from a practical standpoint[^2].
 
 ## What is an SLA?
-SLA is a term used in many different business contexts. You have SLAs between companies (e.g., AWS's 99.999% uptime), between departments (e.g., a Manufacturing team's product quality target) and between companies and their customers (e.g., pizza delivery in 30 minutes or less). You may even have internal and external SLAs for the same metric (e.g., we promise our customers delivery in a week, but internally we aim for 4 days).
+SLA is a term used in many different business contexts. You have SLAs between companies (e.g., AWS's 99.999% uptime), between departments (e.g., the Creative department's production time) and between companies and their customers (e.g., pizza delivery in 30 minutes or less). You may even have internal and external SLAs for the same metric (e.g., we promise our customers delivery in a week, but internally we aim for 4 days).
 
 The underlying theme in all these SLAs is an attempt to define expectations for a relationship between two parties. I think this definition from [Wikipedia](https://en.wikipedia.org/wiki/Service-level_agreement) does a great job at explaining the core components of an SLA:
 
