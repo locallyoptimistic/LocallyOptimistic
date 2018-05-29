@@ -1,14 +1,14 @@
 ---
-author: Ilan Man
+author: "Ilan Man"
 title: "More Tips for Practical Data Science"
-cover: ""
-publishDate: TBD
-draft: false
-tags:
- - datascience
+cover: "/img/cover.jpg"
+tags: ["datascience"]
+date: "2018-05-15"
+draft: true
 ---
 
-This is the second installment of my ["Tips on Practical Data Science"](https://www.locallyoptimistic.com/post/practical_ml/). In today's post we are going to discuss implications of a changing data distribution, some practical technical considerations, and the value of presenting your work. 
+
+This is the second installment of my ["Tips on Practical Data Science"]({{< ref "practical_ml.md" >}}). Today's post will be about keeping your models fresh and up to date, and your team informed as your data world evolves. We'll discuss some implications of a changing data distribution on your model, practical technical considerations when building a model that is integrated with the product application, and how presenting to your team can be a great checkpoint on your model building progress.
 <!--more-->
  
 As before, it is helpful to have a model in mind when thinking through these considerations. Last time, we pretended to be an events platform and our goal was to build an event classification algorithm to distinguish between Halloweens, Birthdays and Weddings, for example. In this post we will consider another model used by our events company - a spam filter. You can imagine people using our platform for sending spam messages, such as *“Congratulations, you’ve been approved!”*. Our goal is to filter out spammy emails from non-spammy emails.
@@ -32,20 +32,22 @@ In order to combat the reality of a changing data distribution, the Data Scienti
  
 ## Technical considerations
  
-Unless the Data Scientist's model is deployed on production, it usually runs on a Data Warehouse and likely does not interact with the application. This may result in the Data Scientist cutting some corners; it is not uncommon to sacrifice model optimization for increased accuracy. After all, if a model is not used in production then stakeholders don't need real-time results, making optimization a "nice to have". In addition, Data Scientists are often not trained in software engineering best practices. A Data Scientist’s model is usually a script having minimal interaction with a larger application. The range of a model’s inputs and outputs are much more narrow and easily controlled.
+Unless the Data Scientist's model is deployed on production, it usually runs on a Data Warehouse and likely does not interact with the application. This may result in the Data Scientist cutting some corners; it is not uncommon to sacrifice model speed for increased accuracy. After all, if a model is not used in production then stakeholders don't need real-time results, making optimization a "nice to have". In addition, Data Scientists are often not trained in software engineering best practices. A Data Scientist’s model is usually a script having minimal interaction with a larger application. The range of a model’s inputs and outputs are much more narrow and easily controlled.
  
-However, consider our spam filter. Every time a user sends an event we must classify it as spam or not. Our filter is part of a series of checkpoints between when the user hits *send* and when the email gets delivered in their recipient's inbox. That is very real-time. In this paradigm, optimization and efficiency are critical. If we trained a heavy model, however accurate, that slowed down our email deliverability, it would never see the light of day. Moreover, since this classifier interacts with the application, it must in some way be integrated with the greater application infrastructure. This means more scrutiny to testing, exception handling, logging and other software engineering best practices. 
+However, consider our spam filter. Every time a user sends an event we must classify it as spam or not. Our filter is part of a series of checkpoints between when the user hits *send* and when the email gets delivered in their recipient's inbox. That is very real-time. In this paradigm, optimization and efficiency are critical. If we trained a heavy model, however accurate, that slowed down our email deliverability, it would never see the light of day. 
+
+Moreover, since this classifier interacts with the application, it must in some way be integrated with the greater application infrastructure. This means a much higher bar with regards to testing, exception handling, logging and other software engineering best practices. For example, it is very common and indeed good practice to leverage existing libraries in your model. However, more dependence on external libraries means more frequent maintenance and testing of functionality to ensure everything works as expected. If your model is a standalone script then debugging dependency related errors may be nothing more than a nuisance; for models that are integrated with the application or are expected to run real-time, this type of extra overhead can be a non-starter.
  
 In this context, the Data Scientist quickly realizes that her statistical model is but a very small part in a large web of interconnected processes. As a result, it may be prudent to spend less time tweaking a model to achieve some theoretical guarantee and more time understanding how it will fit in the bigger picture.
  
 ## Show and tell
- 
-I am a strong proponent of frequent presentations, discussions and knowledge sharing. This is especially important when working on a large, complex Machine Learning model. Presenting one's work has the following benefits:
+
+The model building process can be long, complex and oftentimes can be difficult to judge progress. You can spend days testing different features and algorithms only later to realize that your assumptions were incorrect and you need to go back and approach the problem from a completely different angle. To help ensure you are making progress, I recommend that you present your model with regularity. Presentations can be formal or informal, technical or non-technical, and the benefits include:
  
 * *Avoid rabbit holes*: Periodically showing your progress to stakeholders or peers forces you out of the weeds and helps you to summarize results. Often, this self-organization and peer feedback will help you to realize that a particular rabbit hole may not be worth the effort. 
 * *Reinforce understanding*: There is no better indication that you have a solid understanding of your work than being able to clearly explain it to someone else, especially those less technical.
 * *Forced articulation*: Model building involves making numerous assumptions along the way. Sometimes simplifying assumptions are made in order not to lose momentum during the model building process. It is critical to return to those assumptions and correct them if necessary, lest they grow into trouble areas if your model becomes very sensitive to them. Presentations form a natural stopping point, forcing you to address your assumptions. It is foolhardy to present work with half-baked assumptions that you did not account for ahead of time.
-* *New perspectives*: The Data Scientist should be the expert in building a good Machine Learning model. But even experts can [learn from others](https://www.locallyoptimistic.com/post/practical_ml/). Do not underestimate the value in getting a different perspective.
+* *New perspectives*: The Data Scientist should be the expert in building a good Machine Learning model. But even experts can [learn from others]({{< ref "practical_ml.md" >}}). Do not underestimate the value in getting a different perspective.
 * *Show off*: Business leaders are not generally enamored with siloed functions, especially functions that are esoteric and whose value is difficult to quantify. Data Science functions can sometimes fall into this category partly because in general we are not great at selling ourselves, explaining our methodologies or communicating how we add value. Presentations are a great way to counter that.
  
 ## Conclusion
