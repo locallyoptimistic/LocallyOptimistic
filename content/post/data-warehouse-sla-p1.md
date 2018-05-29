@@ -47,13 +47,13 @@ The goal of writing an SLA to your internal stakeholders is not to create a deta
 
 Here is an SLA letter template partly inspired by the elements of an SLA described by Dinesh Verma in [Service Level Agreements on IP Networks](https://pdfs.semanticscholar.org/b526/8efaeac72624220bcdefa40cd44bf59aff90.pdf). Let's review the template here and then I will explore each section in more detail below and in part two of this post:
 
->Dear **[stakeholder]**,
+>Dear **stakeholder**,
 >
 >One of the core goals of the Data team is to empower you to make data driven decisions, both big and small. We are excited to see you using the data warehouse and business intelligence tool to run your area of the business, and we realize the exceptional amount of trust you have placed on us to be custodians of that data. As such, we would like to formalize our commitment to you. 
 >
->The Data team promises to deliver **[services provided]** at **[expected performance]**. If there are any issues you can **[problem reporting]** and we promise to resolve the problem in **[response time]**. However, we have also established internal **[monitoring processes]** so that if there is an issue, we aim to find it first and **[issue communication]**.
+>The Data team promises to deliver **services provided** at **expected performance**. If there are any issues you can **problem reporting** and we promise to resolve the problem in **response time**. However, we have also established internal **monitoring processes** so that if there is an issue, we aim to find it first and **issue communication**.
 >
->To help us continue to deliver these services, we ask for your **[stakeholder commitment]**.
+>To help us continue to deliver these services, we ask for your **stakeholder commitment**.
 >
 >Sincerely,
 >
