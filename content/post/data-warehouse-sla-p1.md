@@ -18,18 +18,18 @@ In my previous post [Reporting is a Gateway Drug]({{< relref "reporting-is-a-gat
 Imagine this: it's Saturday morning and something went wrong in your ETL process. The warehouse[^1] is stale (or perhaps unavailable). What happens next? Do you call an engineer to look into this with you? Do you sacrifice your precious weekend morning for the good of the reports? Without a documented SLA you may find yourself (and your team) either
 
 * grinding out bug-fixes in an after-hours panic for things that don't actually need to be fixed right away, or
-* failing to fix time-sensitive issue that are costing your business money by the minute.
+* failing to fix time-sensitive issues that are costing your business money by the minute.
 
 Now that you have [made your team indispensable]({{< relref "reporting-is-a-gateway-drug.md" >}}), and have started building out a [core piece of your company's technical infrastructure]({{< relref "data-platform.md" >}}), it is time to think about exactly what that responsibility means from a practical standpoint[^2].
 
 ## What is an SLA?
-SLA is a term used in many different business contexts. You have SLAs between companies (e.g., AWS's 99.999% uptime), between departments (e.g., the Creative department's production time) and between companies and their customers (e.g., pizza delivery in 30 minutes or less). You may even have internal and external SLAs for the same metric (e.g., we promise our customers delivery in a week, but internally we aim for 4 days).
+SLA is a term used in many different business contexts. You have SLAs between companies (e.g., AWS's 99.999% uptime), between departments (e.g., the Creative team's 3 day production time policy) and between companies and their customers (e.g., pizza delivery in 30 minutes or less). You may even have internal and external SLAs for the same metric (e.g., we promise our customers delivery in a week, but internally we aim for 4 days).
 
 The underlying theme in all these SLAs is an attempt to define expectations for a relationship between two parties. I think this definition from [Wikipedia](https://en.wikipedia.org/wiki/Service-level_agreement) does a great job at explaining the core components of an SLA:
 
  >"A service-level agreement (SLA) is a commitment between a service provider and a client. Particular aspects of the service – quality, availability, responsibilities – are agreed between the service provider and the service user"
 
-The word that jumps out to me right away is "commitment", or as I like to think of it, a "promise." An SLA is a promise to your stakeholders that you will deliver quality, predictable service that they can rely on it. It is also a promise to communicate when your service level is compromised.
+The word that jumps out to me right away is "commitment", or as I like to think of it, a "promise." An SLA is a promise to your stakeholders that you will deliver quality, predictable service that they can rely on. It is also a promise to communicate when your service level is compromised.
 
 ## Why does a data warehouse need an SLA?
 In short, you need an SLA to build trust. You may have picked up a theme in my posts - I believe, in the field of Analytics, the stakeholder relationship is critical. Data warehouses are often operated by centralized shared service teams. This means the team that produces and maintains the data does not report to the teams that use the data to operate their areas of the business. Even for the most enlightened business leaders, it is challenging to accept that something so critical to your area of the business (the data warehouse), is operated by another team.
@@ -40,7 +40,7 @@ While the data warehouse SLA should articulate your commitment to deliver exempl
 
 That being said, it's important to determine *the right* SLA for your business. Committing to an SLA of 99.9999% uptime will require tons of careful engineering work and a rigorous on-call schedule. If you don't actually need such a high uptime commitment, you shouldn't have one! I will be talking more about how to find the right SLA for you in part two.
 
-## Writing you SLA
+## Writing your SLA
 
 ### The template
 The goal of writing an SLA to your internal stakeholders is not to create a detailed legal document that covers every possible situation. Instead, your SLA with your stakeholders is designed to get everyone on the same page. Issues with stakeholders are often a result of misalignment of expectations. In the spirit of formalizing the promise we are making to our stakeholders, with whom we already have a collaborative, friendly relationship, let's write... a letter. 
