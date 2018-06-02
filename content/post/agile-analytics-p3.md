@@ -43,7 +43,7 @@ All of these are interesting technical questions that require a data scientist o
  
 To address these issues, you should treat these as time-bounded tasks. For example, you might say that the deliverable is a one-page document outlining the results of the investigation, and you shouldn't spend more than two working days on the task (or whatever is appropriate.) 
 
-If the task seems like it's going to take longer, that's a good time for the analyst or data scientist to come up for air and discuss what they've found with the group before pursuing the task any further.
+If the task seems like it's going to take longer, that's a good time for the analyst or data scientist to come up for air and discuss what they've found with the group before pursuing the task any further. 
 
 ## Build in slack time for exploration
 
@@ -56,6 +56,8 @@ Now, I *don't* necessarily think it's a good idea to allocate one fifth of someo
 * Reserve every other Friday (or every Friday afternoon) for non-sprint work
 * Each team member should say what they're working on at the beginning of the day, and share whatever they've learned at the end
 * The task should be *directly linked* to a plausible path to value for the company. ("Evaluate how much stratified sampling could improve our A/B testing efficiency" is a good task while "see if we can use deep-learning to play mario kart" is probably not.)
+
+I like to think of this time as R&D investment time: the exploratory tasks of this quarter have the potential to become the headline projects of next quarter if we're able to identify an exciting area of opportunity.
 
 
 ## Acceptance Criteria to "write the next story"
@@ -72,8 +74,18 @@ By chaining stories together this way, we can continue using our scrum methodolo
 
 ## Peer-review in show-and-tell
 
+At the end of the sprint, we like to bring the team together to "demo" what they've built. In software engineering scrum practice, we expect the engineers to demo "working software." However, for analytics and data science we may do some work that involves building working software but there's lots of work (e.g., research) that doesn't necessarily involve anything demoable.
 
+In addition to doing "software" demos, it can work well to treat the time similar to how research presentations work in academia. Each scientist can share their research and the team can use the time to ask clarifying questions, poke holes in the methodology, and suggest areas for future research. This time then serves a bunch of purposes:
 
+* Holds researchers accountable to having something to share at the end of the sprint (i.e., demonstrating progress)
+* Spreads knowledge across the analytics team (helping to reduce the "bus factor")
+* Introduces more junior members of the team to more advanced methods they may not be familiar with 
+* Allows for cross-team input on research methodology
+* Introduces more opportunities to review work and catch errors ("these results don't match up with what I saw in a similar project. We should identify what's driving the discrepancy") 
 
 # Conclusion
 
+Scrum is a great tool for project managing analytics and data science work. In this post I've suggested a few adjustments I like to make to the process to make it more amenable to doing the sort of research work that data analysts and data scientists spend their time on.  
+
+For me, the key thing to remember is that _the most important thing_ is generating valuable work, and whatever process you use should be subordinate to that goal. To the extent the process helps you generate valuable work, you should use it, and to the extent that it distracts you from that prime directive, you should adjust it!
