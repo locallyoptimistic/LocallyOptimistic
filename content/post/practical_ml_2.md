@@ -1,7 +1,7 @@
 ---
 author: "Ilan Man"
 title: "More Tips for Practical Data Science"
-cover: "/img/cover.jpg"
+cover: "/img/practical_ml_2.jpg"
 tags: ["datascience"]
 date: "2018-05-15"
 draft: true
