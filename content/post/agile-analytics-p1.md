@@ -80,3 +80,5 @@ Regularly bringing in stakeholders to review the backlog and align on prioritiza
 The scrum process can be a really helpful tool for managing analytics work: it provides insight into effort allocation to the team, the manager, and key stakeholders. It promotes healthy prioritization practices and blocks some analysis-rabbitholes. 
 
 Unfortunately, this process also comes with some difficulties which I'll be discussing in my next post.
+
+This is the first post in a three-part series. You can find [part 2 here]({{< relref "agile-analytics-p2.md" >}})
