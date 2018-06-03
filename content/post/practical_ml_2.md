@@ -4,7 +4,7 @@ title: "Model Building in a Dynamic Environment"
 cover: "/img/practical_ml_2.jpg"
 tags: ["datascience"]
 date: "2018-06-03"
-draft: true
+draft: false
 ---
 
 A lot of Data Science literature focuses on the mathematical and algorithmic aspects of model building. This is after all what much of academia spends time grappling with. However the Data practitioner understands that applying Data Science and Machine Learning models to solve real-world problems involves much more than coding a statistical formula. Today's post will be about keeping your models fresh and up to date, and your team informed as your data world evolves. We will discuss some implications of a changing data distribution on your model, practical technical considerations when building a model that is integrated with the product application, and how presenting to your team can be a great checkpoint on your model building progress.
