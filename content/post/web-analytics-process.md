@@ -46,19 +46,18 @@ For a new site, or a site without existing tracking, you don’t need to fix any
 ### Step 2: Create a tracking plan
 Based on the results of the first step, create a comprehensive tracking plan. This will include any required fixes identified earlier, as well as new features you’d like to track. This will probably look something like this (additional technical details may be included directly in the tracking plan or provided in supporting documents).
 
-| Status | Task | Description | Owner | Date|
-|  | Standard Page Tagging | Add basic pageview tags to all pages of the site |  | |
-|  | Error Page Tracking | Add tracking to "not found" pages  |  | |
-|  | Navigation Bar Tracking | Track clicks on top navigation bar |  | |
-|  | Social Buttons Tracking | Track shares to FB and Twitter |  | |
-|  | Goals | Registration and purchase funnel goals |  | |
-
-
+| Status   | Task | Description | Owner | Date|
+| ------------- | ------------- |------------- |------------- |------------- |
+|   | Standard Page Tagging  | Add basic pageview tags to all pages of the site | | |
+|   | Error Page Tagging  | Add tracking to "not found" pages | | |
+|   | Navigation Bar Tracking  | Track clicks on top navigation bar | | |
+|   | Social Buttons Tracking  | Track shares to FB and Twitter | | |
+|   | Goals  | Registration and purchase funnels | | |
 
 ### Step 3: Implement
 Implement tags using your preferred method (ideally a tag management system). Set up goals, add any filters and data cleanup via Admin settings, QA thoroughly, and then launch to production.
 
-###Step 4: Build tracking into the core of new features
+### Step 4: Build tracking into the core of new features
 Note that steps 1-3 are the standard steps of an implementation project, as described in the introduction. We can consider those to be the “launch” phase, while steps 4 and on are the “maintenance” phase designed to prevent post-launch degradation.
 
 Building tracking into new features requires that analytics becomes as integral to new features as the basic functionality itself. For example, say the product team develops a new product recommendation component to be featured on the homepage. In an organization not optimized for web analytics, the new feature launches. Perhaps a day or a week later, the product team wants to understand the impact of the new recommendation component, only to discover that the tagging is missing some key information (e.g. the position of the recommended item) or, worse, the new component contains no tags at all.
