@@ -1,12 +1,11 @@
 ---
 title: "The Value of Reordering Lists"
-author: "Harlan D. Harris"
+author: Harlan D. Harris
 tags:
  - machine learning
  - data science
  - optimization
-date: 2018-06-10
-draft: true
+publishDate: "2018-06-10"
 ---
 
 The tools and techniques of data science and advanced analytics can be used to solve many
@@ -94,10 +93,10 @@ Take a great example that I first learned
 about from [a talk by Drew Conway](http://videolectures.net/kdd2014_conway_social_science/) in 2014 -- how the New York City Fire Department (FDNY)
 uses predictive modeling to focus their inspections on buildings most likely to have a fire.
 "FireCast, an algorithm that organizes data from five city agencies into approximately 60 risk
-factors... create[s] *lists* of buildings that are most vulnerable to fire." 
+factors... create(s) **lists** of buildings that are most vulnerable to fire." 
 (emphasis added, [via GovTech](http://www.govtech.com/public-safety/New-York-City-Fights-Fire-with-Data.html))
 
-![Impact of FDNY's RBIS predictive inspection program, via Drew Conway](FDNY-RBIS-DC.png)
+{{< figure src="/img/FDNY-RBIS-DC.png" title="Impact of FDNY's RBIS predictive inspection program, via Drew Conway" height="450" >}}
 
 The AUC metric associated with ROC curves like the above can be 
 interpreted as a rank-based metric: "the probability that a classifier will rank a randomly chosen positive instance higher than a randomly chosen negative one." 
@@ -111,7 +110,7 @@ positive examples compared to the number you would get if you
 sorted randomly instead. The ugly lift chart below would tell you that you would be three times
 more effective if you use a predictive model versus a naive approach. That's impact!
 
-![Lift chart example](ugly-lift-chart.png)
+{{< figure src=="/img/ugly-lift-chart.png" title="Lift chart example" height="250" >}}
 
 # Reordering and Optimization
 
@@ -197,11 +196,6 @@ such that people reading the lists interpret them appropriately, can be
 Do you have a great example of reordering lists that led to a real impact to a business
 or organization? We would love to read about it in the comments!
 
-[^1]: Sometimes putting the most-likely-to-be-clicked-on content
-first is problematic for other reasons; 
-[filter bubbles](http://www.pewinternet.org/2017/10/19/the-future-of-truth-and-misinformation-online/) 
-can make people think that the content they like is the only content that exists.
+[^1]: Sometimes putting the most-likely-to-be-clicked-on content first is problematic for other reasons; [filter bubbles](http://www.pewinternet.org/2017/10/19/the-future-of-truth-and-misinformation-online/) can make people think that the content they like is the only content that exists.
 
-[^2]: Of course, if you use shadily-acquired personality data,
-and create interventions based on triggering voters' deepest fears, 
-[you have created a different sort of problem](https://www.vox.com/policy-and-politics/2018/3/23/17151916/facebook-cambridge-analytica-trump-diagram).
+[^2]: Of course, if you use shadily-acquired personality data, and create interventions based on triggering voters' deepest fears, [you have created a different sort of problem](https://www.vox.com/policy-and-politics/2018/3/23/17151916/facebook-cambridge-analytica-trump-diagram).
