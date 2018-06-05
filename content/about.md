@@ -41,8 +41,16 @@ Sam is the Head of Data at [Bowery Farming](http://boweryfarming.com/how-it-work
 
 [linkedIn](https://www.linkedin.com/in/samswift/) | [github](https://github.com/swiftsam) | [twitter](https://twitter.com/swiftsam) | [web](http://swift.pw/)
 
-## Guest contributors & supporters
+<div class="break"></div>
+{{< figure src="/img/im_face.png" alt="Ilan Man" width="200" height="150" title="" class="portrait" >}}
 
-* Ilan Man - [linkedIn](https://www.linkedin.com/in/ilanman/) | [github](https://github.com/ilanman) | [twitter](https://twitter.com/ilanthedataman) | [web](http://www.ilanman.io)
+### Ilan Man
+
+Ilan is the Head of Data at [Paperless Post](http://www.paperlesspost.com), leading the Data Engineering, Data Analytics and Data Science functions. He loves thinking about numbers, optimal bike routes around the city, and how we lack Free Will (obviously he wrote that). When he isn't thinking, he's running around Prospect Park or riding his bike to Bear Mountain. 
+
+[linkedIn](https://www.linkedin.com/in/ilanman/) | [github](https://github.com/ilanman) | [web](http://www.ilanman.io)
+
+
+## Guest contributors & supporters
 
 * Margarita Fomenko (illustration) - [web](https://www.mfomenko.com)
