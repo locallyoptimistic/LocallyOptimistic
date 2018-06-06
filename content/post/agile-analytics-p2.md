@@ -1,7 +1,8 @@
 ---
 author: Michael Kaminsky
 title: "Agile Analytics, Part 2: The Bad Stuff"
-publishDate: "2018-06-03"
+cover: "/img/agile-analytics-p2.jpg"
+publishDate: "2018-06-17"
 draft: true
 tags: 
  - agile
