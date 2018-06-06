@@ -76,8 +76,7 @@ It might take a clever trick to tie it back to the rest of your data, but you’
 Here are some techniques to learn about what data you have at work:
 
 ###### Follow Crumbs
-If a co-worker presents a data point that you’re unfamiliar with, or you think it came from some unfamiliar source, follow up and understand their process to get data. For instance, you might have third party tools and internal tools that measure the same metric, but those third party tools might also include some domain-specific data.
-
+If a co-worker presents a data point that you’re unfamiliar with, or you think it came from some unfamiliar source, follow up and understand their process to get data. For instance, you might have third party tools and internal tools that measure the same metric, but those third party tools might also include some domain-specific data. For instance, maybe Marketing has a data vendor serves attribution or richer data on customers than your transactional database. That information is key for their decision making, but might also unlock new ideas around the company if you could find better ways to share it. 
 
 ###### Track the trackers
 If you use tracking tools like Google Analytics, know the person(s) who add new tags. Keep regular conversations with them on what new things are being tracked. Two different team members might make requests for tracking to help their individual projects, but when combined unlock a set of new possibilities for an Analytics team.
