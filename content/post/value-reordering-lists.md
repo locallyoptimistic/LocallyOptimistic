@@ -1,6 +1,7 @@
 ---
 title: "The Value of Reordering Lists"
 author: Harlan D. Harris
+cover: "/img/value-reordering-lists.jpg"
 tags:
  - machine learning
  - data science
