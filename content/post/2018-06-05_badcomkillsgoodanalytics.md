@@ -51,7 +51,7 @@ Invite someone from another department to lunch with the analytics team each mon
 A team has told you, this metric matters so much that we want to review it every day/week/month. If you want to find ways to leverage the rest of the analytics tool box, you’ll want to start with knowing why these metrics matter so much and what they mean. If their purpose don’t make sense, talk with the stakeholders about it. (see also: [_“Reporting is a Gateway"_]( https://www.locallyoptimistic.com/post/reporting-is-a-gateway-drug/) )
 
 ###### Pop Quiz Yourself
-In the course of brainstorming you’ll notice people say, “I wonder how often X happens?” Make a running list of these small trivia style business questions and cut out every week or so to find the answers. These should be quick hits, not complex questions. For instance: “what’s our conversion rate?”, “how much mobile traffic do we get?”, “what’s the gender makeup of our audience?”, and “what’s the distribution of categorical variables in this data set?”.
+In the course of brainstorming you’ll notice people say, “I wonder how often X happens?” Make a running list of these small trivia style business questions and cut out every week or so to find the answers. These should be quick hits, not complex questions. For instance: “what’s our conversion rate?”, “how much mobile traffic do we get?”, “what’s the gender makeup of our audience?”, and “what’s the distribution of categorical variables in this data set?”. Maybe add these metrics to a dashboard.
 
 ## Talk about your work
 Our research should be framed in terms of actions the business can take. I learned this the hard way. 
