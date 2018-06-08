@@ -11,7 +11,7 @@ canonifyURLs = false
 
 disqusShortname = "locallyoptimistic"
 googleAnalytics = "UA-345857-22"
-copyright = "© Locally Optimistic"
+copyright = "© The text of this post is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). Images (including the LocallyOptimistic logo) are the property of LocallyOptimistic and should NOT be copied, reproduced, or remixed without explicit prior approval from Locally Optimistic. See our licensing page (locallyoptimistic.com/licensing) for more information." 
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
