@@ -19,14 +19,19 @@
         {{ end }}
       </ul>
       {{ end }}
-      <p class="post-copyright">
-        {{ if .Site.Copyright }}{{ .Site.Copyright }}{{ end }}{{ if gt (div (sub now.Unix .Lastmod.Unix) 86400) 100 }}This post was published <strong>{{ div (sub now.Unix .Lastmod.Unix) 86400 }}</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.{{ end }}
-      </p>
     </footer>
     {{ if ne .Params.comments false }}
       {{ if .Site.DisqusShortname }}{{ template "_internal/disqus.html" . }}
       {{ else }}{{ end }}
     {{ end }}
+      <p class="post-copyright">
+        <a style="text-decoration:none" rel="license" href="/licensing/">
+          <img alt="Creative Commons License"
+            style="margin:10px 4px 0 0"
+            src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" />
+        </a>
+        Locally Optimistic content is published under a <a href="/licensing/">CC BY-NC-ND 4.0</a> license.
+      </p>
   </section>
   {{ partial "footer.html" . }}
 {{ end }}
