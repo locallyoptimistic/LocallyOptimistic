@@ -19,8 +19,8 @@
       margin-top: 0;
     }
 
-    .logo-holder {
-      margin-bottom:30px;
+    .subtitle {
+      visibility: hidden;
     }
 }
 
