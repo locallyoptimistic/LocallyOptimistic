@@ -54,4 +54,4 @@ Ilan is the Head of Data at [Paperless Post](http://www.paperlesspost.com), lead
 ## Guest contributors & supporters
 
 * Margarita Fomenko (illustration) -- [web](https://www.mfomenko.com)
-* Harlan D. Harris (Director of Data Science, [WayUp](http://wayup.com])) -- [wayup](https://www.wayup.com/profile/Harlan-Harris-7864660d87/) | [linkedIn](https://www.linkedin.com/in/harlanharris/) | [github](https://github.com/HarlanH) | [medium](http://medium.com/@harlanh) | [web](http://www.harlan.harris.name/)
+* Harlan D. Harris (Director of Data Science, [WayUp](https://www.wayup.com)) -- [wayup](https://www.wayup.com/profile/Harlan-Harris-7864660d87/) | [linkedIn](https://www.linkedin.com/in/harlanharris/) | [github](https://github.com/HarlanH) | [medium](http://medium.com/@harlanh) | [web](http://www.harlan.harris.name/)
