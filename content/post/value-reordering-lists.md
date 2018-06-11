@@ -179,7 +179,7 @@ can sometimes infer causality from data, allowing ranked lists to be based on
 propensity to benefit. 
 In [political marketing](https://www.technologyreview.com/s/509026/how-obamas-team-used-big-data-to-rally-voters/), 
 for instance, the goal is not to find voters
-most likely to vote for a candidate, but instead to find votors whose likelihood
+most likely to vote for a candidate, but instead to find voters whose likelihood
 of voting the way you prefer is _most likely to be changed by an intervention_, such
 as a visit from a canvasser.[^2]
 
