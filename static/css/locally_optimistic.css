@@ -11,16 +11,17 @@
 @media screen and (max-width: 800px) {
 
     .avatar {
-      top:inherit;
       position: absolute;
-      left: 1rem;
-      width: 7rem;
-      height: 3rem;
-      margin-top: 0;
+      top:0;
+      left: 0;
+      width: 9rem;
+      height: 3.5rem;
     }
 
-    .logo-holder {
-      margin-bottom:30px;
+    .subtitle {
+      visibility: hidden;
+      margin:0;
+      height:3.5rem;
     }
 }
 
