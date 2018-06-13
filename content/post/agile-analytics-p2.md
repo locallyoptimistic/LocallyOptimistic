@@ -17,7 +17,7 @@ I have already talked through what I [_like_]({{< relref "agile-analytics-p1.md"
 
 You can find [part 1 here]({{< relref "agile-analytics-p1.md" >}}).
 
-# Things that don't work so well:
+# Things that don't work so well
 * The fortuitous finding
 * Exploratory data analysis
 * Product ownership / story-writing
@@ -37,7 +37,7 @@ As a researcher, I have often found that the most valuable insights I have gener
 
 Exploratory data analysis is an important part of the "basic research" function of an analytics or data science team. Unfortunately, it is really hard to write "user stories" or "acceptance criteria" for this sort of work because ... the whole point is that you are not sure what you are going to find, and it requires a researcher's intuition to know when the story is "done" (because there is always more things you *could* look into, but often those marginal investigations are not valuable).
 
-The nature of exploratory data analysis means that the objectives of the analysis may change *as you do the work*. You sometimes realize "oh x is not actually very interesting -- the real issue is understanding y." If your scrum process is too inflexible, you can end up expending effort against tasks that are not valuable simply because they are required to get the story done.  While (software) engineering is a discipline of creatively applying mathematical tools to a well-defined problem, data science is about creatively applying mathematical tools to *poorly defined* problems, and it is this fundumental difference in nature that makes partitioning the work into small well-scoped tasks sometimes impossible for data science.
+The nature of exploratory data analysis means that the objectives of the analysis may change *as you do the work*. You sometimes realize "oh x is not actually very interesting -- the real issue is understanding y." If your scrum process is too inflexible, you can end up expending effort against tasks that are not valuable simply because they are required to get the story done.  While (software) engineering is a discipline of creatively applying mathematical tools to a well-defined problem, data science is about creatively applying mathematical tools to *poorly defined* problems, and it is this fundamental difference in nature that makes partitioning the work into small well-scoped tasks sometimes impossible for data science.
 
 ## Product ownership / story-writing
 
@@ -53,4 +53,4 @@ Accounting for this work (and explaining it to stakeholders) can be tough, espec
 
 # Conclusion
 
-Scrum is a great process for running an analytics team, but there are some definite challenges that are specific to doing analytics work. In my next post I will discuss some adjustments to the scrum methodolgoy you can use to help address these issues.
+Scrum is a great process for running an analytics team, but there are some definite challenges that are specific to doing analytics work. In my next post I will discuss some adjustments to the scrum methodology you can use to help address these issues.
