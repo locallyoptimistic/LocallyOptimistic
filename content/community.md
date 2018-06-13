@@ -9,7 +9,7 @@ weight: 50
 
 ## Joining the Community
 
-We are thrilled you have decided to join us. We have a growing [slack community](locallyoptimistic.slack.com) where current and aspiring analytics leaders discuss and share lessons and challenges from their experience working with data.
+We are thrilled you have decided to join our community. We have a growing [slack community](https://locallyoptimistic.slack.com) where current and aspiring analytics leaders discuss and share lessons and challenges from their experience working with data.
 
 If you have not already, please [reach out](mailto:contact@locallyoptimistic.com) to ask for an invite to our slack group. 
 
@@ -33,7 +33,7 @@ A few ground rules:
 * We do not compensate authors.
 * We do not take compensation for publishing (no payola).
 
-If you have an idea for a post you would like to write, reach out to someone from [the editorial team]({{< relref "about.md" >}}) on slack, and we will add you to our authors channel where we collaborate on preparing posts for publication. 
+If you have an idea for a post you would like to write, reach out to someone from [the editorial team]({{< relref "about.md" >}}) on slack, and we will add you to our #authors channel where we collaborate on preparing posts for publication. 
 
 * First, review our [licensing]({{<relref "licensing.md" >}}) policies and make sure you're okay with licensing your content under our rules.
 * In order to contribute, we will need your github account so we can add you as a collaborator on [the repository](https://github.com/locallyoptimistic/LocallyOptimistic).
