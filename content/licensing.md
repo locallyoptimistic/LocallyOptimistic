@@ -2,7 +2,7 @@
 title: "Licensing"
 date: "2018-06-07"
 layout: "about"
-menu: "main"
+comments: false
 weight: 50
 ---
 
@@ -14,4 +14,6 @@ The *text* of posts published on locallyoptimistic.com are licensed under a <a r
 Post illustrations, and the LocallyOptimistic logos are the property of LocallyOptimistic and should NOT be copied, reproduced, or remixed without explicit prior approval from LocallyOptimistic. 
 
 Authors retain ultimate ownership and copyright over the content (text and figures) they produce. They may distribute and re-license that content as they see fit. However, by publishing content on LocallyOptimistic, authors irrevocably grant LocallyOptimistic the right to continue to host, publish, and share that content in perpetuity.
+
+If you have questions about sharing or re-using content, please contact us at [contact@locallyoptimistic.com](mailto:contact@locallyoptimistic.com).
 
