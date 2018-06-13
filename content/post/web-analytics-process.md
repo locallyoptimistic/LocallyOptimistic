@@ -13,6 +13,7 @@ A web analytics implementation project often starts with quite a lot of fanfare 
 <!--more-->
 
 Common web analytics issues:
+
 * Broken or misconfigured tracking
 * Duplicate tags
 * Unexplained data discrepancies
@@ -35,7 +36,8 @@ In this post I will provide a series of steps to follow to make sure a web analy
 ### Step 1: Audit the existing implementation
 If you already have a web analytics tool in place, methodically review the account setup and run a technical tracking review. 
 
-The following elements should be audited:<br/>
+The following elements should be audited:
+
 * All site tracking tags (standard pageview tags as well as any custom tags), to ensure they’re firing correctly
 * Campaign tracking tags and marketing channel groups
 * Naming conventions for all custom events or variables ([Example event tracking naming strategy](http://mixedanalytics.com/blog/event-tracking-naming-strategy-for-google-analytics/))
@@ -84,5 +86,5 @@ Regular training is important to empower employees and build analytics into the 
 Running a full audit regularly is not practical due to the effort involved, but it is still important to keep on top of changes. To address this you can run regular mini audits every month or two to review and catch tracking and setup problems that might have otherwise been overlooked. Google lists [several tools](https://www.google.com/analytics/partners/search/apps?category=114) to automate the process (I created one of them, the [Online Audit Tool for Google Analytics](https://www.google.com/analytics/partners/company/5118885300797440/gadp/5629499534213120/app/5707702298738688/listing/5639274879778816), but there are several to choose from).
 
 ## Final thoughts 
-Ideally everyone should be looking at their slice of the business, not just designated Data Analysts. Besides the business benefits of democratizing and increasing data usage, having more eyes on the data will help quickly identify any broken tracking or other issues. And if there are no tracking issues, then people will put more faith in the data and use it more, which is the desired cycle. Towards this end, I also recommend investing in the [Data Quality Flywheel](https://www.locallyoptimistic.com/post/data-dies-in-darkness/). Following the above steps will help prevent the scenario where the web analytics tool is distrusted and avoided, and instead land your organization at a place where employees view the tool positively, as a useful and trusted resource that can support decision making.
+Ideally everyone should be looking at their slice of the business, not just designated Data Analysts. Besides the business benefits of democratizing and increasing data usage, having more eyes on the data will help quickly identify any broken tracking or other issues. And if there are no tracking issues, then people will put more faith in the data and use it more, [which is the desired cycle]({{< relref "data-dies-in-darkness.md" >}}). Following the above steps will help prevent the scenario where the web analytics tool is distrusted and avoided, and instead land your organization at a place where employees view the tool positively, as a useful and trusted resource that can support decision making.
 
