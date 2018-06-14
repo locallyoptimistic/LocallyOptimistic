@@ -24,7 +24,7 @@ In slack, remember that channels are free. If you want to start a conversation o
 
 ## Contributing to the Blog
 
-We are very excited to publish blog posts from current and future analytics leaders on [LocallyOptimistic](www.locallyoptimistic.com).
+We are very excited to publish blog posts from current and future analytics leaders on [LocallyOptimistic](https://www.locallyoptimistic.com).
 
 A few ground rules:
 
