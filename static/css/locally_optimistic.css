@@ -42,6 +42,43 @@ a.logo {
   max-width:55rem;
 }
 
+.post-entry .post-cover {
+      top: 0rem;
+      width: 100%;
+      height: calc((100vw - 320px) / 2);
+      max-height: 458px;
+      position: relative;
+      object-fit:cover;
+  }
+
+.post-entry .post-cover + .post-summary {
+  padding-right : 0rem;
+  }
+
+@media screen and (max-width:800px) {
+  .post-entry .post-cover {
+  position : static;
+  width : 100vw;
+  height : 56.25vw;
+  border-radius : 0;
+  margin : 0 -1rem;
+  }
+
+.post-entry .post-cover + .post-summary {
+  padding-right : 0;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .post-entry .post-title{
+  margin-top : 1.5rem;
+  margin-bottom : 0.5rem;
+  font-size : 2rem;
+  line-height : 1.5;
+  font-weight : 700;
+  }
+}
+
 @media screen and (min-width: 801px) {
   .post-detail .post-cover {
 
