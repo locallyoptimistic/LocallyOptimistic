@@ -9,10 +9,10 @@ tags:
  - presentation
 ---
 
-Poor communication within an Analytics team and between that team and the rest of the company, leaves highly skilled Analysts solving the wrong questions, lacking support for big ideas and and ultimately departing the company unfulfilled by  their work. In this post I will discuss ways a team can improve performance and employee satisfaction by focusing on constructive conversions.
+Poor communication within an Analytics team and between that team and the rest of the company, leaves highly skilled Analysts solving the wrong questions, lacking support for big ideas and and ultimately departing the company unfulfilled by their work. In this post I will discuss ways a team can improve performance and employee satisfaction by focusing on constructive conversions.
 <!--more-->
 
-Analytics teams exist because companies want better conversations. Technical tools allow us ways to find information, but at the end of the day we need to talk about it. A productive Analytics team grounds these conversations in truth and testing. A discussion about marketing ad spend is better when the Analytics team brings in an understandable attribution model. A decision about product offerings is better when the Analytics team shares market research. Strategies to increase re-purchase rate is better when the Analytics team has customer behavior analysis. 
+Analytics teams exist because companies want better conversations. Technical tools allow us ways to find information, but at the end of the day we need to talk about it. A productive Analytics team grounds these conversations in truth and testing. A discussion about marketing ad spend is better when the Analytics team brings in an understandable attribution model. A decision about product offerings is better when the Analytics team shares market research. Strategies to increase re-purchase rate are better when the Analytics team has customer behavior analysis. 
 
 High functioning analytics teams use four types of constructive conversations:
 
