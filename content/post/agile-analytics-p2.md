@@ -25,7 +25,7 @@ I often say that analytics is a discipline that is half software engineering and
 
 ## The fortuitous finding
 
-Often, some of the highest value insights that an analytics team generate come from someone seeing something interesting -- but totally unrelated to their current assignment -- and then pursuing it.  This type of curiosity and tenacity is something we *love* to see in analysts we hire, but the scrum process, when it becomes a well-oiled box-checking process, can squash these types of endeavors.
+Often, some of the highest value insights that an Analytics team generate come from someone seeing something interesting -- but totally unrelated to their current assignment -- and then pursuing it.  This type of curiosity and tenacity is something we *love* to see in analysts we hire, but the scrum process, when it becomes a well-oiled box-checking process, can squash these types of endeavors.
 
 When you hear something like "Ooh shoot. I noticed that issue before, but I was so focused on finishing my story before the sprint ended that I didn't look closer" then you may have an issue. This "illusion of effectiveness", where the team feels like they are getting all their stories done (collecting those sweet, sweet story points) is pernicious, because it *feels* productive despite missing out on potential high-value opportunities. The Analytics team is *supposed* to be generating novel insights, which means that there has to be some tolerance for unplanned investigations.
 
