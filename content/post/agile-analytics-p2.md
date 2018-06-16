@@ -10,7 +10,7 @@ tags:
 ---
 
 
-This is part 2 of my 3 part exploration of the following question: Are Agile engineering practices applicable to analytics, or is the nature of research prohibitively distinct from the nature of engineering? For the agile fans, in [_part 1_]({{< relref "agile-analytics-p1.md" >}}) I gave an intro to agile and talked through what I like about the scrum development process for analytics. For the agile nay-sayers, in this post I explore the elements of agile that do not work particularly well with Analytics (issues range from annoyance to downright incompatibility).
+This is part 2 of my 3 part exploration of the following question: are Agile engineering practices applicable to analytics, or is the nature of research prohibitively distinct from the nature of engineering? For the agile fans, in [_part 1_]({{< relref "agile-analytics-p1.md" >}}) I gave an intro to agile and talked through what I like about the scrum development process for analytics. For the agile nay-sayers, in this post I explore the elements of agile that do not work particularly well with Analytics (issues range from annoyance to downright incompatibility).
 
 <!--more-->
 
