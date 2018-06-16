@@ -42,19 +42,6 @@ a.logo {
   max-width:55rem;
 }
 
-.post-entry .post-cover {
-      top: 0rem;
-      width: 100%;
-      height: calc((100vw - 320px) / 2);
-      max-height: 458px;
-      position: relative;
-      object-fit:cover;
-  }
-
-.post-entry .post-cover + .post-summary {
-  padding-right : 0rem;
-  }
-
 @media screen and (min-width: 801px) {
   .post-detail .post-cover {
     width: 100%;
@@ -79,6 +66,20 @@ a.logo {
     text-align : justify;
     opacity : 0.699999988079071044921875;
   }
+
+  .post-entry .post-cover {
+      top: 0rem;
+      width: 100%;
+      height: calc((100vw - 320px) / 2);
+      max-height: 458px;
+      position: relative;
+      object-fit:cover;
+  }
+
+  .post-entry .post-cover + .post-summary {
+      padding-right : 0rem;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
