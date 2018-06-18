@@ -14,7 +14,7 @@ This is part 2 of my 3 part exploration of the following question: are Agile eng
 
 <!--more-->
 
-I often say that analytics is a discipline that is half software engineering and half research. The aspects of analytics that don't work particularly well with scrum are the parts that are more aligned with the "research" half of the analytics discipline. Research, at its core, is about the pursuit of discovery and the exploration of the unknown which does not not always fit well into the agile and scrum workflow.
+I often say that analytics is a discipline that is half software engineering and half research. The aspects of analytics that don't work particularly well with scrum are the parts that are more aligned with the "research" half of the analytics discipline. Research, at its core, is about the pursuit of discovery and the exploration of the unknown which does not always fit well into the agile and scrum workflow.
 
 # Things that don't work so well
 
