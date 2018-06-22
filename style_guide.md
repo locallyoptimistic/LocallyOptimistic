@@ -5,3 +5,6 @@
 * Capitalize branded software (e.g., Excel)
 * To abbreviate `for example` use `e.g.,`. To abbreviate `in other words` or `that is` use `i.e.,`.
 * Always spell check
+* Headings
+  * Main topics in blog post should use `##` heading2
+  * Sub topics should use `###` heading3
