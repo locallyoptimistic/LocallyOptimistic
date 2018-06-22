@@ -1,8 +1,9 @@
 ---
 author: Ana Kravitz
 title: "Web Analytics Maintenance Process"
+cover: "/img/web-analytics-process.png"
 publishDate: "2018-07-08"
-draft: 
+draft: false
 tags: 
  - web analytics
  - tracking plan
