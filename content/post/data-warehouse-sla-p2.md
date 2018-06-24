@@ -10,17 +10,17 @@ tags:
  - SLA
 ---
 
-In my previous post I explored the concept of a data warehouse SLA as a tool to build a trusting stakeholder relationship. I also introduced a template to help you write your very own data warehouse SLA - a letter addressed to your stakeholder. In this post I walk through the meat of the SLA template: services provided, expected performance, problem reporting, response time, monitoring processes, issue communication and stakeholder commitment. If you have not read [part one]({{< relref "data-warehouse-sla-p1.md" >}}), I highly recommend reading it first!
+In my previous post I explored the concept of a data warehouse SLA as a tool to build a trusting stakeholder relationship. I also introduced a template to help you write your very own data warehouse SLA - a letter addressed to your stakeholders. In this post I walk through the meat of the SLA template: services provided, expected performance, problem reporting, response time, monitoring processes, issue communication and stakeholder commitment. If you have not read [part one]({{< relref "data-warehouse-sla-p1.md" >}}), I highly recommend reading it first!
 <!--more-->
 
-## Writing you SLA
+## Writing your SLA
 
 ### Services provided
 At a 30,000 foot level the data warehouse provides data access. However, I recommend going as specific as possible when describing the data services provided in your SLA. Greater specificity helps to align expectations on which fields are included and the definition of those fields (specificity also helps to frame future discussions when adding additional fields to the data warehouse). Field definition becomes increasingly important when the data is used to calculate individual performance and compensation (e.g., sales team commission, executive bonuses).
 
-The counter point is that you don't want to go overboard - you are a data team, not a documentation team. You are not discovering new insights and unlocking value for the business if you spend all your time working on a data dictionary. The perfect level of data, unfortunately, is a moving target and it will continue to change as your business grows in size and complexity. To be clear, you should not expect to have a detailed data dictionary when you are a ten person startup. Find the right balance between specificity and the resources available to you.
+The counter point is that you don't want to go overboard - you are a Data team, not a documentation team. You are not discovering new insights and unlocking value for the business if you spend all your time working on a data dictionary. The perfect level of data, unfortunately, is a moving target and it will continue to change as your business grows in size and complexity. To be clear, you should not expect to have a detailed data dictionary when you are a ten person startup. Find the right balance between specificity and the resources available to you.
 
-Here are four examples of services provided with increasing specificity:
+Here is the same service provided defined at increasing levels of detail:
 1. Business area: "The Data team promises to provide sales data"
 2. Question: "The Data team promises to provide data to answer the following questions: What were sales yesterday?..."
 3. KPIs over key dimensions: "The Data team promises to provide sales and conversion rate over time and by channel"
@@ -32,7 +32,7 @@ Imagine you find a magic data genie and you ask for the most detailed sales data
 
 Here are some common aspects of expected performance to include in your SLA:
 * Data freshness: How current is the data? Is the data live, updated every hour or ready at 7am every morning? A potential approach is to categorize KPIs / models / data sources using "tiers of freshness" (e.g., intraday, daily, weekly) 
-* Query speed: Query speed is a challenging aspect to quantify as your data warehouse most likely supports several different use cases in your data warehouse (types of data and queries). Average query run time is a good place to start, but you may need to create a more nuanced metric (e.g., X% of queries finish in <Y seconds)
+* Query speed: Query speed is a challenging aspect to quantify as your data warehouse most likely supports several different use cases (types of data and queries). Average query run time is a good place to start, but you may need to create a more nuanced metric (e.g., X% of queries finish in <Y seconds)
 * Data reliability / quality: Certainly you aspire to produce correct numbers, but it may not be possible to ensure perfection. I recommend tiering KPIs with descending levels of reliability - from your "bullet proof" metrics down to the numbers you put in the data warehouse for someone, but have not QA'd yet. I also recommend investing in the [Data Quality Flywheel]({{< relref "data-dies-in-darkness.md" >}}) to make data quality everyone's responsibility
 * Ease of use / documentation: This can be a general commitment to deliver the data in a way that is simple and easy to use. However, you can also commit to producing detailed documentation (e.g., tool tips in your business intelligence tool, data dictionary)
 
@@ -41,7 +41,7 @@ While you should strive to build a robust analytics stack, you may never achieve
 The challenge, however, changes when you have [intelligent applications]({{< relref "data-platform.md" >}}) in production that utilize your data warehouse (e.g., automated post purchase emails powered by your data warehouse). In this case you must define and deliver on a significantly more robust SLA. Supporting production systems doesn't just require more resources, it requires an entirely different mentality.
 
 ### Problem reporting
-Despite your best efforts, something will go wrong and the Data team might not be the first to discover it (hopefully it is something small!). Clear problem reporting procedures eliminates confusion and ensure the right people know about this issue (avoid situations like "but I told Steve about the issue with X KPI last week" or "my most important KPI looks wrong and my Data team point of contact is on vacation"). 
+Despite your best efforts, something will go wrong and the Data team might not be the first to discover it (hopefully it is something small!). Clear problem reporting procedures eliminate confusion and ensure the right people know about this issue (avoid situations like "but I told Steve about the issue with X KPI last week" or "my most important KPI looks wrong and my Data team point of contact is on vacation"). 
 
 Your data warehouse issue reporting tool can be as simple as a Google form, a data warehouse issues email alias or a slack channel. I recommend a public forum so that others see the reported issues (one person saying the sales data is wrong is helpful, twenty people reaching out becomes distracting). When possible, try to avoid in person communication (or at least make sure you send an email or slack to memorialize the in person discussion) - this will be helpful if you need to write a post mortem.
 
@@ -67,7 +67,7 @@ The data warehouse version of the sign is "Data warehouse temporarily has data f
 
 
 ### Issue communication
-You or one of your stakeholders noticed some of the data was off - how do you inform everyone who is impacted? The most efficient way to inform your stakeholders is through the platforms / methods they consume the data. If your stakeholders consume the data through an automated report emailed to the team every morning, reply all with an explanation of the issue and the estimated time to resolution. If your stakeholders consume the data through your business intelligence tool, display a warning at the top of BI tool (this is a very effective method of communication, but is not available on most systems).
+You or one of your stakeholders noticed some of the data was off - how do you inform everyone who is impacted? The most efficient way to inform your stakeholders is through the platforms / methods they consume the data. If your stakeholders consume the data through an automated report emailed to the team every morning, reply all with an explanation of the issue and the estimated time to resolution. If your stakeholders consume the data through your business intelligence tool, display a warning at the top of business intelligence tool (this is a very effective method of communication, but is not available on most systems).
 
 If the methods listed above are not an option and the data issue is severe (scope of impact or risk of making bad decisions) you have to over communicate. You have a duty to make sure your stakeholders are aware. Send a company-wide email or slack message and, because some people may not read your message, go around to individually speak with your stakeholders that are most likely to use the impacted data. 
 
@@ -77,9 +77,9 @@ If it is a small data issue, you can probably get away with sending a message to
 ### Stakeholder commitment
 I spent most of this two part post exploring the obligation from the perspective of the Data team. However, in order to effectively deliver on your data warehouse SLA, your stakeholders must be collaborative partners. In the context of the SLA, collaboration means communication throughout the data life cycle. Stakeholders should involve the Data team when they begin to think about:
 
-* Defining a new KPI
-* Brining on a new data source
-* Changing requirements 
+* Defining a new KPI - [explain]
+* Bringing on a new data source - [explain]
+* Changing requirements - [explain] 
 
 Stakeholders should also feel ownership of the data they use. They have a responsibility to help identify data issues.
 
