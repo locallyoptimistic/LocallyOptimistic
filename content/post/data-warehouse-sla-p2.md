@@ -67,12 +67,13 @@ The data warehouse version of the sign is "Data warehouse temporarily has data f
 
 
 ### Issue communication
-You or one of your stakeholders noticed some of the data was off - how do you inform everyone who is impacted? The most efficient way to inform your stakeholders is through the platforms / methods they consume the data. If your stakeholders consume the data through an automated report emailed to the team every morning, reply all with an explanation of the issue and the estimated time to resolution. If your stakeholders consume the data through your business intelligence tool, display a warning at the top of business intelligence tool (this is a very effective method of communication, but is not available on most systems).
+You or one of your stakeholders noticed some of the data was off - how do you inform everyone who is impacted? The communication methods should be guided by the severity and breadth of the issue (you can use the same severity scale as you use for response time).
+
+The most efficient way to inform your stakeholders is through the platforms / methods they consume the data. If your stakeholders consume the data through an automated report emailed to the team every morning, reply all with an explanation of the issue and the estimated time to resolution. If your stakeholders consume the data through your business intelligence tool, display a warning at the top of business intelligence tool (this is a very effective method of communication, but is not available on most systems).
 
 If the methods listed above are not an option and the data issue is severe (scope of impact or risk of making bad decisions) you have to over communicate. You have a duty to make sure your stakeholders are aware. Send a company-wide email or slack message and, because some people may not read your message, go around to individually speak with your stakeholders that are most likely to use the impacted data. 
 
 If it is a small data issue, you can probably get away with sending a message to your power users. If you use a "Data" Slack channel for your stakeholders to report data issues and ask data questions, you can use the same channel to communicate when the Data team identifies an issue. Otherwise, you can create a power user email distribution list for important announcements.
-
 
 ### Stakeholder commitment
 I spent most of this two part post exploring the obligation from the perspective of the Data team. However, in order to effectively deliver on your data warehouse SLA, your stakeholders must be collaborative partners. In the context of the SLA, collaboration means communication throughout the data life cycle. Stakeholders should involve the Data team when they begin to think about:
