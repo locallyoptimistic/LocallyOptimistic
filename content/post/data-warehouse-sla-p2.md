@@ -10,7 +10,7 @@ tags:
  - SLA
 ---
 
-In my previous post I explored the concept of a data warehouse SLA as a tool to build a trusting stakeholder relationship. I also introduced a template to help you write your very own data warehouse SLA - a letter addressed to your stakeholders. In this post I walk through the meat of the SLA template: services provided, expected performance, problem reporting, response time, monitoring processes, issue communication and stakeholder commitment. If you have not read [part one]({{< relref "data-warehouse-sla-p1.md" >}}), I highly recommend reading it first!
+Your data warehouse needs a Service Level Agreement (SLA). To help get you started, in [part one]({{< relref "data-warehouse-sla-p1.md" >}}) I introduced a date warehouse SLA template - a letter addressed to your stakeholders. In this post I walk through the meat of the SLA template: services provided, expected performance, problem reporting, response time, monitoring processes, issue communication and stakeholder commitment. If you have not already read [part one]({{< relref "data-warehouse-sla-p1.md" >}}), I highly recommend reading it first!
 <!--more-->
 
 ## Writing your SLA
@@ -21,6 +21,7 @@ At a 30,000 foot level the data warehouse provides data access. However, I recom
 The counter point is that you don't want to go overboard - you are a Data team, not a Documentation team. You are not discovering new insights and unlocking value for the business if you spend all your time working on a data dictionary. The perfect level of detail, unfortunately, is a moving target and it will continue to change as your business grows in size and complexity. One thing, however, is clear: you should not expect to have a detailed data dictionary when you are a ten person startup. Find the right balance between specificity and the resources available to you.
 
 Here is an example of how your definition of services provided (for sales data) might evolve as your data warehouse SLA becomes more sophisticated:
+
 1. Business area: "The Data team promises to provide sales data"
 2. Question: "The Data team promises to provide data to answer the following questions: What were sales yesterday?..."
 3. KPIs over key dimensions: "The Data team promises to provide sales and conversion rate over time and by channel"
@@ -31,6 +32,7 @@ Here is an example of how your definition of services provided (for sales data) 
 Imagine you find a magic data genie and you ask for the most detailed sales data in the world. You start flipping through the data and everything looks AMAZING... until you realize the data is two years old. That wish could have used a definition of expected performance. This is the area of the SLA where we move from "what" will be delivered to "how" it will be delivered.
 
 Here are some common aspects of expected performance to include in your SLA:
+
 * Data freshness: How current is the data? Is the data live, updated every hour or ready at 7am every morning? A potential approach is to categorize KPIs / models / data sources using "tiers of freshness" (e.g., intraday, daily, weekly) 
 * Query speed: Query speed is a challenging aspect to quantify as your data warehouse most likely supports several different use cases (types of data and queries). Average query run time is a good place to start, but you may need to create a more nuanced metric (e.g., X% of queries finish in <Y seconds)
 * Data reliability / quality: Certainly you aspire to produce correct numbers, but it may not be possible to ensure perfection. I recommend tiering KPIs with descending levels of reliability - from your "bullet proof" metrics down to the numbers you put in the data warehouse for someone, but have not QA'd yet. I also recommend investing in the [Data Quality Flywheel]({{< relref "data-dies-in-darkness.md" >}}) to make data quality everyone's responsibility
@@ -59,11 +61,14 @@ As as side note - whenever I encounter a stale data issue, I always think of thi
 
 >"Escalators don't break, they just temporarily become stairs. There should never be a sign that says 'Escalator Broken, Sorry for the Inconvenience'. It should say 'Escalator Temporarily Stairs, Sorry for the Convenience'"
 
-I think the data warehouse version of the sign is "Data warehouse temporarily has data from the launch of our business through two days ago, sorry for the convenience"
+I think the data warehouse version of the sign is:
+
+>"Data warehouse temporarily has data from the launch of our business through two days ago, sorry for the convenience"
 
 
 ### Monitoring process
 Monitoring your data warehouse creates both short term and long term value:
+
 * Short term: Identify specific issues so that you can fix them (e.g. ETL issue)
 * Long term: Measure overall performance against SLA so you can identify and correct underlying issues
 
@@ -84,9 +89,9 @@ If the data issue is small, you can probably get away with sending a message to 
 ### Stakeholder commitment
 I spent most of this two part post exploring the obligation from the perspective of the Data team. However, in order to effectively deliver on your data warehouse SLA, your stakeholders must be collaborative partners. In the context of the SLA, collaboration means communication throughout the data life cycle. At a minimum, stakeholders should involve the Data team when they begin to think about:
 
-* Bringing on a new data source - Early involvement allows the Data team to evaluate the vendor (does it have an API?) and begin to think about how the data source fits within the existing architecture 
-* Defining a new KPI - It is better to add fewer, well defined and well understood KPIs to your data warehouse. The Data team can help identify which KPIs make the most sense to use and productionalize 
-* Changing requirements - In a business, change is a constant and the data infrastructure must evolve to support those changes. Help the Data team to be a partner in those changes, not an after thought
+* Bringing on a new data source: Early involvement allows the Data team to evaluate the vendor (does it have an API?) and begin to think about how the data source fits within the existing architecture 
+* Defining a new KPI: It is better to add fewer, well defined and well understood KPIs to your data warehouse. The Data team can help identify which KPIs make the most sense to use and productionalize 
+* Changing requirements: In a business, change is a constant and the data infrastructure must evolve to support those changes. Help the Data team to be a partner in those changes, not an after thought
 
 Stakeholders should also feel ownership of the data they use. They have a responsibility to help identify data issues as the occur.
 
