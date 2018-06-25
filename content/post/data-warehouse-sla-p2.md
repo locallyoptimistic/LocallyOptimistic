@@ -3,14 +3,14 @@ author: Scott Breitenother
 title: "Should Your Data Warehouse Have an SLA? (Part 2)"
 cover: "/img/data-warehouse-sla-p2.jpg"
 publishDate: "2018-06-24"
-draft: true
+draft: false
 tags: 
  - analytics
  - data warehouse
  - SLA
 ---
 
-Your data warehouse needs a Service Level Agreement (SLA). To help get you started, in [part one]({{< relref "data-warehouse-sla-p1.md" >}}) I introduced a date warehouse SLA template - a letter addressed to your stakeholders. In this post I walk through the meat of the SLA template: services provided, expected performance, problem reporting, response time, monitoring processes, issue communication and stakeholder commitment. If you have not already read [part one]({{< relref "data-warehouse-sla-p1.md" >}}), I highly recommend reading it first!
+A data warehouse Service Level Agreement (SLA) is an important building block for a data-driven organization. To help get you started, in [part one]({{< relref "data-warehouse-sla-p1.md" >}}) I introduced a data warehouse SLA template - a letter addressed to your stakeholders. In this post I walk through the meat of the SLA template: services provided, expected performance, problem reporting, response time, monitoring processes, issue communication and stakeholder commitment. If you have not already read [part one]({{< relref "data-warehouse-sla-p1.md" >}}), I highly recommend reading it first!
 <!--more-->
 
 ## Writing your SLA
@@ -91,9 +91,9 @@ I spent most of this two part post exploring the obligation from the perspective
 
 * Bringing on a new data source: Early involvement allows the Data team to evaluate the vendor (does it have an API?) and begin to think about how the data source fits within the existing architecture 
 * Defining a new KPI: It is better to add fewer, well defined and well understood KPIs to your data warehouse. The Data team can help identify which KPIs make the most sense to use and productionalize 
-* Changing requirements: In a business, change is a constant and the data infrastructure must evolve to support those changes. Help the Data team to be a partner in those changes, not an after thought
+* Changing requirements: In a business, change is a constant and the data infrastructure must evolve to support those changes. Help the Data team to be a partner in those changes, not an afterthought
 
-Stakeholders should also feel ownership of the data they use. They have a responsibility to help identify data issues as the occur.
+Stakeholders should also feel ownership of the data they use. They have a responsibility to help identify data issues as they occur.
 
 
 ## Next steps
