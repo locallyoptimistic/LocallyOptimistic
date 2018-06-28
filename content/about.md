@@ -3,6 +3,7 @@ title: "About"
 date: "2018-02-05"
 layout: "about"
 menu: "main"
+comments: false
 weight: 50
 ---
 
@@ -41,8 +42,17 @@ Sam is the Head of Data at [Bowery Farming](http://boweryfarming.com/how-it-work
 
 [linkedIn](https://www.linkedin.com/in/samswift/) | [github](https://github.com/swiftsam) | [twitter](https://twitter.com/swiftsam) | [web](http://swift.pw/)
 
+<div class="break"></div>
+{{< figure src="/img/im_face.png" alt="Ilan Man" width="200" height="150" title="" class="portrait" >}}
+
+### Ilan Man
+
+Ilan is the Head of Data at [Paperless Post](http://www.paperlesspost.com), leading the Data Engineering, Data Analytics and Data Science functions. He loves thinking about numbers, optimal bike routes around the city, and how we lack Free Will (obviously he wrote that). When he isn't thinking, he's running around Prospect Park or riding his bike to Bear Mountain. 
+
+[linkedIn](https://www.linkedin.com/in/ilanman/) | [github](https://github.com/ilanman) | [web](http://www.ilanman.io)
+
+
 ## Guest contributors & supporters
 
-* Ilan Man - [linkedIn](https://www.linkedin.com/in/ilanman/) | [github](https://github.com/ilanman) | [twitter](https://twitter.com/ilanthedataman) | [web](http://www.ilanman.io)
-
-* Margarita Fomenko (illustration) - [web](https://www.mfomenko.com)
+* Margarita Fomenko (illustration) -- [web](https://www.mfomenko.com)
+* Harlan D. Harris (Director of Data Science, [WayUp](https://www.wayup.com)) -- [wayup](https://www.wayup.com/profile/Harlan-Harris-7864660d87/) | [linkedIn](https://www.linkedin.com/in/harlanharris/) | [github](https://github.com/HarlanH) | [medium](http://medium.com/@harlanh) | [web](http://www.harlan.harris.name/)
