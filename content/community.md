@@ -11,7 +11,7 @@ weight: 50
 
 We are thrilled you have decided to join our community. We have a growing [slack community](https://locallyoptimistic.slack.com) where current and aspiring analytics leaders discuss and share lessons and challenges from their experience working with data.
 
-If you have not already, please [reach out](mailto:kaminsky.michael@gmail.com) to ask for an invite to our slack group. 
+If you have not already, please [reach out](mailto:kaminsky.michael@gmail.com) to ask for an invite to our slack group.
 
 Once you have received your invite, please do the following:
 
@@ -21,6 +21,10 @@ Once you have received your invite, please do the following:
 * Introduce yourself in the #general channel
 
 In slack, remember that channels are free. If you want to start a conversation on a topic that doesn't have a channel dedicated to it, you can create a channel and invite others to join you.
+
+## Inviting others
+
+If you are already a member of the Slack group, we encourage you to invite other like-minded current or aspiring analytics leaders using Slack's "invite people" feature yourself! We only ask that you respect our mission of maintaining a sense of community and refrain from email / Facebook / LinkedIn blasts to a mass audience. We trust that everyone will act reasonably in how they contribute to building and growing our community.
 
 ## Contributing to the Blog
 
