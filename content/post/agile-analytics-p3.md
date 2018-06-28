@@ -2,7 +2,7 @@
 author: Michael Kaminsky
 title: "Agile Analytics, Part 3: The Adjustments"
 publishDate: "2018-07-01"
-draft: true
+cover: "/img/agile-analytics-p3.jpg"
 tags: 
  - agile
  - scrum
