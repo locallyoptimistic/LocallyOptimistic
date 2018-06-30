@@ -22,6 +22,10 @@ Once you have received your invite, please do the following:
 
 In slack, remember that channels are free. If you want to start a conversation on a topic that doesn't have a channel dedicated to it, you can create a channel and invite others to join you.
 
+## Inviting others
+
+If you are already a member of the Slack group, we encourage you to invite other like-minded current or aspiring analytics leaders using Slack's "invite people" feature yourself! We only ask that you respect our mission of maintaining a sense of community and refrain from email / Facebook / LinkedIn blasts to a mass audience. We trust that everyone will act reasonably in how they contribute to building and growing our community.
+
 ## Contributing to the Blog
 
 We are very excited to publish blog posts from current and future analytics leaders on [LocallyOptimistic](https://www.locallyoptimistic.com).
