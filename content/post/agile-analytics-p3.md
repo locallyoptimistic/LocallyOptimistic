@@ -21,7 +21,7 @@ If you have not already read them, you can find
 * [part 1 here]({{< relref "agile-analytics-p1.md" >}})
 * [part 2 here]({{< relref "agile-analytics-p2.md" >}})
 
-When managing a team of Analysts and Data Scientists, we want to leverage [all of the best things]({{< relref "agile-analytics-p1.md" >}}) about the scrum methodology while adjusting for [the things that don't work so well]({{< relref "agile-analytics-p1.md" >}}). The general theme of this post is how to carve out some room in scrum for exploration, research, and iterative problem definition.
+When managing a team of Analysts and Data Scientists, we want to leverage [all of the best things]({{< relref "agile-analytics-p1.md" >}}) about the scrum methodology while adjusting for [the things that don't work so well]({{< relref "agile-analytics-p2.md" >}}). The general theme of this post is how to carve out some room in scrum for exploration, research, and iterative problem definition.
 
 # Key Adjustments to Scrum for Analytics
 
