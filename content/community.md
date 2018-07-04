@@ -9,20 +9,21 @@ weight: 50
 
 ## Joining the Community
 
-We are thrilled you have decided to join our community. We have a growing [slack community](https://locallyoptimistic.slack.com) where current and aspiring analytics leaders discuss and share lessons and challenges from their experience working with data.
+We are thrilled you have decided to join our community. We have a growing [Slack community](https://locallyoptimistic.slack.com) where current and aspiring analytics leaders discuss and share lessons and challenges from their experience working with data.
 
-If you have not already, please [reach out](mailto:locally-optimistic-admins@googlegroups.com) to ask for an invite to our slack group. 
+If you have not already, please [reach out](mailto:locally-optimistic-admins@googlegroups.com) to ask for an invite to our Slack group. 
 
 Once you have received your invite, please do the following:
 
 * Read our [code of conduct]({{< relref "code_of_conduct.md" >}})
-* Use your full name in your slack handle (this community will work best if we are all real humans)
+* Enter your full name (this community will work best if we are all real humans), but feel free to add a custom "display name"
+* Add a headline in the "what I do" box (can be "title @ company" or anthing that helps people know who they are chatting with)
 * Add a profile photo
-* Introduce yourself in the #introductions channel
+* Introduce yourself in the [#introductions](https://locallyoptimistic.slack.com/messages/CBB4QCX4N) channel
 
-In slack, remember that channels are free. If you want to start a conversation on a topic that doesn't have a channel dedicated to it, you can create a channel and invite others to join you.
+In Slack, remember that channels are free. If you want to start a conversation on a topic that doesn't have a channel dedicated to it, you can create a channel and invite others to join you.
 
-## Inviting others
+## Inviting Others
 
 If you are already a member of the Slack group, we encourage you to invite other like-minded current or aspiring analytics leaders using Slack's "invite people" feature yourself! We only ask that you respect our mission of maintaining a sense of community and refrain from email / Facebook / LinkedIn blasts to a mass audience. We trust that everyone will act reasonably in how they contribute to building and growing our community.
 
