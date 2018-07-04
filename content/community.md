@@ -16,9 +16,10 @@ If you have not already, please [reach out](mailto:locally-optimistic-admins@goo
 Once you have received your invite, please do the following:
 
 * Read our [code of conduct]({{< relref "code_of_conduct.md" >}})
-* Use your full name in your slack handle (this community will work best if we are all real humans)
+* Enter your full name (this community will work best if we are all real humans), but feel free to add a custom "display name"
+* Add a headline in the "what I do" box (can be "title @ company" or anthing that helps people know who they are chatting with)
 * Add a profile photo
-* Introduce yourself in the #introductions channel
+* Introduce yourself in the [#introductions](https://locallyoptimistic.slack.com/messages/CBB4QCX4N) channel
 
 In slack, remember that channels are free. If you want to start a conversation on a topic that doesn't have a channel dedicated to it, you can create a channel and invite others to join you.
 
