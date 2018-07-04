@@ -18,7 +18,7 @@ Once you have received your invite, please do the following:
 * Read our [code of conduct]({{< relref "code_of_conduct.md" >}})
 * Use your full name in your slack handle (this community will work best if we are all real humans)
 * Add a profile photo
-* Introduce yourself in the #general channel
+* Introduce yourself in the #introductions channel
 
 In slack, remember that channels are free. If you want to start a conversation on a topic that doesn't have a channel dedicated to it, you can create a channel and invite others to join you.
 
