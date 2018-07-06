@@ -1,6 +1,6 @@
 ---
 author: Ana Kravitz
-title: "Web Analytics Maintenance Process"
+title: "7 Steps to Reliable Web Analytics Data"
 cover: "/img/web-analytics-process.png"
 publishDate: "2018-07-08"
 draft: false
@@ -33,7 +33,7 @@ This mismatch between who uses the data and who implements data collection often
 In this post I will provide a series of steps to follow to make sure a web analytics tool is not just implemented correctly but also maintained over time.
 
 ## Web Analytics Maintenance Process
-## Part 1: Launch
+## Launch
 ### Step 1: Audit the existing implementation
 If you already have a web analytics tool in place, methodically review the account setup and run a technical tracking review. 
 
@@ -63,7 +63,7 @@ Based on the results of the first step, create a comprehensive tracking plan. Th
 ### Step 3: Implement
 Implement tags using your preferred method (preferably through a tag management system). Within the analytics tool, set up goals and add any filters and data cleanup. QA each tag thoroughly to ensure that they are all firing correctly. There are plugins to make this easier, for example the [Google Analytics Debugger](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna) and the [Debugger for Adobe Analytics](https://chrome.google.com/webstore/detail/debugger-for-adobe-analyt/bdingoflfadhnjohjaplginnpjeclmof). Finally, launch to production.
 
-## Part 2: Maintenance
+## Maintenance
 ### Step 4: Build tracking into the core of new features
 Note that steps 1-3 are the standard steps of an implementation project, as described in the introduction. We can consider those to be the “launch” phase, while steps 4 and on are the “maintenance” phase designed to prevent post-launch degradation. 
 
