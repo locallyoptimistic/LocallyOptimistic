@@ -10,7 +10,7 @@ tags:
  - event tracking
 ---
 
-A web analytics implementation project often starts with quite a lot of fanfare and resources. There will usually be an audit and needs assessment process to determine what tracking needs to be implemented or fixed, an implementation project plan identifying task owners and dates, and earmarked hours from the development team for tasks like implementing tracking code and building a data layer. All of this generally ensures that there is satisfactorily comprehensive and accurate tracking in place at the end of the project. So why do we still regularly see web analytics issues?<br/>
+A web analytics implementation project often starts with quite a lot of fanfare and resources. There will usually be an audit and needs assessment process to determine what tracking needs to be implemented or fixed, an implementation project plan identifying task owners and dates, and earmarked hours from the development team for tasks like implementing tracking code and building a data layer. All of this generally ensures that there is satisfactorily comprehensive and accurate tracking in place at the end of the project. So why do we still regularly see web analytics issues?
 <!--more-->
 
 Common web analytics issues:
