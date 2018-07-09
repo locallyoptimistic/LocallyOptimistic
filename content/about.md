@@ -47,7 +47,7 @@ Sam is the Head of Data at [Bowery Farming](http://boweryfarming.com/how-it-work
 
 ### Ilan Man
 
-Ilan is the Head of Data at [Paperless Post](http://www.paperlesspost.com), leading the Data Engineering, Data Analytics and Data Science functions. He loves thinking about numbers, optimal bike routes around the city, and how we lack Free Will (obviously he wrote that). When he isn't thinking, he's running around Prospect Park or riding his bike to Bear Mountain. 
+Ilan is the Head of Data at [Trialspark](http://www.trialspark.com) where he's helping to modernize the clinical drug trial process in order to bring drugs to patients who need them, faster. He loves thinking about numbers, optimal bike routes around the city, and how we lack Free Will (obviously he wrote that). When he isn't thinking, he's running around Prospect Park or riding his bike to Bear Mountain. 
 
 [linkedIn](https://www.linkedin.com/in/ilanman/) | [github](https://github.com/ilanman) | [web](http://www.ilanman.io)
 
