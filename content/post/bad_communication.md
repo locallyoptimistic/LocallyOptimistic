@@ -1,8 +1,8 @@
 ---
 author: Randy Clinton
 title: "Bad communication kills good analytics"
-cover: MISSING
-publishDate: UNKNOWN
+cover: "/img/bad_communication.jpg"
+publishDate: "2018-07-15"
 tags:
  - teams
  - communication
