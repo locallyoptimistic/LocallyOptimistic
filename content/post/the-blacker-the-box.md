@@ -28,9 +28,9 @@ The machine learning community spends the bulk of its time working on and talkin
 * Conversion for an Ad Placement: Feedback to Google or Facebook on whether you clicked a given advertisement, and whether you subsequently converted[^3] is nearly instantaneous.
 * Movie Recommendations: For a given list of potential movies to watch, Netflix gets near instantaneous feedback when you do or do not watch some of the content they have elevated for you.
 
-[Tech-debt considerations](https://ai.google/research/pubs/pub43146) aside, for fast-feedback problems the box can be impenetrably black *as long as you have confidence in your ability to accurately measure the prediction precision.* 
+[Tech-debt considerations](https://ai.google/research/pubs/pub43146) aside, for fast-feedback problems the box can be impenetrably black *as long as you have confidence in your ability to accurately measure the prediction.* 
 
-If I am designing an application for optimizing landing-page content for my e-commerce site (i.e., choose the content that converts best), then I do not care if my data scientist has rigged up a prediction pipeline that involves passing a SVM prediction through [an octopus](https://en.wikipedia.org/wiki/Paul_the_Octopus) so long as that model out-performs every other model we have tested in our production environment.
+If I am designing an application for optimizing landing-page content for my e-commerce site (i.e., choose the content that converts best), then I do not care if my data scientist has rigged up a prediction pipeline that involves passing a SVM prediction through [an octopus](https://en.wikipedia.org/wiki/Paul_the_Octopus) so long as that model out-performs every other model we have tested in our production environment *and we have confidence that we are measuring performance correctly*.
 
 The key to this scenario is that I am able to quickly and easily evaluate the performance of candidate prediction models and compare the current production model to new candidate models for evaluation. Because I have an *objective* measure of predictive success, I do not need any understanding of what the model is doing under-the-hood in order to make use of it.
 
@@ -46,7 +46,7 @@ Unfortunately, not all of the problems we face as an Analytics team have fast-fe
 
 For these types of problems, a purely black-box prediction model is rarely the best approach. The reason why is that you, as the analyst, probably have more information about the underlying phenomenon than are encoded in the data that model would have access to. 
 
-If you try to apply a deep-net to your LTV data, you will probably get lots of very precise predictions but your chance of over-fitting the model will be very high, and you will have a very limited ability to predict customer LTV beyond the time periods that are represented in your data set.
+If you try to apply a deep-net to your LTV data, you will probably get lots of very accurate in-sample predictions, but your chance of over-fitting the model will be very high, and you will have a very limited ability to predict customer LTV beyond the time periods that are represented in your data set.
 
 Predicting customer LTV is a great example of this because 1) you will never actually know the true *lifetime* value of your customers and 2) by the time you learn something, your business has likely changed enough underneath you that your model will not generalize very well. Fortunately, there has been lots of academic research on the topic of LTV modeling (for retail, for non-profit donors, in contractual and non-contractual settings, etc., etc.) so you do not have to start from scratch. LTV models almost always combine three ingredients[^5]:
 
