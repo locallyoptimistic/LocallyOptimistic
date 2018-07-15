@@ -58,6 +58,17 @@ If you can model how long customers will remain customers, how often they order,
 
 Because I know that this pattern holds consistently, and I can construct a formal model of how the three LTV ingredients play together, I can build a compelling LTV model that will generalize beyond my data set much better than a black-box model could. And, at the very least, because I am able to reason about my formal model, I can explain to others the situations in which it *won't*  generalize very well, and help other decision-makers in the business take the appropriate amount of caution. The worst-case scenario for a black-box model is that it both fails to generalize and obfuscates that failure until it is too late (and lots of bad decisions have already been made).
 
+## Other Considerations
+
+Savvy readers will note that there are some other important practical considerations for thinking about the requisite amount of transparency for a model:
+
+* Ethical considerations: How can we be sure our model is not [perpetuating social biases](http://www.wired.co.uk/article/machine-learning-bias-prejudice)?
+* Human-comfort considerations: If I'm being diagnosed for tumor malignancy, I may not feel comfortable letting an algorithm decide my fate if it cannot explain its decisions.
+* Regulatory considerations: for regulatory reasons, it can be important that your model be interpretable and transparent.
+* Technical and tech-debt considerations: More complex and less transparent models are more difficult to maintain, and require a much higher operational burden to monitor
+
+While I obviously do not address these considerations in this post, they are definitely important factors for you to think through as you are evaluating competing approaches to your prediction problems.
+
 ## In Practice
 
 Remember: all models are wrong, but some models are useful. When you are doing Data Science, make sure you are using the right tool for the job. 
