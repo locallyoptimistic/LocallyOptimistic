@@ -63,7 +63,7 @@ Because I know that this pattern holds consistently, and I can construct a forma
 Savvy readers will note that there are some other important practical considerations for thinking about the requisite amount of transparency for a model:
 
 * Ethical considerations: How can we be sure our model is not [perpetuating social biases](http://www.wired.co.uk/article/machine-learning-bias-prejudice)?
-* Human-comfort considerations: If I'm being diagnosed for tumor malignancy, I may not feel comfortable letting an algorithm decide my fate if it cannot explain its decisions.
+* Human-comfort considerations: If I am being diagnosed for tumor malignancy, I may not feel comfortable letting an algorithm decide my fate if it cannot explain its decisions.
 * Regulatory considerations: for regulatory reasons, it can be important that your model be interpretable and transparent.
 * Technical and tech-debt considerations: More complex and less transparent models are more difficult to maintain, and require a much higher operational burden to monitor
 
