@@ -4,7 +4,7 @@ author: "Ilan Man"
 cover: "/img/prioritization.jpg"
 tags: ["agile", "prioritization", "project management"]
 date: "2018-07-22"
-draft: true
+draft: false
 ---
 
 The sprint prioritization meeting is integral to the agile process. While many people may be more familiar with meetings such as sprint planning, stand up, back log grooming, and retro, the sprint prioritization meeting often receives less attention. I suspect this is because sprint prioritization is a particularly difficult process to deploy successfully. A good prioritization process requires thoughtful ticket descriptions written in advance, a collaborative review of each ticket in the context of all of the other tickets, and the buy-in and coordination of all of the analytics stakeholders. To top it all off, you have to squeeze this process into the end of each sprint, in advance of sprint planning... 
