@@ -3,7 +3,7 @@ title: "Prioritizing Prioritization"
 author: "Ilan Man"
 cover: "/img/prioritization.jpg"
 tags: ["agile", "prioritization", "project management"]
-date: 2018-07-22
+date: "2018-07-22"
 draft: true
 ---
 
