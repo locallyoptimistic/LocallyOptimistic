@@ -62,7 +62,8 @@ SELECT
 FROM utensell_order_facts AS orders
  LEFT JOIN utensell_annotations_log AS annotations
    ON annotation.date = date(orders.created_at)
-WHERE orders.created_at >= dateadd(day, -6, getdate()) AND orders.created_at <= getdate();
+WHERE orders.created_at >= dateadd(day, -6, getdate()) AND orders.created_at <= getdate()
+GROUP BY 1,2;
 ```
 
 The output for this query would look something like this -
