@@ -8,17 +8,17 @@ tags:
  - Statistics
 ---
 
-There has been a [lot of discussion](https://towardsdatascience.com/machine-learning-how-black-is-this-black-box-f11e4031fdf) in the data science community about the use of black-box models, and there is lots of really [fascinating ongoing](https://arxiv.org/abs/1710.09511) [research](https://storage.googleapis.com/epg-blog-data/epg_2.pdf) into methods, algorithms, [and tools](https://github.com/numeristical/introspective) to help data scientists better introspect their models. While those discussions and that research are important, in this post I will discuss the macro-framework I use for evaluating how black the box can be for a prediction product.
+There has been a [lot of discussion](https://towardsdatascience.com/machine-learning-how-black-is-this-black-box-f11e4031fdf) in the data science community about the use of black-box models, and there is lots of really [fascinating ongoing](https://arxiv.org/abs/1710.09511) [research](https://storage.googleapis.com/epg-blog-data/epg_2.pdf) into methods, algorithms, [and tools](https://github.com/numeristical/introspective) to help data scientists better introspect their models. While those discussions and that research are important, in this post I discuss the macro-framework I use for evaluating how black the box can be for a prediction product.
 
 <!--more-->
 
-In this post I will not be getting into the weeds of complexity penalization algorithms or even how to weigh the [tech debt](https://ai.google/research/pubs/pub43146) associated with additional complexity. Instead, I want to take a step back and discuss how I think about "prediction" problems at a more macro level, and how I value accuracy and complexity for different types of problems.
+In this post I do not get into the weeds of complexity penalization algorithms or even how to weigh the [tech debt](https://ai.google/research/pubs/pub43146) associated with additional complexity. Instead, I want to take a step back and discuss how I think about "prediction" problems at a more macro level, and how I value accuracy and complexity for different types of problems.
 
 The thesis of this post is:
 
 **The faster the feedback on prediction accuracy, the blacker the box can be. The slower the feedback, the more your models should be explicit and formal.**
 
-In this post I will talk through some examples of fast feedback problems and what makes them more amenable to black-box prediction algorithms (provided you have the proper infrastructure) as well as slower feedback problems and how one might approach predictions in those situations.
+In this post I talk through some examples of fast feedback problems and what makes them more amenable to black-box prediction algorithms (provided you have the proper infrastructure) as well as slower feedback problems and how one might approach predictions in those situations.
 
 ## Fast Feedback
 
@@ -28,7 +28,7 @@ The machine learning community spends the bulk of its time working on and talkin
 * Conversion for an Ad Placement: Feedback to Google or Facebook on whether you clicked a given advertisement, and whether you subsequently converted[^3] is nearly instantaneous.
 * Movie Recommendations: For a given list of potential movies to watch, Netflix gets near instantaneous feedback when you do or do not watch some of the content they have elevated for you.
 
-[Tech-debt considerations](https://ai.google/research/pubs/pub43146) aside, for fast-feedback problems the box can be impenetrably black *as long as you have confidence in your ability to accurately measure the prediction.* 
+[Tech debt considerations](https://ai.google/research/pubs/pub43146) aside, for fast-feedback problems the box can be impenetrably black *as long as you have confidence in your ability to accurately measure the prediction.* 
 
 If I am designing an application for optimizing landing-page content for my e-commerce site (i.e., choose the content that converts best), then I do not care if my data scientist has rigged up a prediction pipeline that involves passing a SVM prediction through [an octopus](https://en.wikipedia.org/wiki/Paul_the_Octopus) so long as that model out-performs every other model we have tested in our production environment *and we have confidence that we are measuring performance correctly*.
 
@@ -73,7 +73,7 @@ While I obviously do not address these considerations in this post, they are def
 
 Remember: all models are wrong, but some models are useful. When you are doing Data Science, make sure you are using the right tool for the job. 
 
-Sometimes it seems like ML practitioners and statisticians are warring tribes who do not understand why the other side uses techniques that are so clearly flawed[^6]. Really, as a discipline, we need to get better at recognizing the pros and cons of different approaches, and applying them judiciously to the problems we face.
+Sometimes it seems like ML practitioners and statisticians are warring tribes who do not understand why the other side uses techniques that are so clearly flawed[^6]. Really, as a discipline, we need to get better at recognizing the pros and cons of different approaches, and applying them judiciously to the problems we face (and combining approaches when that makes the most sense).
 
 
 [^1]: "Correctness" could be True or False for binary predictions or some other quantification of error for regression-type problems.
