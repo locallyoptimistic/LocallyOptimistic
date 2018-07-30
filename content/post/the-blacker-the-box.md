@@ -2,7 +2,7 @@
 author: Michael Kaminsky
 title: "The Blacker the Box"
 publishDate: "2018-07-29"
-draft: true
+cover: "/img/blacker_the_box.jpg"
 tags: 
  - Machine Learning
  - Data Science
