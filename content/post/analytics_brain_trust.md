@@ -29,7 +29,7 @@ What impressed me the most by the industry experts was their ability to distill 
 
 Fast forward to starting my first Analytics team at a small startup. It would be an understatement to say I had no idea what I was doing. However, I had one thing going for me, I knew how to build up knowledge fast - by phoning a friend. I just had one problem - I didn't have any friends in analytics. So how do you build your analytics brain trust?
 
-As a quick side note - this is how I met [Ilan, Michael and Sam](relref "about.md" >}})) and many of my other NYC data friends.
+As a quick side note - this is how I met [Ilan, Michael and Sam]({{< relref "about.md" >}})) and many of my other NYC data friends.
 
 
 ### Step 1: Assume people will be receptive
