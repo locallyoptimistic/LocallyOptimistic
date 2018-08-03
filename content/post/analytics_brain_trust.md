@@ -1,3 +1,4 @@
+---
 author: Scott Breitenother
 title: "Building your analytics brain trust"
 cover: "/img/analytics_brain_trust.jpg"
