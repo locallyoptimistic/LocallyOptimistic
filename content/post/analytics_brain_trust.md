@@ -80,7 +80,7 @@ You will not hit it off with everyone you meet and that is fine – just make su
 
 ## So when do you stop? Never.
 
-I'm in the field of Analytics, because I love it and like any topic I love, I am happy to talk (and write) about it for hours. Whether it is a conversation over lunch or a panel at a conference, I continue to learn from the diverse opinions of my friends and colleagues. While we may not always agree (you should hear Michael and me discuss [reporting]({{< relref "datareporting-is-a-gateway-drug.md" >}})), I always learn.
+I'm in the field of Analytics, because I love it and like any topic I love, I am happy to talk (and write) about it for hours. Whether it is a conversation over lunch or a panel at a conference, I continue to learn from the diverse opinions of my friends and colleagues. While we may not always agree (you should hear Michael and me discuss [reporting]({{< relref "reporting-is-a-gateway-drug.md" >}})), I always learn.
 
 Your analytics brain trust is especially helpful to stay on top of the latest developments in an evolving field like Analytics. It is impossible to stay on top of every new technology and trend so it pays to have a diverse group of friends with a wide range of interests.
 
