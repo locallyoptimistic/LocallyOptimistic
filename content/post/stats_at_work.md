@@ -15,7 +15,7 @@ MA: That's great - we all had a hunch that A would be better, but glad we tested
 DS: Great. See you next time. OR Well not 100%, but sure enough to make a decision!
 MA: Hang on a second. While I have you I had a quick question. This might sounds stupid...but how do you know that A is actually better than B?
 
-<!--more>
+<!--more-->
 
 DS: Well, we usually measure how confident we are that A is better than B using something called the p-va-
 MA: Yeah p-value. I know about that. If it's less than 5% then the test is significant otherwise it's not.
