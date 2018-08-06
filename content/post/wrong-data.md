@@ -10,7 +10,7 @@ tags:
  - errors
 ---
 
-Let us explore what it means for data to be wrong. For now, think of it from the user’s reaction only. It is a data point, or trend line, or report that makes the user lean into their screen, squint, tilt their head a bit, and say, “nooooo, that’s wrong.”  
+Let us explore what it means for data to be wrong. For now, think of it from the user’s reaction only. It is a data point, trend line, or report that makes the user lean into their screen, squint, tilt their head a bit, and say, “nooooo, that’s wrong.”  
 
 Wanting to jump in and “fix” it is a natural feeling, especially for people who like the technical side of data. But let me make the case to pause for a beat and think through what “wrong” could mean before you head off fixing something that is not actually broken. 
 <!--more-->
