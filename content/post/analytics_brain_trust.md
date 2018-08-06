@@ -21,14 +21,14 @@ In this post I explore my favorite learning style – learning from others – a
 
 In a past life I worked as a management consultant, often undertaking strategy projects in obscure industries. Due to the niche nature of these industries, internet resources were typically unhelpful or unavailable. As a result, we often spoke to experts in the field – scientists, business leaders, researchers and end-users.
 
-What impressed me the most by the industry experts was their ability to distill the most important aspects of an idea and convey them in a way anyone could understand. Of course it was hit or miss (some experts were just plain bad) and you had to do enough preparatory research to ask good questions (and to keep the calls short and focused since you were often paying by the expert). However, when you did get a great expert on the phone an hour with them could save a week of research. 
+What impressed me the most by the industry experts was their ability to distill the most important aspects of an idea and convey them in a way anyone could understand. Of course it was hit or miss (some experts were just plain bad) and you had to do enough preparatory research to ask good questions (and to keep the calls short and focused since you were often paying by the hour). However, when you did get a great expert on the phone an hour with them could save a week of research. 
 
 
 ## Building your analytics brain trust
 
 Fast forward to starting my first Analytics team at a small startup. It would be an understatement to say I had no idea what I was doing. However, I had one thing going for me, I knew how to build up knowledge fast - by phoning a friend. I just had one problem - I didn't have any friends in analytics. So how do you build your analytics brain trust?
 
-As a quick side note - this is how I met [Ilan, Michael and Sam]({{< relref "about.md" >}})) and many of my other NYC data friends.
+As a quick side note - this is how I met [Ilan, Michael and Sam]({{< relref "about.md" >}}) and many of my other NYC data friends.
 
 
 ### Step 1: Assume people will be receptive
@@ -63,7 +63,7 @@ Alternatively, if the contact is not local you may want to offer a phone call. J
 
 People can quickly tell if you are being disingenuous and only want a job or an introduction. It is incredibly important not to mislead people – they are donating time to you, and you should be genuine in your goals. If you are looking for a job or a favor, that is a very different conversation than what I am describing here, and you will want to take a different approach
 
-I advise going into the conversation with the goal of learning and potentially forming a professional or personal relationship - a job or an introduction is icing on the cake. I met many of my closest friends in the NYC scene through conversations just like this.
+I advise going into the conversation with the goal of learning and potentially forming a professional or personal relationship - a job or an introduction is icing on the cake. I met many of my closest friends in the NYC data scene through conversations just like this.
 
 During the conversation, make sure you have a list of topics you want to cover, but allow the conversation to flow naturally. You don't want your coffee chat to feel like an interrogation. Also, if you force the conversation down a specific path you may miss a relevant topic that your coffee mate is especially knowledgeable or passionate about.
 
