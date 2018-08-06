@@ -3,7 +3,7 @@ author: Scott Breitenother
 title: "Building Your Analytics Brain Trust"
 cover: "/img/analytics_brain_trust.jpg"
 publishDate: "2018-08-05"
-draft: true
+draft: false
 tags: 
  - learning
  - networking
@@ -13,7 +13,7 @@ tags:
 
 Imagine you hit a roadblock while trying to tackle a complex piece of analysis, using a python function or designing your first data organization. What do you do? Of course you start with an internet search, but what do you do when you're really stuck? I like to phone a friend. 
 
-In this post I explore my favorite learning style – learning from others – and the steps to building your own analytics brain trust. I have used this approach for many challenges (including building an Analytics team from the ground up) and I believe it can be applied to most challenges.
+In this post I explore my favorite learning style – learning from others – and the steps to building your own analytics brain trust. I have used this approach to solve many challenges (including building an Analytics team from the ground up) and I believe it can be almost universally applied.
 <!--more-->
 
 
@@ -21,10 +21,10 @@ In this post I explore my favorite learning style – learning from others – a
 
 In a past life I worked as a management consultant, often undertaking strategy projects in obscure industries. Due to the niche nature of these industries, internet resources were typically unhelpful or unavailable. As a result, we often spoke to experts in the field – scientists, business leaders, researchers and end-users.
 
-What impressed me the most by the industry experts was their ability to distill the most important aspects of an idea and convey them in a way anyone could understand. Of course it was hit or miss (some experts were just plain bad) and you had to do enough preparatory research to ask good questions (and to keep the calls short and focused since you were often paying by the expert). However, when you did get a great expert on the phone - an hour with them could save a week of research. 
+What impressed me the most by the industry experts was their ability to distill the most important aspects of an idea and convey them in a way anyone could understand. Of course it was hit or miss (some experts were just plain bad) and you had to do enough preparatory research to ask good questions (and to keep the calls short and focused since you were often paying by the expert). However, when you did get a great expert on the phone an hour with them could save a week of research. 
 
 
-## Building your (analytics) brain trust
+## Building your analytics brain trust
 
 Fast forward to starting my first Analytics team at a small startup. It would be an understatement to say I had no idea what I was doing. However, I had one thing going for me, I knew how to build up knowledge fast - by phoning a friend. I just had one problem - I didn't have any friends in analytics. So how do you build your analytics brain trust?
 
@@ -44,12 +44,12 @@ In my case my goal was:
 
 >I am building an Analytics team, so I am looking to speak with others who have done it before. Specifically I would like to learn about specialist vs generalist models, titles and how the Analytics team interfaces with the rest of the organization.
 
-I also recommend doing specific research on the people you contact to understand what relevant experience or knowledge they may have. This will allow you to craft your message and, in the event of a conversation, your questions.
+I also recommend conducting specific research on the people you contact to understand what relevant experience or knowledge they may have. This will allow you to craft your message and, in the event of a conversation, your questions.
 
 
 ### Step 3: Reach out to your warmest contacts (and be accommodating)
 
-Message your warmest contacts who may have relevant knowledge or may know others who have relevant knowledge. Warm contacts are those you already have an existing relationship with and would be happy to chat with you. The better your existing relationship, the warmer the contact is (e.g., family are the warmest contacts, complete strangers are the coldest contacts).
+Message your warmest contacts who may have relevant knowledge or may know others who have relevant knowledge. Warm contacts are those you already have an existing relationship with and would be happy to chat with you. The better your existing relationship, the warmer the contact is (e.g., family members are the warmest contacts, complete strangers are the coldest contacts).
 
 If you don't have any warm contacts, contact people who you have something in common with (e.g., university, home town, industry). Linkedin is a great place to meet new contacts, but industry-specific or topic-specific conferences, meetups, messaging boards and Slack communities are even better.
 
@@ -67,13 +67,13 @@ I advise going into the conversation with the goal of learning and potentially f
 
 During the conversation, make sure you have a list of topics you want to cover, but allow the conversation to flow naturally. You don't want your coffee chat to feel like an interrogation. Also, if you force the conversation down a specific path you may miss a relevant topic that your coffee mate is especially knowledgeable or passionate about.
 
-I typically brainstorm questions in advance and write them down, but during the conversation I mostly keep my notebook closed. If there's a lull I might say something like "I think there was one more thing I wanted to ask..." and then flip open my notebook. You need to find a balance between "stenographer" and just-passing-the-time. While you might not be taking detailed notes during the conversation, it is very important to write down notes immediately afterward while the topics are still fresh in your mind.
+I typically brainstorm questions in advance and write them down, but during the conversation I mostly keep my notebook closed. If there is a lull I might say something like "I think there was one more thing I wanted to ask..." and then flip open my notebook. You need to find a balance between "stenographer" and just-passing-the-time. While you might not be taking detailed notes during the conversation, it is very important to write down notes immediately afterward while the conversation is still fresh in your mind.
 
-Quick note: Learning from someone you meet for coffee is a bit like asking a stranger on the street for directions – they may very confidently give you very bad advice. Always be a sceptic and collect multiple data points before making an irreversable decision. You will never get statistically significant life or career advice, but always do your due dilicence. 
+Quick note: Learning from someone you meet for coffee is a bit like asking a stranger on the street for directions – they may very confidently give you very bad advice. Always be a sceptic and collect multiple data points before making an irreversible decision. You will never get statistically significant life or career advice, but always do your due diligence. 
 
 ### Step 5: Ask for recommended contacts (and repeat)
 
-While your first wave of conversations may not be perfectly relevant to the topics you area looking to learn about, your coffee mates may know other, more relevant people to chat with. After a genuine, friendly conversation it is perfectly acceptable to ask your coffee mate if she has anyone you would recommend. You may even find that during a great conversation your coffee mate might even start mentioning people to talk to without you even having to ask.
+While your first wave of conversations may not be perfectly relevant to the topics you are looking to learn about, your coffee mates may know other, more relevant people to chat with. After a genuine, friendly conversation it is perfectly acceptable to ask your coffee mate if she has anyone she would recommend speaking to. You may even find that during a great conversation your coffee mate starts mentioning people to talk to without you even having to ask.
 
 You will not hit it off with everyone you meet and that is fine – just make sure you are polite and respectful. However, if you continue to work at it you will continue to develop your own analytics expert network and hopefully meet a few friends.
 
