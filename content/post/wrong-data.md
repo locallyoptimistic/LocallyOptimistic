@@ -39,7 +39,7 @@ Maybe someone expected the numbers to match up exactly, which makes sense but al
 I remember someone noting a report was wrong because the sales numbers didn’t make sense. How could we have sales for an item that hadn’t been released yet? Proof the report was wrong? Nope. The server logs showed an affiliate partner had published a direct link to an item we hadn’t made live yet. The report was correct, but by exploring the source of truth we were able to figure out something more meaningful for the company.
 
 ## It really is wrong
-If you are giving your screen the “what the heck” stare, and find out that you goofed in your code, give yourself a pat on the back -- seriously. It’s easy enough to write the code and ship it, but to sanity check it and have the business context to see numbers don’t pass the sniff test takes practice. Catching “wrong” because you know what the numbers should be is an accomplishment. 
+If you are giving your screen the “what the heck” stare, and find out you goofed in your code, give yourself a pat on the back -- seriously. It’s easy enough to write the code and ship it, but to sanity check it and have the business context to see numbers don’t pass the sniff test takes practice. Catching “wrong” because you know what the numbers should be is an accomplishment. 
 
 You can up your chances at catching wrong data here by finding test groups and present your findings to them. 
 The data is confusing (but not wrong)
