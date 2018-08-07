@@ -14,7 +14,7 @@ Let us explore what it means for data to be wrong. For now, think of it from the
 
 Wanting to jump in and “fix” it is a natural feeling, especially for people who like the technical side of data. But let me make the case to pause for a beat and think through what “wrong” could mean before you head off fixing something that is not actually broken. 
 <!--more-->
-I propose there are three common situations in which data is considered wrong, and only one of them would fit a literal definition of “wrong.” They are (in order from least to most common):
+There are three common situations in which data may be considered wrong, and the appropriate response to each situation is different. They are (in order from least to most common):
 
 <ul>
 <li> The data consumer is using a faulty source to “check” the data.
