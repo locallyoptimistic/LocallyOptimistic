@@ -44,7 +44,7 @@ _Daily Time Spent: I generally spend 1-5 minutes per day on this step._
 
 ### Step 2: Automate the formatting and uploading of your annotations log to your database.
 
-I use the [datasheets](https://github.com/Squarespace/datasheets) python library (created by the team at Squarespace) to reformat and upload my annotations log table into Utensell’s data warehouse. But you can use any method you prefer! (Quick shoutout to Rujuta Kortikar, who built V1 of this script using the gspread library before datasheets was released).
+I use the [datasheets](https://github.com/Squarespace/datasheets) python library (created by the Engineering team at Squarespace) to reformat and upload my annotations log table into Utensell’s data warehouse. But you can use any method you prefer! (Quick shoutout to Rujuta Kortikar, who built V1 of this script using the gspread library before datasheets was released).
 
 ![Example of Jupyter Notebook](img/annotations-jupyter-notebook.jpg)
 
