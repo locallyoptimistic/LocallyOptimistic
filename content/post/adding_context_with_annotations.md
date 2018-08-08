@@ -110,4 +110,4 @@ Some challenges to consider before adopting this process:
 * Compared to other data best practices, keeping an annotations log is a pretty manual process that requires you stay plugged into all of the areas of the business
 * If the annotations log has multiple contributors (vs. one owner) you may run into some inconsistencies with nomenclature and / or notable events that were missed completely or added twice
 
-Sometimes numbers speak for themselves. Other times, they just need a little context.
+Sometimes numbers speak for themselves. Other times, they need a little context.
