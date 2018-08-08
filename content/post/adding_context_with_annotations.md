@@ -9,24 +9,26 @@ tags:
  - annotations
 ---
 
-Anyone who has worked in digital analytics will tell you that day over day performance can be volatile. Shifts in marketing mix can cause fluctuating e-commerce conversion rates, new feature launches can lead to sudden and temporary swings in engagement rates and onsite bugs can result in anomalies in abandonment rates. Some of these scenarios can be diagnosed through extensive segmentation of data. Others, [like a dropped analytics snippet] (https://www.locallyoptimistic.com/post/web-analytics-process/) or a bug with your payment processor, cannot be so easily uncovered. The simplest thing to do when events like these take place is to take a mental note and count on your memory for when you inevitably have to revisit that data in the future. Unfortunately, taking a mental note isn’t a scalable solution.
+Anyone who has worked in digital analytics will tell you that day over day performance can be volatile. Shifts in marketing mix can cause fluctuating e-commerce conversion rates, new feature launches can lead to sudden and temporary swings in engagement rates and onsite bugs can result in anomalies in abandonment rates. Some of these scenarios can be diagnosed through extensive segmentation of data. Others, [like a dropped analytics snippet](https://www.locallyoptimistic.com/post/web-analytics-process/) or a bug with your payment processor, cannot be so easily uncovered. The simplest thing to do when events like these take place is to take a mental note and count on your memory for when you inevitably have to revisit that data in the future. Unfortunately, taking a mental note isn’t a scalable solution.
 
-While it's not the most _thrilling_ task for a data team, keeping a record of the online and offline events that affect your business is a practice and well worth the (small) time investment.
+While it's not the most _thrilling_ task for a data team, keeping a record of the online and offline events that affect your business is a practice that is well worth the (small) time investment.
 
 <!--more-->
 
 #### Examples of Common Failures:
-* You are tasked with evaluating the success of a recent marketing campaign and decide to pull some historical data as a benchmark. You fail to account for a major event in your historical data period (i.e., the 'pre' period), and you circulate an evaluation and recommended next steps that are not sound.
-* A company executive sees a graph displaying month over month conversion rate and probes you diagnose a shift in performance (read: a dip in performance) -- you can’t recall all of the events that occurred around the start of the shift and you find yourself going down a rabbit hole try to account for them.
-* A new member joins the analytics team and gets started on their first analysis. They can't be expected to remember major events that they weren’t there to experience so they ultimately send out a flawed analysis. Similarly, a veteran employee who _was_ there to experience major events leaves the organization without sharing a list of events to account for with the rest of the team.
+* You are tasked with evaluating the success of a recent marketing campaign and decide to generate a benchmark for comparison using historical data. You fail to account for a major initiative that took place during your 'pre' period and you circulate an evaluation and recommended next steps that are not sound.
+* A company executive sees a graph displaying month over month e-commerce conversion rate and probes you diagnose a shift in performance (read: a dip in performance). You can’t recall all of the events that occurred around the start of the dip and you find yourself going down a rabbit hole trying to make sense of the shift in performance.
+* A new member joins the analytics team and gets started on their first analysis. They can't be expected to remember major events that they weren’t there to experience so they ultimately send out a flawed analysis. Similarly, a veteran employee who _was_ there to experience major events leaves the organization without sharing their domain knowledge with the rest of the team.
 
-In this post I will walk through the steps I take to integrate annotations into my data models and visualizations. I will refer to an imaginary home goods e-commerce company called “Utensell” to guide the walkthrough.
+In this post I will walk through the steps I take to integrate annotations into my data models and visualizations. This is one technique for adding context to your data and inciting a better understanding of performance trends across your organization. 
+
+I will refer to an imaginary home goods e-commerce company called “Utensell” to guide the walkthrough.
 
 ### Step 1: Whenever something notable happens, record it in a google spreadsheet. Easy!
 
 ![Example of Event Tracking Spreadsheet](img/annotations-google-sheet.jpg)
 
-Examples of things I keep note of:
+#### Examples of things I keep note of:
 
 * Product Launches (e.g., launched new silverware SKU)
 * Marketing Promotions - both online and offline (e.g., pulled back on marketing spend temporarily)
@@ -52,7 +54,7 @@ _Daily Time Spent: This script runs automatically in Airflow so I don’t spend 
 
 ### Step 3: Reference your annotations log whenever and wherever you’d like!
 
-Let’s imagine that I want to run an analysis that looks at daily orders data for the past 7 days. Knowing that discount promotions lead to big spikes in order volume, I may want to incorporate that information into my analysis. One way to achieve this would be to join my annotations log table to my order facts table. Example below -
+Let’s imagine that I want to run an analysis that looks at daily orders data for the past 7 days. Knowing that discount promotions lead to big spikes in order volume, I may want to incorporate that information into my analysis. One way to achieve this would be to join my annotations log table to my order facts table. Example below:
 
 ```
 SELECT
@@ -85,7 +87,7 @@ The output for this query would look something like this:
 
 Now I can easily see a correlation between order volume and discount promotions. With that knowledge, I may decide to add a where clause that excludes dates when a discount promotion ran.
 
-As another example, imagine that I have a daily dashboard in my business intelligence tool (in this case, Looker) that gets emailed company-wide and one of the charts looks like this:
+As another example, imagine that I have a daily dashboard in my business intelligence tool (in this case, Looker) that gets emailed company-wide with a chart that looks like this:
 
 ![Chart Without Annotations](/img/annotations-graph-before.jpg)
 
@@ -105,7 +107,7 @@ Finally, I might just want to simply include a table with notable dates directly
 
 Some challenges to consider before adopting this process:
 
-* Compared to other data best practices, keeping an annotations log is a pretty manual process
+* Compared to other data best practices, keeping an annotations log is a pretty manual process that requires you stay plugged into all of the areas of the business
 * If the annotations log has multiple contributors (vs. one owner) you may run into some inconsistencies with nomenclature and / or notable events that were missed completely or added twice
 
-In general, this practice is simple and so useful. Your future self (and analyst) will thank you.
+Sometimes numbers speak for themselves. Other times, they just need a little context.
