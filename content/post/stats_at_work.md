@@ -7,89 +7,72 @@ date: 2018-07-26T20:35:46-04:00
 draft: true
 ---
 
-The following dialogue is taking place between a data scientist (DS) and a marketing analyst (MA).
+The following dialogue is taking place between Diane the Data Scientist and Marty the Marketing Analyst.
 
-DS: The results are in...A is the winner!  
-MA: That's great - we all had a hunch that A would be better, but glad we tested it to be 100% sure.
+Diane: The results are in...the test version, A, is the winner!  
+Marty: That's great - we all had a hunch that A would be better than B, but glad we tested it to be 100% sure.
 
-DS: Great. See you next time.  
-MA: Hang on a second. While I have you I had a quick question. This might sound dumb, but how do you know that A is actually better than B? I mean, after a few days I saw that A's average conversion rate was a bit higher than B's. I could've told you that A was better. Why did we have to run a test?
+Diane: Great. See you next time.  
+Marty: Hang on a second. While I have you I had a quick question. This might sound dumb, but how do you know that A is actually better than B, the control? I mean, after a few days I saw that A's average conversion rate was a bit higher than B's. I could've told you that A was better. Why did we have to run a test?
 
 <!--more-->
 
-DS: Right. But how do you know that B wouldn't have caught up to A eventually?  
-MA: Sure but what are the chances of that?
+Diane: Right. But how do you know that B wouldn't have caught up to A eventually?  
+Marty: Sure but what are the chances of that?
 
-DS: Yeah good question. We run tests to be able to answer questions like that - "What are the chances that even though A is currently better than B, that this trend continues"?  
-MA: I see. And how exactly do we answer that?
+Diane: Yeah good question. We run tests to be able to answer questions like that - "What are the chances that even though A is currently better than B, this trend continues"?  
+Marty: I see. And how exactly do we answer that?
 
-DS: Well, we usually measure how confident we are that A is better than B using something called the p-va-  
-MA: Yeah p-value. I know about that. If the p-value is less than 5% then the test is significant otherwise it's not.
+Diane: Well, we usually measure how confident we are that A is better than B using something called the p-va-  
+Marty: Yeah p-value. I know about that. If the p-value is less than 5% then the test is significant otherwise it's not.
 
-DS: Yeah more or less.  
-MA: OK. And I know that the p-value is not the probability of A being better than B. It's something else...but what is it exactly?
+Diane: Yeah more or less.  
+Marty: Okay. But, uh, honestly I don't know what that means, I just remember reading it over and over again.
 
-DS: The exact definition of the p-value is not super helpful, but it basically quantifies the probability of seeing what we saw - namely that A is better than B - if in fact A was the same as B! In other words, if A and B were equal, then how unlikely was our result?   
-MA: So a small p-value means that if A and B were equal, then our result would be highly unlikely. And this leads us to conclude that the result of the test can be trusted? It's accurate?
+Diane: Listen this stuff is very confusing so don't feel bad. The exact definition of the p-value is not super helpful, but it basically quantifies the probability of seeing what we saw - namely that A is better than B - if in fact A was the same as B! In other words, if A and B were equal, then how unlikely was our result?   
+Marty: So a small p-value means that if A and B were equal, then our result would be highly unlikely.
 
-DS: Kinda yeah. To be clear, there are different ways to quantify this kind of stuff. This type of analysis, called hypothesis testing, is the most common one used by the vast majority of scientists.   
-MA: Okay. So at the end of the test, you calculate the p-value and saw that it was under 5%. 
+Diane: Right. To tie in the 5%, this means that if A and B had the same conversion rate, then our test would say there was a difference 5% of the time. Imagine running this test 20 times. In one of those 20 tests we might incorrectly say that A is better than B. This is why the p-value is also known as the probability of making a false positive.   
+Marty: Right, we'd falsely say that A was better than B even though that's not true in your hypothetical scenario. 
 
-DS: Right.  
-MA: A's overall conversion rate was 21% and B's 20.1%. So we're confident that A is bigger than B, cause we got a p-value less than 5%. But what if A's conversion rate was 20.2% instead? Or 25%? Don't we care about how much bigger A is?
+Diane: Exactly.  
+Marty: Okay, I'm with you so far. P-values are used to tell us if there is a difference. But in this test we actually wanted to see a meaningful difference in the two conversion rates. Do p-values say anything about differences greater than 0%?
 
-DS: Absolutely. There's some difference between A and B that we care about - say it's 0.5%. This is called the effect size. If the difference between A and B is less than 0.5%, then we say they're effectively equal. The p-value calculation takes this into account.   
-MA: Oh cool - so there's a link between p-value and effect size.
+Diane: They can. Basically given a significance threshold and a sample size, our test is able to detect some level of difference between A and B. If we have a large enough sample size, then we can detect very small differences. It's kinda like the precision of our test. But this sometimes gives p-values a bad wrap, because you can make almost any test seem significant with enough data. That's why I asked you at the beginning what difference in conversion rate you care about testing for.   
+Marty: And we said that we care about differences around 0.5%. 
 
-DS: Yup. And the sample size.  
-MA: Right that was the next thing I was curious about. How did you know what the right sample size was?
+Diane: Right, so I set up the test to be able to identify a difference of 0.5%. When we collected enough samples, we stopped the test and looked at the result.  
+Marty: Which showed that the p-value was less than 5%, and hence a difference existed between A and B.
 
-DS: Yeah, so that's all about figuring out how many users we needed to be confident in our conclusion.  
-MA: Is that the confidence interval?
+Diane: Yup.  
+Marty: So is there a formula for figuring our the right sample size?
 
-DS: Sort of. It's related. The confidence interval is more about telling us the interval around our estimate. Remember, we're estimating the difference between A's conversion rate and B's conversion rate.  
-MA: How does sample size fit in? Is there a formula for that?
+Diane: It's all one formula actually! Given a significance threshold, an effect size and a power level, I can calcu-  
+Marty: Wait what's power?
 
-DS: It's all one formula actually! Given a significance threshold, an effect size and a power level, I can calcu-  
-MA: Wait what's power?
+Diane: Oh sorry. Power is a term that's often overlooked because it's usually baked into the calculations. Power is sometimes used in place of sample size because they are very much linked, even though they are different concepts. The power of a test is the probability of detecting a difference when it exists. So power is a good thing. And we manipulate the power using sample size. Bigger sample, more power.  
+Marty: With you.
 
-DS: Oh sorry. Power is a term that's often overlooked because it's usually baked into the calculations. Power is sometimes used in place of sample size because they are very much linked, even though they are different concepts. Let's take a step back. Recall there are two things we want to check for in this A/B test. First, that A is truly bigger than B by at least the amount we care about (the effect size). Second, we want to be confident in our conclusion.  
-MA: And that we have a big enough sample size. 
+Diane: Recall there are two things we want to check for in this A/B test. First, that A is truly bigger than B by at least the amount we care about, our desired effect size. Second, that we collect a big enough sample to be able to detect that difference.  
+Marty: Cool. So having a powerful test ensures that we can detect a difference at least as large as our desired effect size, with 95% confidence. But what sample size are we aiming for? Like what's the "5% significance level" equivalent for sample size?
 
-DS: Yeah - confidence in our estimate and sample size are effectively the same thing. Power is just another way to measure the confidence in our p-value calculation. When I have a small sample, the p-value that I calculate might not be very reliable. You can imagine that the error bars around my p-value estimate are very wide.  
-MA: Kind of like how a confidence interval around our estimate can be wide if our sample is small? I'm assuming if the sample is large our confident interval is narrow? 
+Diane: Well, that varies. You're right, we set our significance threshold to 5%. We also set our desired effect size, aka the minimum detectable difference, to be 0.5%. So the question is simply: what is the minimum number of samples we need to detect that difference. That's our sample size. And in the formula, it turns out that the power level associated with that sample size is roughly 80%. Of course, if we collected more samples, our power would increase. But we're often content with 80%.  
+Marty: What? 80%? Why are we happy with that?
 
-DS: Precisely.  
-MA: Cool. Power and sample size and confidence in our estimate are all related. But what sample size are we aiming for? Like what's the "5% significance level" equivalent for sample size?
+Diane: Honestly, it's sort of an artifact of how things have always been done. Back in the day some smart people figured that making a false positive error was 4 times worse than making a false negative error. So if we agree that a 5% significance is a good false positive rate to protect against, then 20% is a good false negative rate. And 1 minus this number, which is 80%, is our power.   
+Marty: Oh, so it's kind of made up.
 
-DS: Well, that varies. You're right, we set our significance threshold to 5%. We also set our desired effect size to 0.5%. Now the question is - how many data points do we need to be confident that our conclusion can be trusted. But let me ask you - how do we quantify "trust level"?  
-MA: I don't know. 95%?
+Diane: Yeah. So is the 5% significance level. But it works surprisingly well in helping us make decisions. And all that allows us to stop the test when we do.  
+Marty: I see. So before we start the test, we set our significance threshold, the desired effect we're looking for, and some sample size number. This then guarantees that when we hit that sample size and stop our test, our p-value is...trustworthy? 
 
-DS: Yeah that's tempting cause we chose 95% for the confidence level (which results in a 5% significance threshold level) to determine if the p-value is significant or not. Let's flip the "trust level" question. Let's consider what our trust level would be with 10 users.  
-MA: Hmm...probably small.
+Diane: Right. It basically comes down to the p-value settling down after the sample is large enough. Early on in the test the p-value calculation jumps around too much, and you're more likely to find a p-value under 5% and think that there is a difference, even though it's not really trustworthy yet. You need to wait until the number stops jumping around so much. It sort of converges.  
+Marty: I see - our false positive rate would go up if we stopped early. But even if we keep going, we won't get to 100% right? We'll never know for sure.
 
-DS: Right - small sample, small trust level. Well actually it's called power. Small sample, low power. High sample, high power. Sometimes you may read that a test with a large sample size has a lot of power to detect differences when they actually exist.  
-MA: Okay. So we want high power tests.
+Diane: Yeah but it's hard to be 100% sure of anything right? Aren't most of our decisions in general based on high probabilities? I think about A/B tests as a good signal that we're trending in the right direction, but not as the unquestionable truth. There are a ton of assumptions buried in hypothesis testing, in the calculations, in the theory, in the interpretation. There are a bunch of formulas to calculate power and significance depending on the type of input and the type of output. Then there's the whole Bayesian interpretation of testing which sort of throws p-values out the window.   
+Marty: Ugh.
 
-DS: Yeah that's a nice property of course.  
-MA: In that case, is the idea to set up the test such that we have a power level of 95%, a confidence level of 95% and an effect size of 0.5%? 
+Diane: Right. Hopefully the A/B test results align with our business intuition. And if it doesn't, its important we interrogate both the test and our intuition.  
+Marty: Yeah, you always say that we shouldn't blindly optimize for the test output, but instead think about things holistically.
 
-DS: We could, but a power level of 95% is unusually high. The number of sample points we'd need increases very quickly.  
-MA: So how do you pick the power level?
-
-DS: Honestly, we usually use formulas that hold power at about 80%. Back in the day some smart people figured that making a false positive error was 4 times worse than making a false negative error. So if we agree that a 5% significance is a good false positive rate to protect against, then 20% is a good false negative rate. And 1 minus this number, which is 80%, is our power.  
-MA: Oh, so it's kind of made up.
-
-DS: Yeah. So is the 5% significance level. But it works surprisingly well in helping us make decisions.  
-MA: Yeah, or so we think.
-
-DS: I mean, no test is perfect. I think about A/B tests as a good signal that we're trending in the right direction, but not as the unquestionable truth. There are a ton of assumptions buried in hypothesis testing, in the calculations, in the theory, in the interpretation. There are a bunch of formulas to calculate power and significance depending on the type of input and the type of output. Then there's the whole Bayesian interpretation of testing which sort of throws p-values out the window.   
-MA: Ugh.
-
-DS: Right. Hopefully the A/B test results align with our business intuition. And if it doesn't, its important we interrogate both the test and our intuition.  
-MA: Yeah, you always say that we shouldn't blindly optimize for the test output, but instead think about things holistically.
-
-DS: Exactly - that's the most important lesson. A/B testing is just a useful tool in our toolbox helping us to make better decisions.  
-
-
+Diane: Exactly - that's the most important lesson. A/B testing is just a useful tool in our toolbox helping us to make better decisions.  
 
