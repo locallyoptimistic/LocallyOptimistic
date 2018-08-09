@@ -9,16 +9,16 @@ tags:
  - annotations
 ---
 
-Anyone who has worked in digital analytics will tell you that day over day performance can be volatile. Shifts in marketing mix can cause fluctuating e-commerce conversion rates, new feature launches can lead to sudden and temporary swings in engagement rates and onsite bugs can result in anomalies in abandonment rates. Some of these scenarios can be diagnosed through extensive segmentation of data. Others, [like a dropped analytics snippet](https://www.locallyoptimistic.com/post/web-analytics-process/) or a bug with your payment processor, cannot be so easily uncovered. The simplest thing to do when events like these take place is to take a mental note and count on your memory for when you inevitably have to revisit that data in the future. Unfortunately, taking a mental note isn’t a scalable solution.
+Anyone who has worked in digital analytics will tell you that day over day performance can be volatile. Shifts in marketing mix can cause fluctuating e-commerce conversion rates, new feature launches can lead to sudden and temporary swings in engagement rates and onsite bugs can result in anomalies in abandonment rates. Some of these scenarios can be diagnosed through extensive segmentation of data. Others, [like a dropped analytics snippet]({{< relref "web-analytics-process.md" >}}) or a bug with your payment processor, cannot be so easily uncovered. The simplest thing to do when events like these take place is to take a mental note and count on your memory for when you inevitably have to revisit that data in the future. Unfortunately, taking a mental note isn’t a scalable solution.
 
 While it's not the most _thrilling_ task for a data team, keeping a record of the online and offline events that affect your business is a practice that is well worth the (small) time investment.
 
 <!--more-->
 
-#### Examples of Common Failures:
+#### Examples of common failures:
 * You are tasked with evaluating the success of a recent marketing campaign and decide to generate a benchmark for comparison using historical data. You fail to account for a major initiative that took place during your 'pre' period and you circulate an evaluation and recommended next steps that are not sound.
-* A company executive sees a graph displaying month over month e-commerce conversion rate and probes you diagnose a shift in performance (read: a dip in performance). You can’t recall all of the events that occurred around the start of the dip and you find yourself going down a rabbit hole trying to make sense of the shift in performance.
-* A new member joins the analytics team and gets started on their first analysis. They can't be expected to remember major events that they weren’t there to experience so they ultimately send out a flawed analysis. Similarly, a veteran employee who _was_ there to experience major events leaves the organization without sharing their domain knowledge with the rest of the team.
+* A company executive sees a graph displaying month over month e-commerce conversion rate and asks you to diagnose a shift in performance (read: a dip in performance). You can’t recall all of the events that occurred around the start of the dip and you find yourself going down a rabbit hole trying to make sense of the shift in performance.
+* A new member joins the Analytics team and gets started on their first analysis. They can't be expected to remember major events that they weren’t there to experience so they ultimately send out a flawed analysis. Similarly, a veteran employee who _was_ there to experience major events leaves the organization without sharing their domain knowledge with the rest of the team.
 
 In this post I will walk through the steps I take to integrate annotations into my data models and visualizations. This is one technique for adding context to your data and inciting a better understanding of performance trends across your organization. 
 
