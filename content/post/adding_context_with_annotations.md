@@ -1,8 +1,8 @@
 ---
 author: Michelle Ballen
 title: "Adding Context to Your Analysis with Annotations"
-cover: ""
-publishDate: "2018-07-31"
+cover: "/img/adding_context_with_annotations.jpg"
+publishDate: "2018-08-12"
 draft: true
 tags:
  - documentation
@@ -26,7 +26,8 @@ I will refer to an imaginary home goods e-commerce company called “Utensell”
 
 ### Step 1: Whenever something notable happens, record it in a google spreadsheet. Easy!
 
-![Example of Event Tracking Spreadsheet](img/annotations-google-sheet.jpg)
+
+{{< figure src="/img/annotations-google-sheet.jpg" title="Example of Event Tracking Spreadsheet">}}
 
 #### Examples of things I keep note of:
 
@@ -48,7 +49,7 @@ _Daily Time Spent: I generally spend 1-5 minutes per day on this step._
 
 I use the [datasheets](https://github.com/Squarespace/datasheets) python library (created by the Engineering team at Squarespace) to reformat and upload my annotations log table into Utensell’s data warehouse. But you can use any method you prefer! (Quick shoutout to Rujuta Kortikar, who built V1 of this script using the gspread library before datasheets was released).
 
-![Example of Jupyter Notebook](img/annotations-jupyter-notebook.jpg)
+{{< figure src="/img/annotations-jupyter-notebook.jpg" title="Example of Jupyter Notebook">}}
 
 _Daily Time Spent: This script runs automatically in Airflow so I don’t spend any time on this step anymore but the initial setup took around 3 hours._
 
@@ -89,21 +90,21 @@ Now I can easily see a correlation between order volume and discount promotions.
 
 As another example, imagine that I have a daily dashboard in my business intelligence tool (in this case, Looker) that gets emailed company-wide with a chart that looks like this:
 
-![Chart Without Annotations](/img/annotations-graph-before.jpg)
+{{< figure src="/img/annotations-graph-before.jpg" title="Chart Without Annotations">}}
 
 In this visualization, I immediately see some unexplainable ups and downs in the data. I can already predict the question my teammates will ask when they see this data -- “what happened around the 25th of June that caused such a big spike in conversion rate?”.
 
 With the annotations log data, I can now get ahead of their question and add that layer of context onto the visualization. One option for achieving this would be to pivot on the ‘is promotional date’ dimension:
 
-![Chart With Pivot Annotations](img/annotations-graph-after-v1.jpg)
+{{< figure src="/img/annotations-graph-after-v1.jpg" title="Chart With Pivot Annotations">}}
 
 Or simply add an asterisk to the x-axis labels where promotions were running:
 
-![Chart With Date Annotations](img/annotations-graph-after-v2.jpg)
+{{< figure src="/img/annotations-graph-after-v2.jpg" title="Chart With Date Annotations">}}
 
 Finally, I might just want to simply include a table with notable dates directly at the bottom of a dashboard. That way, when business users notice data anomalies, they can quickly cross reference a list of notable dates to diagnose the cause.
 
-![Notable Dates Table](img/annotations-notable-dates-table.jpg)
+{{< figure src="/img/annotations-notable-dates-table.jpg" title="Notable Dates Table">}}
 
 Some challenges to consider before adopting this process:
 
