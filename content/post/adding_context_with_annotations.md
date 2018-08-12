@@ -3,7 +3,7 @@ author: Michelle Ballen
 title: "Adding Context to Your Analysis with Annotations"
 cover: "/img/adding_context_with_annotations.jpg"
 publishDate: "2018-08-12"
-draft: true
+draft: false
 tags:
  - documentation
  - annotations
