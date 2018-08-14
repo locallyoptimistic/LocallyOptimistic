@@ -1,7 +1,7 @@
 ---
 author: Michael Kaminsky
 title: "Code as Configuration"
-publishDate: 2018-08-15
+publishDate: 2018-09-16
 draft: true
 tags: 
  - Software
@@ -14,9 +14,9 @@ Often, data and analytics teams go under-utilized in their organization because 
 By designing software following the "code as configuration" pattern, software engineers can enable and empower Analytics teams to work independently: both taking advantage of their technical skills *and* removing drudge-work responsibility from the software engineering tea — a win-win.
 <!--more-->
 
-In my work as a data-scientist over the last 10 years, I have written *a lot* of code. I'd wager that the majority of my working time over that period has been spent writing and editing code. Unfortunately, most of that code is, from a software engineering perspective, bad. Like many folks working in the data fields, I'm a [self taugh](https://xkcd.com/1513/) programmer, and, frankly, writing readable, DRY, efficient code has rarely been a priority for me ("it only has to run once" is a common if frightening refrain among academics and statisticians).
+In my work as a data-scientist over the last 10 years, I have written *a lot* of code. I would wager that the majority of my working time over that period has been spent writing and editing code. Unfortunately, most of that code is, from a software engineering perspective, bad. Like many folks working in the data fields, I'm a [self taught](https://xkcd.com/1513/) programmer, and, frankly, writing readable, DRY, efficient code has rarely been a priority for me ("it only has to run once" is a common if frightening refrain among academics and statisticians).
 
-Caveats aside, I consider myself a *deeply technical* person, but from the vantage of the software engineers I work with, I occupy a bizarre middle-ground: I'm technical enough that I can engage with them in architecture discussions, and I know how to use vim, but I very clearly cannot be trusted to write customer-facing production code on my own. Additionally, there is a lot of background knowledge that software engineers are assumed to have like "how the internet works" that I simply do not possess. Occupying this middle-ground of "oddly technical, yet doesn't understand things" can make it hard to partner and communicate with software engineers.
+Caveats aside, I consider myself a *deeply technical* person, but from the vantage of the software engineers I work with, I occupy a bizarre middle-ground: I am technical enough that I can engage with them in architecture discussions, and I know how to use vim, but I very clearly cannot be trusted to write customer-facing production code on my own. Additionally, there is a lot of background knowledge that software engineers are assumed to have like "how the internet works" that I simply do not possess. Occupying this middle-ground of "oddly technical, yet doesn't understand things" can make it hard to partner and communicate with the broader software engineering organization.
 
 After spending a lot of time collaborating with software engineers with varying degrees of success, I have determined that the optimal pattern for collaboration relies on architecting and  building systems where I (and the other data folks on my team) can write and deploy code / scripts without:
 
@@ -47,9 +47,9 @@ Let's imagine that we want to be able to collect arbitrary reports from an email
 
 Here's an example report that has to be cleaned and processed, and is subject to change without warning:
 
-XXX Insert Screenshot of Example Gross Report Here XXX
+{{< figure src="/img/code-as-configuration-example.png" title="An example of a poorly formatted excel report.">}}
 
-You can relieve yourself and the rest of your engineering team from this burden by using the architecture above and letting the analysts maintain this system for themselves.
+In this report there are blank rows, empty columns on either side of the data, and what amounts to effectively two different tables within one spreadsheet. You can relieve yourself and the rest of your engineering team from this burden by using the architecture above and letting the analysts maintain this system for themselves.
 
 It turns out that:
 
@@ -84,10 +84,12 @@ This structure separates concerns nicely: the Software Engineers invest their ti
 
 ## Conclusion
 
-Data Analysts are technical folks who write code for (at least) a plurality of the time they are working. You can empower them and take unappealing work away from the engineering team by designing applications using the code-as-configuration architectural principals.
+This pattern can be applied to lots of different applications that are commonly worked on by Analytics teams:
 
+* ETL -- analysts write the transformation jobs, and there's a separate app for coordinating and running them (see the paradigm used by [dbt](https://www.getdbt.com/) and [looker](http://looker.com/))
+* ML / Prediction jobs -- Analaysts train models with a specified input data source and output data schema, and a separate application marshals and coordinates the jobs, and handles assembling the input data and saving the output data.
+
+And surely there are many more. Remember: Data Analysts are technical folks who write code for (at least) a plurality of the time they are working. You can empower them and take unappealing work away from the engineering team by designing applications using the code-as-configuration architectural principals.
 
 
 [^1]: Some enterprising Analysts may already have production cron jobs running on their laptops that you do not even want to know about.
-
-
