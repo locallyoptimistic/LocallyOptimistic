@@ -33,7 +33,7 @@ This explains most of the “wrong” data I’ve seen, and pops up a lot when t
 
 I have seen website reporting tools cause problems here as well. Most tools don’t show real-time data in reports. So pulling up traffic details for your site might show you data that is lagging hours behind. If you thought a new part of your site was launching and your website dashboard shows near-zero traffic going to it, you are going to want answers quick.
 
-Notice the problem here is in how the data is presented or taught to the data consumer. Just sending the data in an email, or building a report can do more harm than good.
+Notice the problem here is in how the data is presented or taught to the data customer. Just sending the data in an email, or building a report can do more harm than good.
 
 ## The data really is wrong
 If you are giving your screen the “what the heck” stare, and find out you goofed in your code, give yourself a pat on the back -- seriously. It’s easy enough to write the code and ship it, but to sanity check it and have the business context to see numbers don’t pass the sniff test takes practice. Catching “wrong” because you know what the numbers should be is an accomplishment.
@@ -53,6 +53,6 @@ Use past performance to decide how much noise you’ll allow in systems measurin
 
 Finding the reason someone thinks a data point is wrong is key to applying the right solution -- teaching your data customer or fixing the data product.
 
-The reason why it's viewed as wrong should not be used to offload responsibility. If data consumers look at a report and get the wrong idea of the business logic under the hood, that is as much of a problem as the math being wrong in a function.
+The reason why it's viewed as wrong should not be used to offload responsibility. If data customers look at a report and get the wrong idea of the business logic under the hood, that is as much of a problem as the math being wrong in a function.
 
 Reporting tools are great for a business (see: [_Reporting is a Gateway Drug_](https://www.locallyoptimistic.com/post/reporting-is-a-gateway-drug/)), but with sharing information comes the responsibility to help people make sense of it, and to have the right expectations. If you are digging into the data every day with code, you’re all too familiar with the imperfections of the data stores you are touching. It’s helpful to keep clarifying what words mean, and what the data is tracking under the hood as you present it. For instance, if you talk about site sessions, share in writing what exactly a site session is. Identify business owners for every KPI as you build out your [_Data Quality Flywheel_](https://www.locallyoptimistic.com/post/data-dies-in-darkness/). Everyone at your company might know in general terms what a session is. However, in order to use it as evidence for business decisions, the word needs the nuance of the site tracking tool you’re using.
