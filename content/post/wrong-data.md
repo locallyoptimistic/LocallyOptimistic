@@ -2,7 +2,7 @@
 author: Randy Clinton
 title: "Wrong data can still be right"
 publishDate: "????"
-cover: "????"
+cover: "https://locallyoptimistic.slack.com/files/UAPC614KY/FC66CB6NL/image_from_ios.jpg"
 draft: true
 tags:
  - data-integrity
