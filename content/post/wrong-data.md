@@ -11,11 +11,11 @@ tags:
 ---
 Everyone has their own reaction when discovering wrong data. It might start with a double take or maybe an itching feeling that the number should be a higher. However, it starts, it usually leads to an investigation to discover what went wrong. While this is a very normal reaction, I offer an alternative. Before turning over every stone in your ETL, ask a few questions to discover if your "wrong" data really is wrong.
 
-In this post I explore what wrong means when it comes to data (spoiler alert it is not black and white). I also offer a few tricks to diagnosing which of the buckets of wrong your problem falls into. Yes, this approach may add an extra step or two in your process, but it can also save a day of work trying to fix something that isn't even broken.
+In this post I explore what wrong means when it comes to data (spoiler alert: it is not black and white). I also offer a few tricks to diagnosing which of the buckets of wrong your problem falls into. Yes, this approach may add an extra step or two in your process, but it can also save a day of work trying to fix something that isn't even broken.
 <!--more-->
 
 ## Begin with questions
-Whoever came up with the saying “measure twice, cut once” probably was not thinking about troubleshooting the outputs of a machine learning model. Origin aside, the saying is very applicable when diagnosing the cause of wrong data – make sure you know what problem you are investigating before you start investigating.
+Whoever came up with the saying “measure twice, cut once” probably was not thinking about troubleshooting the outputs of a reporting system. Origin aside, the saying is applicable when diagnosing the cause of wrong data – make sure you know what problem you are investigating before you start investigating.
 
 The two questions I find most helpful to answer before beginning my investigation are:
 
@@ -39,7 +39,7 @@ This is the most common use case I have come across. Confusing data often occurs
 
 Let's take the KPI "sales", for example. You can calculate sales as gross or net, at time of sale or at time recognized following GAAP, including returns or not – the variants are endless and often unique to the team and / or company. Ultimately, it is best to get the entire organization speaking the same language when it comes to KPIs, but that is a large enough topic for a standalone blog post (or book!). At minimum, I suggest exposing the definitions of your most important KPIs in some sort of data dictionary (perhaps as part of your [data warehouse SLA]({{< relref "data-warehouse-sla-p1.md" >}})).
 
-Another potential cause of confusion could be time delays. Most reporting tools and data warehouses do not display real-time data. This can lead to a situation where there is no confusion about the metric definition, just confusion about how current the data is. For example, data in most website reporting tools (e.g., Google Analytics) is delayed by a few hours (I have seen websites with heavy track see delays as great as 12 hours). Stakeholders may want to look at the traffic volume of a big press hit or a new website feature and be confused when the data does not appear to be there.
+Another potential cause of confusion could be time delays. Most reporting tools and data warehouses do not display real-time data. This can lead to a situation where there is no confusion about the metric definition, just confusion about how current the data is. For example, data in most website reporting tools (e.g., Google Analytics) is delayed by a few hours (I have seen websites with heavy traffic see delays as great as 12 hours). Stakeholders may want to look at the traffic volume of a big press hit or a new website feature and be confused when the data does not appear to be there.
 
 Notice cause of confusion in these cases is in how the data is presented or taught to the stakeholder. Sending the data in an email, or building a report without providing context (metric definition, data freshness) can sometimes do more harm than good.
 
@@ -48,7 +48,7 @@ Notice cause of confusion in these cases is in how the data is presented or taug
 
 Remember, wrong is relative and in this case, it is relative to data that is itself incorrect. One place you might see this is in web traffic statistics. Suppose you have an internal, server-side tracking system capturing site visits as well as an external tracking tool. On your way to the office an email hits you: “Google Analytics traffic looks higher than our internal tracking.” There are a number of regularly occurring reasons this could happen.
 
-The most common is normal variance between data sources. In the example above you are comparing a near lossless data source (server-side tracking) with a very fallible data source (client-side javascript tracking). The client-side session count could be lower because of ad blockers or javascript not loading due to a heavy website / slow internet connection. Alternatively, the server-side session count could be lower because your 3rd party client-side tracking tool automatically filters out bots and other suspect traffic. 
+The most common is normal variance between data sources. In the example above you are comparing a near lossless data source (server-side tracking) with a fallible data source (client-side javascript tracking). The client-side session count could be lower because of ad blockers or javascript not loading due to a heavy website / slow internet connection. Alternatively, the server-side session count could be lower because your 3rd party client-side tracking tool automatically filters out bots and other suspect traffic. 
 
 In the case of normal variance, the different between the data sources typically falls in a predictable range (if it doesn't you may want to run through the [web analytics checklist]({{< relref "web-analytics-process.md" >}})). Once you have determined acceptable variance use it as a less through which you evaluate whether data is actually wrong. Demonstrating the historical variation (through data) can help to defuse wrong data conversations. Setting the expectation up front that the systems will have different numbers can help prevent wrong data conversations before they start.
 
