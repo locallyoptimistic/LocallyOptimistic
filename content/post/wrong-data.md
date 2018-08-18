@@ -3,7 +3,7 @@ author: Randy Clinton
 title: "Wrong Data Can Still Be Right"
 publishDate: "2018-08-19"
 cover: "img/wrong-data.jpg"
-draft: true
+draft: false
 tags:
  - data-integrity
  - communication
