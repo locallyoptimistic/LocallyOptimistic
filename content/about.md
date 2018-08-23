@@ -29,7 +29,7 @@ Scott is the VP of Data & Analytics at [Casper](https://casper.com/). He is a fo
 
 ### Michael Kaminsky
 
-Michael cut his teeth applying econometric research methods to a variety of fields from environmental economics to child welfare policy to healthcare outcomes and treatment efficacy. Currently, he leads the analytics team at [Harry's](https://www.harrys.com) helping the new-wave men's grooming brand "make better decisions faster." In his spare time Michael drinks too much coffee, reads, and occasionally thinks about going to the gym.
+Michael is a data strategist and entrepreneur working on innovative data products. He has experience applying econometric research methods to fields including environmental economics, child welfare policy, and medical treatment efficacy. Michael is the former director of analytics at [Harry's](https://www.harrys.com) where he worked to empower the organization to “make better decisions faster.” In his spare time Michael drinks too much coffee, reads, and pets dogs around Bed-Stuy.
 
 [linkedIn](https://www.linkedin.com/in/michael-the-data-guy-kaminsky/) | [github](https://github.com/mikekaminsky) 
 
