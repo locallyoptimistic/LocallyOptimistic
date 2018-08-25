@@ -19,6 +19,7 @@ People working on software infrastructure will be familiar with the terms ['conf
 In this post I discuss an inversion of that idea which I refer to as *code as configuration* that can help Analytics and Sotware Engineering work together more effectively by utilizing an abstraction layer in between the code written by the Analytics team and the code written and maintained by the Software Engineers. By designing applications such that the code written by the Analytics team can be treated as *configuration* wholly independent from the application code, the two teams can stay out of each others way and work on what they know best.
 
 Some readers may note that this is not actually a novel idea: many companies, especially the really large tech companies (FAANG et al.), invest a lot of effort in making sure their software is architected following this paradigm so that their specialists can be specialized. However, in my work with smaller companies I've often encountered an unfamiliarity with or reluctance to utilize this design pattern. In this post I want to make the case that Software Engineering teams should pro-actively look for opportunities to pursue the *code as configuration* paradigm in order to:
+
 * Unblock their Analytics team
 * Improve iteration speed
 * Promote specialization (so analysts and engineers can work on what they are independently good at)
