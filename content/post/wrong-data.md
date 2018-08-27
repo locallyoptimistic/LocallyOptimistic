@@ -8,6 +8,7 @@ tags:
  - data-integrity
  - communication
  - errors
+ - Randy Clinton
 ---
 Everyone has their own reaction when discovering wrong data. It might start with a double take or maybe an itching feeling that the number should be a higher. However it starts, it usually leads to an investigation to discover what went wrong. While this is a very normal reaction, I offer an alternative. Before turning over every stone in your ETL, ask a few questions to discover if your "wrong" data really is wrong.
 
