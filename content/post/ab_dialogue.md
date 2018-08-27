@@ -3,8 +3,8 @@ title: "A chat about A/B testing"
 author: "Ilan Man"
 cover: "/img/ab_dialogue.jpg"
 tags: ["statistics", "ab_testing"]
-date: 2018-07-26T20:35:46-04:00
-draft: true
+date: 2018-08-26T20:35:46-04:00
+draft: false
 ---
 
 A hypothetical tech company just completed an A/B test of two experiences, A (the test) and B (the control). The test was set up properly and executed successfully. The following dialogue is taking place between Diane the Data Scientist and Marty the Marketing Analyst at the conclusion of the test.   
