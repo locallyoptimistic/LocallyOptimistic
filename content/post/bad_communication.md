@@ -7,6 +7,7 @@ tags:
  - teams
  - communication
  - presentation
+ - Randy Clinton
 ---
 
 Poor communication within an Analytics team and between that team and the rest of the company, leaves highly skilled Analysts solving the wrong questions, lacking support for big ideas and and ultimately departing the company unfulfilled by their work. In this post I will discuss ways a team can improve performance and employee satisfaction by focusing on constructive conversations.
