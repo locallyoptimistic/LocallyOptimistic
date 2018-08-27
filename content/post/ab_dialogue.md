@@ -41,7 +41,7 @@ A hypothetical tech company just completed an A/B test of two experiences, A (th
 **Diane:** Exactly.   
 **Marty:** Okay, I'm with you so far. P-values are used to tell us if there is a difference. But in this test we actually wanted to see a meaningful difference in the two conversion rates. Do p-values say anything about differences greater than 0.0001%?
 
-**Diane:** They can. Basically given a significance threshold and a sample size, our test is able to detect some level of difference between A and B. If we have a large enough sample size, then we can detect very small differences. It's kinda like the precision of our test. But this sometimes gives p-values a bad wrap, because you can make almost any test seem significant with enough data. That's why I asked you at the beginning what difference in conversion rate you care about testing for.    
+**Diane:** They can. Basically given a significance threshold and a sample size, our test is able to detect some level of difference between A and B. If we have a large enough sample size, then we can detect very small differences. It's kinda like the precision of our test. But this sometimes gives p-values a bad rap, because you can make almost any test seem significant with enough data. That's why I asked you at the beginning what difference in conversion rate you care about testing for.    
 **Marty:** And we said that we care about differences around 0.5%. 
 
 **Diane:** Right, so I set up the test to be able to identify a difference of 0.5%. When we collected enough samples, we stopped the test and looked at the result.  
