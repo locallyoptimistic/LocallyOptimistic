@@ -1,12 +1,13 @@
 ---
 author: Michael Kaminsky
 title: "Code as Configuration"
-publishDate: 2018-09-16
-draft: true
+cover: "/img/code-as-configuration.jpg"
+publishDate: 2018-09-02
 tags: 
  - Software
  - Data Science
  - Engineering
+ - Architecture
 ---
 
 Often, Data and Analytics teams go under-utilized in their organization because they can not collaborate effectively with the broader Technology and Software Engineering teams.  
@@ -41,7 +42,7 @@ Programming note: In this document I'm going to use the term "Analysts" to refer
 
 ## Architecture
 
-To make an application like this work, you split your project into two types of code: application code and configuration code. 
+To make an application or service like this work, you split your project into two types of code: application code and configuration code. 
 
 | Application Code | Configuration Code |
 |:-----------------|:-------------------|
