@@ -2,7 +2,7 @@
 author: Michael Kaminsky
 title: "Code as Configuration"
 cover: "/img/code-as-configuration.jpg"
-publishDate: 2018-09-02
+publishDate: 2018-09-09
 tags: 
  - Software
  - Data Science
