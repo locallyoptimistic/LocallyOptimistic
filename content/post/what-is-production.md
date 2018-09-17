@@ -46,7 +46,7 @@ If you want to build these data-driven products, you are going to want your data
 
 * Data scientists are your algorithm experts, and continuous integration is important 
 * You want your app to be powered by data!!
-* Analysts know the data best so they are least likely to make less mistakes
+* Analysts know the data best so they are less likely to make mistakes
 * Productionizing someone else’s work is a shitty job
 * Blocking analytics iteration with eng prioritization slows everyone down and leads to frustration
 
