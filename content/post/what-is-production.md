@@ -26,9 +26,9 @@ First, some term definition. “Production” is an environment. Commonly there 
 
 Every “application” will have multiple environments, one of which will be the one facing non-developer users. The one facing non-developer users is typically called “production”. 
 
-Here's my thesis: It's critical for Analytics teams to impact customer facing applications. If it is not possible to enable that in a safe way, then you should modify your customer facing application in such a way to make that possible.
+Here's my thesis: It's critical for Analytics teams to impact customer facing applications[^1]. If it is not possible to enable that in a safe way, then you should modify your customer facing application in such a way to make that possible.
 
-If you found that last paragraph shocking, I am about to blow your socks off: all of your analysts are deploying to production every day, already. Let me walk you through my favorite[^1] line of questioning:
+If you found that last paragraph shocking, I am about to blow your socks off: all of your analysts are deploying to production every day, already. Let me walk you through my favorite[^2] line of questioning:
 
 * The BI tool that you configure to provide reporting to users within your company — is that not production?
 * The R script that assembled data, cleans it, and provides visualizations for a PPT that gets emailed to the exec team, is that not production?
@@ -49,7 +49,7 @@ Here are some examples of data-driven products you may want to build:
 * Predict customers likely to churn and give only those customers a coupon code
 * Introduce product recommendation / search ranking algorithms
 
-If you want to build these data-driven products, you are going to want your data experts working on them. Here are some reasons to think about blurring the line between your Analytics[^2] team and the rest of your software engineering team:
+If you want to build these data-driven products, you are going to want your data experts working on them. Here are some reasons to think about blurring the line between your Analytics[^3] team and the rest of your software engineering team:
 
 * Data scientists are your algorithm experts, and continuous integration is important 
 * You want your app to be powered by data!!
@@ -72,5 +72,7 @@ Now that we've discussed why this might be a good idea, we can talk about some w
 
 I've written about the [code-as-configuration]({{< relref "code-as-configuration.md" >}}) design pattern before, and in general this is a great pattern for empowering non-engineers to savely deploy code to production environments. Friend-of-the-blog Harlan Harris has also written about [using domain specific languages](http://proceedings.mlr.press/v82/harris18a/harris18a.pdf) to facilitate testing, coordinating, and deploying machine learning models in production.
 
-[^1]: and most obnoxious. People love me at parties.
-[^1]: As usual, In this post I use the term "Analytics" and "analysts" in the most broad way possible including data scientists, data analysts and other data experts.
+
+[^1]: There are, of course, exceptions to this and different types of applications will have different "degrees" of data-driven-ness. Historically, some companies have hesitated to make their applications more data driven because their software engineers did not have the data skills and they were afraid to let the Analytics team impact the application. You should of course make decisions about adding new features based on how valuable they'll be, not simply because some blogger told you to.
+[^2]: and most obnoxious. People love me at parties.
+[^3]: As usual, in this post I use the term "Analytics" and "analysts" in the most broad way possible including data scientists, data analysts and other data experts.
