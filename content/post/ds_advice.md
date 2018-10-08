@@ -7,13 +7,13 @@ date: 2018-10-01T21:29:29-04:00
 draft: true
 ---
 
-I often get asked by junior data professionals how they can improve as datascients. Today I'll outline a generic framework for thinking about learning and provide a few concrete examples in support of it. These are tools that I still employ in my day to day learning and growing as a data professional.
+I often get asked by junior data professionals how they can improve as data scientists. Today I'll outline a generic framework for thinking about learning and provide a few concrete examples in support of it. These are tools that I still employ in my day to day learning and growing as a data professional.
  
 <!--more-->
 
 There are various sources of information on any given topic, all of which have overlapping content (like a Venn diagram). Each book you read or online course you take on a given subject will have some content in common with the rest of the field and some that is specific to that author's perspective. When learning any given topic, you should strive to understand the most shared content first - that space of maximum overlap. Once you feel comfortable with the content in the middle, begin to move outwards to the edges. 
 
-The idea is that the density of the overlap is proportional to the value of the knowledge therein. This learning framework was alluded to by Tyler Cowen (for one) on the Ezra Klein podcast when he recommend reading [piles of books](https://www.vox.com/2018/5/21/17369920/ezra-klein-show-book-recommendations-tyler-cowen-shakespeare-amazon) instead of any individual book on a given subject: there isn’t really a single definitive, true source on anything. There are many sources of knowledge that overlap in various areas. The best bang for your buck exists in idnetifying and mastering that overlapping space. 
+The idea is that the density of the overlap is proportional to the value of the knowledge therein. This learning framework was alluded to by Tyler Cowen (for one) on the Ezra Klein podcast when he recommend reading [piles of books](https://www.vox.com/2018/5/21/17369920/ezra-klein-show-book-recommendations-tyler-cowen-shakespeare-amazon) instead of any individual book on a given subject: there isn’t really a single definitive, true source on anything. There are many sources of knowledge that overlap in various areas. The best bang for your buck exists in identifying and mastering that overlapping space. 
 
 In this post I will discuss some approaches to learning skills that every Data Scientist should be familiar with:
 
@@ -23,20 +23,20 @@ In this post I will discuss some approaches to learning skills that every Data S
 
 <h3>Coding skills</h3>
 
-Knowing how to code is critical to becoming a successful data scientist. From scripts for cleaning and assembling data to data visualization to model fitting and machine learning, you will have to use code for some parts of your job. Excel (and other GUI-driven applications) are great tools, but they are complementary skills, not subsitutes!  
+Knowing how to code is critical to becoming a successful data scientist. From scripts for cleaning and assembling data to data visualization to model fitting and machine learning, you will have to use code for some parts of your job. Excel (and other GUI-driven applications) are great tools, but they are complementary skills, not substitutes! 
 
 Once you convince yourself that learning to code is critical, start with python[^2]. I recommend learning python from two distinct perspectives - Data Analysis and Software Engineering. Most aspiring DS's will likely download a [book](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793) about Data Analysis in Python or perhaps take [online](https://www.udemy.com/learning-python-for-data-analysis-and-visualization/?utm_source=adwords-learn&utm_medium=udemyads&utm_campaign=NEW-AW-PROS-TECH-US-DSA-1-EN-ENG_._ci__._sl_ENG_._vi_TECH_._sd_All_._la_EN_._&utm_content=deal4584&utm_term=_._ag_60674438611_._ad_267827191853_._de_c_._dm__._pl__._ti_dsa-304639795903_._li_9060351_._pd__._&gclid=EAIaIQobChMIjs2I3Yvo3QIVCIezCh0IQAd0EAAYAiAAEgIlf_D_BwE) [courses](https://www.coursera.org/learn/data-analysis-with-python). Luckily there is no shortage of good content. Don't stress much over which is the best one - remember to think in terms of piles not individual sources of knowledge. Pick one and work through the first few chapters which tend to cover basic concepts. Then download some datasets and hack on them using what you learned. Next, choose another book or course and repeat. Do this a few times and you'll notice where the overlap is. Then you can start getting into the later chapters where content tends to diverge. Just make sure you've locked in the basics.
 
-As a data scientist, you will code differently than your software engineering counterparts. It's important that you focus on learning the skills that will help you most while avoiding goign down a computer-science rabbit-hold of traditional software engineering skills. As a data scientist, I recommend focusing on:
+As a data scientist, you will code differently than your software engineering counterparts. It's important that you focus on learning the skills that will help you most while avoiding going down a computer-science rabbit-hold of traditional software engineering skills. As a data scientist, I recommend focusing on:
 
 * Scripting for getting things done on your local machine
-* Data and vector manpulation with `pandas` and `numpy`
+* Data and vector manipulation with `pandas` and `numpy`
 * Plotting with `matplotlib` and `seaborn`
 * Basic machine learning with `sklearn`
 
 After getting the basics of data analysis-centered python programming, you can move onto something more [generic](https://www.codecademy.com/learn/learn-python) like programming a [game](https://www.gamedesigning.org/learn/python/) or learning basic [backend](https://www.udacity.com/course/intro-to-backend--ud171) development. The point isn't to become a software engineer (don't worry a 3 week course in python won't get you there) but it can be useful to understand these other paradigms so you can apply some of them to your own work.
 
-It's also very helpful to become comfortable operating in a Unix shell - get away from windows and learn to love the command line. Start by customizing your terminal! Learn about your `.bashrc` and `.bash_profile` and customize it. Better yet, do it in [Vim](https://www.vim.org/)[^4]. This alone will elevate your Unix game quite a bit. You'll need it if you're going to get comfortable with `git`, environment variables or `.config`'s (if you want to connect to a database or external server) and navigating your project directory as you load data into your python script for analysis.
+It's also very helpful to become comfortable operating in a Unix shell - get away from windows and learn to love the command line. Start by customizing your terminal! Learn about your `.bashrc` and `.bash_profile` and customize it. Better yet, do it in [Vim](https://www.vim.org/)[^3]. This alone will elevate your Unix game quite a bit. You'll need it if you're going to get comfortable with `git`, environment variables or `.config`'s (if you want to connect to a database or external server) and navigating your project directory as you load data into your python script for analysis.
 
 <h3>Basic stats</h3>
 
@@ -46,7 +46,7 @@ You can learn about linear regression from a number of different perspectives:
 
 * Statistics: think probabilistically, understand assumptions about independence, homoscedasticity, and normality
 * Bayesian Inference: priors, posteriors, and credible intervals 
-* Machine Learing: Determine coeficients that minimize squared errors to be used for prediction against future observations 
+* Machine Learning: Determine coefficients that minimize squared errors to be used for prediction against future observations 
 * Computer Science: Solve for a set of weights that minimizes the squared error between an estimate and an observation
 
 Once you've got a solid understanding of the various ways of formulating the same problem - prove it using data! Solve, from first principles, a LR or logistic regression problem from both a statistics or CS perspective. The best way to test your understanding is to make predictions *before* you run your model. Establish a hypothesis and see if your understanding and intuition line up with the results. Feel free to spend a lot of time in this phase, iterating, building and learning, before moving on to the "sexy", advanced material. 
@@ -65,6 +65,5 @@ Don't optimize locally. Get many perspectives (including on my advice!). Talk to
 
 [^1]: Not mentioning SQL or Excel because those are table stakes.
 [^2]: Or R but probably python if you want to work in tech
-[^3]: Also feel free to ditch Jupyter every now and then. It promotes bad coding practice and if you ever want your stuff to run in production, you'll likely need to convert your `.ipynb` to `.py`.
-[^4]: Or emacs heaven help you.
+[^3]: Or emacs heaven help you.
 
