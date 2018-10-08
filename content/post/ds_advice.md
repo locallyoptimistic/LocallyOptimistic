@@ -30,9 +30,10 @@ Once you convince yourself that learning to code is critical, start with python[
 As a data scientist, you will code differently than your software engineering counterparts. It's important that you focus on learning the skills that will help you most while avoiding going down a computer-science rabbit-hold of traditional software engineering skills. As a data scientist, I recommend focusing on:
 
 * Scripting for getting things done on your local machine
+* Loading data using `os`, `requests` and `json`
 * Data and vector manipulation with `pandas` and `numpy`
 * Plotting with `matplotlib` and `seaborn`
-* Basic machine learning with `sklearn`
+* Basic machine learning with `sklearn` and `scipy`
 
 After getting the basics of data analysis-centered python programming, you can move onto something more [generic](https://www.codecademy.com/learn/learn-python) like programming a [game](https://www.gamedesigning.org/learn/python/) or learning basic [backend](https://www.udacity.com/course/intro-to-backend--ud171) development. The point isn't to become a software engineer (don't worry a 3 week course in python won't get you there) but it can be useful to understand these other paradigms so you can apply some of them to your own work.
 
@@ -44,10 +45,9 @@ If you'll be building models and performing analysis, focus on linear regression
 
 You can learn about linear regression from a number of different perspectives:
 
-* Statistics: think probabilistically, understand assumptions about independence, homoscedasticity, and normality
+* Traditional Statistics: think probabilistically, understand assumptions about independence, homoscedasticity, and normality
 * Bayesian Inference: priors, posteriors, and credible intervals 
-* Machine Learning: Determine coefficients that minimize squared errors to be used for prediction against future observations 
-* Computer Science: Solve for a set of weights that minimizes the squared error between an estimate and an observation
+* Machine Learning / Computer Science: solve for a set of weights that minimizes the squared error between an estimate and an observation
 
 Once you've got a solid understanding of the various ways of formulating the same problem - prove it using data! Solve, from first principles, a LR or logistic regression problem from both a statistics or CS perspective. The best way to test your understanding is to make predictions *before* you run your model. Establish a hypothesis and see if your understanding and intuition line up with the results. Feel free to spend a lot of time in this phase, iterating, building and learning, before moving on to the "sexy", advanced material. 
  
