@@ -1,8 +1,8 @@
 ---
 author: Michael Kaminsky
 title: "What is Production?"
-publishDate: 2018-09-23
-Draft: True
+publishDate: 2018-10-14
+cover: "/img/what_is_production.jpg"
 tags: 
  - Software
  - Data Science
