@@ -1,10 +1,10 @@
 ---
 title: "Learn the Overlaps: Advice for the Aspiring Data Scientist"
 author: "Ilan"
-cover: "/img/cover.jpg"
+cover: "/img/ds_advice.jpg"
 tags: ["datascience"]
-date: 2018-10-01T21:29:29-04:00
-draft: true
+date: 2018-10-20
+draft: false 
 ---
 
 I often get asked by junior data professionals how they can improve as data scientists. Today I will outline a generic framework for thinking about learning and provide a few concrete examples in support of it. These are tools that I still employ in my day to day learning and growing as a data professional.
