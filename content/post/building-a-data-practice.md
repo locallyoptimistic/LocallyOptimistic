@@ -11,7 +11,7 @@ The first data hires at an early stage startup face numerous challenges — an i
 
 <!--more-->
 
-I recently found myself in a position like this at [Sawyer](https://www.sawyertools.com/), a platform for children's educational activities. There are good resources for startup founders hiring for analytics — I highly recommend [Tristan Handy's post](https://thinkgrowth.org/the-startup-founders-guide-to-analytics-1d2176f20ac1) — but not much has been written for data leads at a new organization.
+I recently found myself in a position like this at [Sawyer](https://www.sawyertools.com/company), a platform for children's educational activities. There are good resources for startup founders hiring for analytics — I highly recommend [Tristan Handy's post](https://thinkgrowth.org/the-startup-founders-guide-to-analytics-1d2176f20ac1) — but not much has been written for data leads at a new organization.
 
 In this post I share some ideas on tools and processes that have been helpful for me. Of course, you should also be thinking about business analysis — defining key metrics, generating financial reports, and doing strategic research. You will also have to think about data infrastructure — databases, pipelines, ETL, BI tools. Those are big topics that are better left for other posts. Here I focus on building a data practice which will form the foundation for all your analysis and infrastructure work.
 
