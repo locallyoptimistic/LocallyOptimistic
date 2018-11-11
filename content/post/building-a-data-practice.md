@@ -1,9 +1,9 @@
 ---
 title: "Building a Data Practice from Scratch"
 author: "Jeremy Salfen"
-cover: "/img/cover.jpg"
+cover: "/img/building-a-data-practice.jpg"
 tags: ["process", "communication", "documentation", "project management"]
-date: 2018-10-29
+date: 2018-11-11
 draft: false
 ---
 
@@ -18,7 +18,7 @@ In this post I share some ideas on tools and processes that have been helpful fo
 There are a few principles woven into the suggestions below:
 
 * Don't worry about making things fancy. Do the simplest thing that works now.
-* Keep an eye on how things will scale, but rein in your impulses to optimize them. Analytics should be lean and agile, too!
+* Keep an eye on how things will scale, but rein in your impulses to optimize them. Analytics should be lean and agile, too.
 * Documentation, transparency, and reproducibility are interrelated and fundamental. Start good habits in these areas now, but expect to iterate on them and change how things are done as the organization matures and grows.
 
 With those principles in mind, here are my recommendations for what to do in your first weeks at an early stage startup.
@@ -51,7 +51,7 @@ Do *not* set yourself the goal of creating an exhaustive data dictionary. The co
 At Kickstarter, we called this document *Common Data Gotchas*, which is a good way to think about it.
 
 ### Use a project management tool
-Start tracking all the work you do, even quick data requests. Write down the question, the results, and how you got them. Encourage others in your organization to interact with you in this tool, but be careful not to make using the tool overly burdensome. Sometimes the CEO has a quick request, and you will just do it and document it later. 
+Start tracking all the work you do, even quick data requests. Write down the question, the results, and how you got them. Encourage others in your organization to interact with you in this tool, but be careful not to make using the tool overly burdensome. Sometimes the CEO has a quick request, and you should just do it and document it later.
 
 Don't get too hung up on the process now — the key reason for using a project management tool is documentation. It will help with reproducibility, so you can easily recreate a dataset or an analysis in the future. It will also make your work visible, demonstrating your impact on the business.
 
@@ -81,7 +81,7 @@ One of the core values at my startup is "Embrace yes — always." In my first 30
 
 After 30 days, I started the hard work of clarifying and prioritizing, asking questions like, "Why do you need this? What will you do with it? How will it impact your decisions?" I pushed back on some requests. I looked for assumptions, sources of bias, errors in logic.
 
-Was this the right approach? Frankly, I don't know. I could see it backfiring, especially if you can't switch gears to questioning mode. My plate filled up quickly by the end of the 30 days, and it's hard feeling behind in a job you have just started. Ultimately, whether this is successful is will be dependent on you and your organization.
+Was this the right approach? Frankly, I don't know. I could see it backfiring, especially if you can't switch gears to questioning mode. My plate filled up quickly by the end of the 30 days, and it's hard feeling behind in a job you have just started. Ultimately, whether this is successful is dependent on you and your organization.
 
 ### Build your network
 You may be the only data person at your startup, but don't feel you have to go it alone. Work on [building your network]({{< ref "analytics_brain_trust.md" >}}) of other data practitioners so you have a place to go with questions, to get feedback on your ideas, and to keep up with the field.
@@ -90,4 +90,4 @@ There are great communities out there to get you started. In fact, this very blo
 
 ----
 
-If you find yourself in this position, congratulations! It's an exciting time to be at a company. The work you do now can have a tremendous impact. Don't let that stress you out though. Take an iterative approach, trying things, reflecting, and changing course when necessary. Remember that documentation, transparency, and reproducibility are key principles, and they will pay dividends down the road as you lay the foundations of a successful data practice.
+If you find yourself in this position, congratulations! It's an exciting time to be at a company. The work you do now can have tremendous impact. Don't let that stress you out though. Take an iterative approach, trying things, reflecting, and changing course when necessary. Remember that documentation, transparency, and reproducibility are key principles, and they will pay dividends down the road as you lay the foundations of a successful data practice.
