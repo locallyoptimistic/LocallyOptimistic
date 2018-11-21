@@ -9,11 +9,11 @@ tags:
  - Web Analytics
 ---
 
-The notion of an A/B test is premised on the fundamentally flawed assumption that there is one version of some treatment that is better for all users at all times. Analytics practitioners should embrace this variation and start designing systems that allow for (and encourage) non-binary outcomes of tests.
+The notion of an A/B test is premised on the fundamentally flawed assumption that there is one version of some treatment that is better on average for all users. Analytics practitioners should reject the assumptions of homogeneity and start designing systems that allow for (and encourage) non-binary outcomes of tests.
 
 <!--more-->
 
-In the past few weeks, two really interesting articles about non-standard interpretations of A/B tests have been published. One, from [Uber's engineering blog](https://eng.uber.com/tag/quantile-treatment-effects/), is about calculating "quantile treatment effects" and the other, from [StitchFix's always excellent data science blog](https://multithreaded.stitchfix.com/blog/2018/11/08/bandits/) discusses the use of contextual bandit algorithms to achiever personalization.
+In the past few weeks, two really interesting articles about non-standard interpretations of A/B tests have been published. One, from [Uber's engineering blog](https://eng.uber.com/tag/quantile-treatment-effects/), is about calculating "quantile treatment effects" and the other, from [StitchFix's always excellent data science blog](https://multithreaded.stitchfix.com/blog/2018/11/08/bandits/) discusses the use of contextual bandit algorithms to achieve personalization.
 
 Both of these posts are interesting, but I think they both bury the lede a bit as they dive into interpretation and implementation details. I'll restate my thesis for emphasis:
 
@@ -25,7 +25,7 @@ In this post I will provide a motivating example and then talk through some of
 the challenges that will come with building systems that can adapt to this new
 reality. I will not discuss any of the underlying statistics associated with
 building these types of systems ([the stitchfix post](https://multithreaded.stitchfix.com/blog/2018/11/08/bandits/) and [this post from
-google](https://support.google.com/analytics/answer/2846882?hl=en#) are great places to start for that), but instead will discuss what I see as opportunities as a strategic and architectural level.  
+google](https://support.google.com/analytics/answer/2846882?hl=en#) are great places to start for that), but instead will discuss what I see as opportunities at a strategic and architectural level.  
 ## Motivating Example
 
 Just to convince you that this is important, let's work through a short numeric example. While these numbers are fictional, they harmonize with examples I have seen countless times during the real-life evaluation of A/B tests.
@@ -87,7 +87,7 @@ In this new world, we will have to develop novel methods for exploring and visua
 
 ## Conclusion
 
-Embracing the true variability in our user base will enable to provide better experiences to more users which will unlock an extraordinary amount of value. Unfortunately, as with all major shifts in the way we approach building and delivering technologies, these gains will not come cheap. It is a long road between where we are today and this glorious, more personalized future, but I am confident that the journey will be exciting.
+Embracing the true variability in our user base will enable us to provide better experiences to more users which will unlock an extraordinary amount of value. Unfortunately, as with all major shifts in the way we approach building and delivering technologies, these gains will not come cheap. It is a long road between where we are today and this glorious, more personalized future, but I am confident that the journey will be exciting.
 
 
 [^1]: I am eliding all discussion of confidence intervals and statistical significance for the purpose of simplicity. Sorry.
