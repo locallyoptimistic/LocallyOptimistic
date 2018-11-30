@@ -9,7 +9,7 @@ tags:
  - Web Analytics
 ---
 
-The notion of an A/B test is premised on the fundamentally flawed assumption that there is one version of some treatment that is better on average for all users. Analytics practitioners should reject the assumptions of homogeneity and start designing systems that allow for (and encourage) non-binary outcomes of tests.
+The notion of an A/B test is premised on the fundamentally flawed assumption that there exists one version of some treatment that is better on average for all users. Analytics practitioners should reject the assumptions of homogeneity and start designing systems that allow for (and encourage) non-binary outcomes of tests.
 
 <!--more-->
 
@@ -59,17 +59,22 @@ But wait! What if we serve the mobile-optimized version to customers browsing on
 ## Challenges
 
 I cannot tell whether this idea is obvious or revolutionary. It feels so obvious as to be almost silly, but if you look at the way most organizations build, test, and deploy software it is actually a pretty fundamental shift in the way we approach software problems.  
+
 In many organizations, there is still one version of the production web application. Tests may be run, but once a test is declared a winner or a loser, the losing versions are discarded and there is a new "king of the hill" one-true-production-application.
 
-In order to fully embrace the variability we actually see in our customers and our users, we have to build software in a fundamentally different way. We'll need new and better tools, and we will have to educate our stakeholders on this new way of thinking about the world.
+In order to fully embrace the variability we actually see in our customers and our users, we need to build software in a fundamentally different way. We will need new and better tools, and we will have to educate our stakeholders on this new way of thinking about the world.
+
+Today, trying to manage a customer journey with so many variation is very difficult (if possible at all). Because the overhead of managing these variants is so costly, many organizations never attempt much personalization at all.  Below, I discuss these challenges in more detail and begin to sketch what solution to these problems might look like. 
 
 ### Software Tools
 
 In this brave new world, where we serve different content to different user groups (in proportions that may shift over time) we will need tools for both building and understanding our software. 
+
 The most obvious immediate impact of such a paradigm would be a dramatic increase in the code surface-area of a project. Instead of retiring old code paths after a test has been run, we actually have to keep them running (potentially forever). This is scary!  
+
 What we need are ways to build applications _more modularly_ so that we can develop, test, deploy, and maintain new code-paths (e.g., new test arms) perpetually.
 
-Because we want to be able to fork users down different code paths based on their attributes (with a potentially large number of forks for a given customer journey) we need to engineer an architecture that can support this forking. We need a _centralized decision engine_ that can decide which path a given user should be put on, and we need the path components to be sufficiently interchangeable so that users have a seamless journey even when the path components were developed independently without a view of a holistic "user journey".
+Because we want to be able to fork users down different code paths based on their attributes (with a potentially large number of forks for a given customer journey) we need to engineer architectures that can support this forking. We need a _centralized decision engine_ that can decide which path a given user should be put on, and we need the path components to be sufficiently interchangeable so that users have a seamless journey even when the path components were developed independently without a view of a holistic "user journey".
 
 Finally, without a single, holistic, user journey, we need tools for product managers and designers to be able to envision the customer journey in a garden of forking paths. How do we ideate and size new features? How do we trace what steps a given user even experienced when they used our application? How do we prevent the application from becoming an opaque mess of code spaghetti?
 
