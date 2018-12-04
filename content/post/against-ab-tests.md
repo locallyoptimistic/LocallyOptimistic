@@ -1,8 +1,8 @@
 ---
 author: Michael Kaminsky
 title: "Against A/B Tests"
-draft: True
-publishDate: "2018-12-01"
+cover: "/img/against_ab_test.jpg"
+publishDate: "2018-12-04"
 tags:
  - Statistics
  - Testing
