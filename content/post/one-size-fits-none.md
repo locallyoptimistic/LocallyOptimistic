@@ -32,7 +32,7 @@ Since most analytics work is about serving internal clients and meeting them whe
 
 ### Baseline Level of Analytic Ability
 
-Some companies are highly analytical, staffed by bankers and consultant-types who are extremely comfortable understanding, interacting with, and modifying complex Excel models. Some companies have a much lower level of analytical fluency where Excel pivot tables may be unfamiliar and rocky terrain. The your business partners' analytical skill level will determine how big your Analytics team needs to be as well as the type of work the team will do. 
+Some companies are highly analytical, staffed by bankers and consultant-types who are extremely comfortable understanding, interacting with, and modifying complex Excel models. Some companies have a much lower level of analytical fluency where Excel pivot tables may be unfamiliar and rocky terrain. Your business partners' analytical skill level will determine how big your Analytics team needs to be as well as the type of work the team will do. 
 
 In a highly analytical organization, the Analytics team will likely spend more time on infrastructure and tooling -- providing data to our users so that they can do their own "last mile" analysis for whatever their purpose is. In this situation you likely need fewer, more technical Analysts.
 
