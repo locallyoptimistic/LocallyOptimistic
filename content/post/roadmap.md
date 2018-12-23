@@ -1,5 +1,5 @@
 ---
-title: "Creating a Data roadmap"
+title: "Creating a Data road map"
 author: "Ilan Man"
 cover: "/img/cover.jpg"
 tags: ["strategy", "management"]
@@ -17,15 +17,15 @@ Your road map is a tool to:
 <li> Clarify (and hopefully excite) your team for the year ahead. The road map is an opportunity to be ambitious and set up your team to think about what their year can conceivably look like.
 <li> Help defend head count for future hiring needs and also focus your hiring search, e.g., When Finance asks you why you need 7 more head count through Q3, a road map will allow you to identify what the break down is (junior vs. senior, analyst vs. data scientist) and to what projects they would be assigned. 
  
-### Identify audience for such a document
+### Identifying the audience for the road map
 
-Ideally everyone in the organization has access to this road map. My preferred medium for communicating my road map is presentation. I can inject visuals if needed, color code where appropriate and use the natural aspect of "one topic per slide" to help navigate. 
+Ideally everyone in the organization has access to this road map. My preferred medium for communicating my road map is a slide-deck with an in-person presentation. I can inject visuals if needed, color code where appropriate and organically keep it to one topic per slide to help navigate.
 
-While everyone should have access, you don't need to make it digestible to everyone in the organization. You key audience should be leadership, relevant cross-functional partners and your team. That will help guide the level of detail required. I also like to present my road map to stakeholders, which allows me to keep it high level in the presentation and speak to it when necessary.
+While everyone should have access, you don't need to make it digestible to everyone in the organization. You key audience should be leadership, relevant cross-functional partners and your team. That will help guide the level of detail required. I like to present my road map to stakeholders; this allows me to describe individual projects at high level in the document whilst allowing me to detail them in the presentation if necessary.
 
-### Relate to organization’s mission and values
+### Relate to the organization’s mission and values
 
-As a data team its incumbent upon us to ensure that decisions are tied to organizational objectives. This is part of thinking holistically about your business. In that vein, you should strive to tie each of your high level strategic goals to the organization's mission and/or objectives. It's a helpful exercise to tie each project, however indirectly, to the company's strategic objectives, even if you don't end up documenting that in the final road map. 
+As a data team, it's incumbent upon us to ensure that decisions are tied to organizational objectives. This is part of thinking holistically about your business. In that vein, you should strive to tie each of your high level strategic goals to the organization's mission and/or objectives. It's a helpful exercise to tie each project, however indirectly, to the company's strategic objectives, even if you don't end up documenting that in the final road map. 
 
 You may end up tying your work back to, say, 2 of your organization's 3 strategic goals for the year. That's not in and of itself bad, but should be called out. This exercise reduces blind spots and forces you to think about how you can support all aspects of the mission.
 
@@ -37,7 +37,7 @@ You may find it more natural to split your road map by the various teams you sup
 
 ### Sync with functional leaders 
 
-After putting down some projects that fit into the relevant areas of focus, set up time with key functional leaders and get their input. Hopefully you sequence this exercise at a time in which they are also thinking about their goals for the year. Have them help you fill in blind spots and loosely prioritize their projects. You may know of 4 Operations projects that are critical for 2019, but the COO may have a different idea on what the sequencing should be. Don't get bogged down by timing at this point, but getting the order correct is very helpful.
+After putting down some projects that fit into the relevant areas of focus, set up time with key functional leaders and get their input. Hopefully you sequence this exercise at a time in which they are also thinking about their goals for the year. Have them help you fill in blind spots and loosely prioritize their projects. You may know of four Operations projects that are critical for 2019, but the COO may have a different idea on what the sequencing should be. Don't get bogged down by timing at this point, but getting a rank-ordered list of projects - at least within each functional stakeholder - is very helpful. For example, it may be too early to understand if Finance's pricing model should be prioritized over the Customer Support team's call queue algorithm, but its helpful to identify if automating Finance's monthly billing report is more important than their pricing model.
 
 Functional leaders will also be helpful in identifying cross team dependencies. You may have grand plans for implementing [Airflow](https://airflow.apache.org/), but if you lack Data Engineering resources, you may have to rethink your plan. Similarly you may have an idea for a great data-driven product feature, but if Product isn't prioritizing that in their roadmap, it may drop to the bottom of your priority, even though you think it's a valuable feature.
 
@@ -45,7 +45,12 @@ Functional leaders will also be helpful in identifying cross team dependencies. 
 
 Once you're confident that you have covered the most important projects for the year, write down estimated timing for completion and key stakeholders impacted. For example, under "Analytics" you may have the bullet `Establish a multi-touch attribution model // Q2 // Marketing`.
 
-After you do this across the board, you'll have a good sense of how projects are being sequenced, if you're front-loading projects (too many in Q1/Q2), and which functions aren't being supported (or are being overly represented). This functions as another sense check for how you're orienting your year and helps to communicate and set expectations across the organization. 
+After you do this across the board, you'll have a good sense of:
+<Li> How projects are being sequenced
+<li> If you're front-loading projects, e.g., too many in Q1/Q2
+<li> Which departments aren't being supported or are being overly represented. 
+
+This functions as another sense check for how you're orienting your year and helps to communicate and set expectations across the organization. 
 
 Note that its natural for more projects to be slated for Q1/Q2 as there is more variability later on in the year and it's hard to organize around that uncertainty. Similarly, projects that will be worked on earlier in the year should be easier to explain, plan for and resource whereas those towards to end may be more vague. That shouldn't be an excuse not to plan for them anyway.
  
