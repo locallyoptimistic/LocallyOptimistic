@@ -12,8 +12,8 @@ As the new year rolls around, many Data leaders are thinking about (or have alre
 <!--more-->
 
 Your road map is a tool to:
-<li> Force you to make explicit what your team will be working on, e.g., "Improve existing data infrastructure" is not specific enough or helpful. "Implement a [star schema](https://en.wikipedia.org/wiki/Star_schema) and migrate business transformations from pure SQL to [dbt](https://www.getdbt.com)" is better.
-<li> Communicate your team's priorities to leaders across the organization, e.g., When your team is focused on data infrastructure for all of Q1, stakeholders may be left unsatisfied. It's helpful to identify how each of the various Data infrastructure projects (i.e., adding testing and error alerting, data re-model, `dbt`) will ultimately support stakeholder initiatives slated for Q2 and beyond.
+<li> Force you to make explicit what your team will be working on, e.g., "Improve existing data infrastructure" is not specific enough or helpful. "Implement a [star schema](https://en.wikipedia.org/wiki/Star_schema) and transformation layer" is better.
+<li> Communicate your team's priorities to leaders across the organization, e.g., When your team is focused on data infrastructure for all of Q1, stakeholders may be left unsatisfied. It's helpful to identify how each of the various Data infrastructure projects (i.e., adding testing and error alerting, data re-model, implement [DAG](https://airflow.apache.org/concepts.html#dags)) will ultimately support stakeholder initiatives slated for Q2 and beyond.
 <li> Clarify (and hopefully excite) your team for the year ahead. The road map is an opportunity to be ambitious and set up your team to think about what their year can conceivably look like.
 <li> Help defend head count for future hiring needs and also focus your hiring search, e.g., When Finance asks you why you need 7 more head count through Q3, a road map will allow you to identify what the break down is (junior vs. senior, analyst vs. data scientist) and to what projects they would be assigned. 
  
