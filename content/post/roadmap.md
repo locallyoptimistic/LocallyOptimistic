@@ -1,10 +1,10 @@
 ---
 title: "Creating a Data road map"
 author: "Ilan Man"
-cover: "/img/cover.jpg"
+cover: "/img/roadmap.jpg"
 tags: ["strategy", "management"]
-date: 2018-12-22T13:19:40-05:00
-draft: true
+date: 2019-01-06
+draft: false 
 ---
 
 As the new year rolls around, many Data leaders are thinking about (or have already created) 2019 road maps for their team and function. Since Data often works cross functionally with other teams, it's key that you consider other team's priorities and objectives in developing your road map. Below is a blueprint you can use to get started.
