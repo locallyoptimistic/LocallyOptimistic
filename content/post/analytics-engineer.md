@@ -10,7 +10,7 @@ tags:
  - engineering
 ---
 
-The landscape of the data and analytics world is shifting rapidly. In many companies, the roles and responsibilities  of data engineers, analysts, and data scientists are changing. This change has created the need for a new role on the data team which some of have taken to calling the "analytics engineer". 
+The landscape of the data and analytics world is shifting rapidly. In many companies, the roles and responsibilities  of data engineers, analysts, and data scientists are changing. This change has created the need for a new role on the data team which some have taken to calling the "analytics engineer". 
 
 <!--more-->
 
@@ -39,14 +39,14 @@ So what are the new roles and responsibilities?
 
 Those who have worked in an organization like this before have likely felt the pinch of a missing role. While data scientists and analysts are writing a lot of code, being great software engineers isn't what they've been trained for and it often isn't their first priority. Similarly, while data engineers are great software engineers, they don't have training in how they data _are actually used_ and so can't always partner effectively with analysts and data scientists. 
 
---------------------
+I believe this gap should be filled in by analytics engineers. Their job is to:
 
-The new jobs:
+* Write production-quality ELT code with an eye towards performance and maintainability
+* Coach analysts and data scientists on software engineering best practices
+* Build software tools that help data scientists and analysts work more efficiently
+* Collaborate with data engineers on infrastructure projects (where they advocate for and emphasize the business value of applications)
 
-* data engineer
-* analysts
-* data scientists
+This role can provide a multiplier effect on the output of an analytics teams. By helping analysts and data scientists scale their efforts without getting bogged down in unmaintable code, you can run much leaner. Similarly, with talented software engineers on the team, analytics teams don't get blocked waiting on resources from other parts of the technology organization. Finally, with these resources you have someone naturally ready to partner with the rest of the tech organization on building data-driven products (like adding a recommendation engine into a web platform) then if you just have data scientists and analysts who might be less familiar with the operational constraints of such a feature.
 
-With all of these roles more frequently touching production code, there's a need for a role that can sit in between these functions and ...
 
 [^1]: I realize I'm painting with a pretty broad brush here and these descriptions will not capture everyone's experience at every different company. This does however reflect a lot of what I've experienced and discussed with people across a wide range of companies and disciplines.
