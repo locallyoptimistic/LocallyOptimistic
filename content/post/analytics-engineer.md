@@ -19,7 +19,7 @@ The analytics engineer sits at the intersection of the skill sets of data scient
 Before we dive further into the role, we should cover some background on the "traditional" roles on the data team[^1]. 
 
 * Data engineers: traditionally, this has been a "plumbing" job of moving bytes from point A to point B. They were concerned with building robust and scalable infrastructure for ingesting and storing data, but generally did not concern themselves with "business logic" -- once the data were in the warehouse, it wasn't their problem any more.
-* Analysts: traditionally, this has been a reporting and pure analysis job. Using a little SQL and a lot of excel, analysts would maintain dashboards and perform one-off strategic analyses to support key business initiatives
+* Analysts: traditionally, this has been a reporting and pure analysis job. Using a little SQL and a lot of excel, analysts would maintain dashboards and perform one-off strategic analyses to support key business initiatives.
 * Data scientists: somewhat of a mixed bag, however data scientists traditionally spent their time using statistical programming languages (like R or SAS) to perform more complicated or sophisticated analyses. They would perhaps "prototype" machine learning models that get handed off to the "real engineers" for implementation in production.
 
 In the last few years, we've seen a lot of exciting developments in the analytics domain that have caused a shift in these traditional responsibilities. They are:
@@ -27,7 +27,7 @@ In the last few years, we've seen a lot of exciting developments in the analytic
 * The rise of MPP SQL data-warehousing technologies like Redshift, BigQuery, and Snowflake
 * The birth of data-pipelines-as-a-service companies like Stitch and Fivetran
 * The advent of SQL-first BI tools like Looker, Mode, and Periscope
-* The emphasis companies are putting on building data-driven products that rely on micro-targeting and machine learning algorithms for prediction and personalization.
+* The emphasis companies are putting on prediction and personalization
 
 The first two, taken together, have shifted the role of analysts dramatically. Nowadays analysts _must_ know how to write SQL, use git/github, and generally spend a majority of their time _writing code_. While they aren't necessarily trained as software engineers, they are now responsible for managing substantial codebases. Similarly, while data engineers used to spend a lot of time split between building new data integrations between systems or working on platforms for scalable computation, most of that work can now be offloaded to Stitch/Fivetran (integrations) or to the warehouse itself (just let BigQuery figure out the optimal query plan). Finally, data scientists have suddenly become responsible for managing sophisticated production systems that are making real-time productions with significant business impact.
 
@@ -42,9 +42,11 @@ Those who have worked in an organization like this before have likely felt the p
 I believe this gap should be filled in by analytics engineers. Their job is to:
 
 * Write production-quality ELT code with an eye towards performance and maintainability
-* Coach analysts and data scientists on software engineering best practices
-* Build software tools that help data scientists and analysts work more efficiently
+* Coach analysts and data scientists on software engineering best practices (e.g., building testing suites and CI pipelines)
+* Build software tools that help data scientists and analysts work more efficiently (e.g., writing an internal R or Python tooling package for analysts to use)
 * Collaborate with data engineers on infrastructure projects (where they advocate for and emphasize the business value of applications)
+
+While they have a lot of strengths, analytics engineers can't (and shouldn't) do everything. Thought they may have exposure to analytic methodologies, they often aren't as strong at communicating results or winning over business partners. While analysts specialize in deriving insights and communicating those to a wider audience, analytics engineers often don't do that as well. Similarly, while a data scientist may have a graduate degree in mathematics and a deep understanding of statistical theory, an analytics engineer will generally favor working code over theoretical correctness (so know what you're getting into!). Finally, with such a blend of skills, analytics engineers generally aren't the _strongest_ software engineers you can find -- their value comes from their well-roundedness. So while you may expect your systems engineers to have a deep knowledge of both networking and CS algorithms, analytics engineers often have shallower and more applied knowledge (and will need support from more technical engineering partners on especially tough engineering challenges).
 
 This role can provide a multiplier effect on the output of an analytics teams. By helping analysts and data scientists scale their efforts without getting bogged down in unmaintainable code, you can run much leaner. Similarly, with talented software engineers on the team, analytics teams don't get blocked waiting on resources from other parts of the technology organization. Finally, with these resources you have someone naturally ready to partner with the rest of the tech organization on building data-driven products (like adding a recommendation engine into a web platform) than if you just have data scientists and analysts who might be less familiar with the operational constraints of such a feature.
 
