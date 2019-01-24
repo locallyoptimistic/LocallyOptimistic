@@ -18,7 +18,7 @@ The analytics engineer sits at the intersection of the skill sets of data scient
 
 Before we dive further into the role, we should cover some background on the "traditional" roles on the data team[^1]. 
 
-* Data engineers: traditionally, this has been a "plumbing" job of moving bytes from point A to point B. They were concerned with building robust and scalable infrastructure for ingesting and storing data, but generally did not concern themselves with "business logic" -- once the data were in the warehouse, it wasn't their problem any more.
+* Data engineers: traditionally, this has been a "plumbing" job of moving bytes from point A to point B, typically misnomered simply as "ETL". They were concerned with building robust and scalable infrastructure for ingesting and storing data, but generally did not concern themselves with "business logic" -- once the data were in the warehouse, it wasn't their problem any more.
 * Analysts: traditionally, this has been a reporting and pure analysis job. Using a little SQL and a lot of excel, analysts would maintain dashboards and perform one-off strategic analyses to support key business initiatives.
 * Data scientists: somewhat of a mixed bag, however data scientists traditionally spent their time using statistical programming languages (like R or SAS) to perform more complicated or sophisticated analyses. They would perhaps "prototype" machine learning models that get handed off to the "real engineers" for implementation in production.
 
