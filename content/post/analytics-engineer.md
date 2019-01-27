@@ -1,8 +1,9 @@
 ---
 author: Michael Kaminsky
 title: "The Analytics Engineer"
-publishDate: "2019-01-31"
-draft: True
+publishDate: "2019-01-27"
+cover: "/img/analytics_engineer.jpg"
+draft: False
 tags: 
  - analytics
  - software
