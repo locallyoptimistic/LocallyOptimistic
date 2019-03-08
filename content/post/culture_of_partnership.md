@@ -38,6 +38,8 @@ When an analytics team is humble, it makes the partners feel like the experts in
 
 In addition to putting their partner teams at ease, being humble helps the analytics team do better work -- the work of analytics teams often involves a mixture of complex engineering and statistical work with a dash of assumptions thrown on top. Always keeping in mind the ways that your analysis could be incorrect, or the ways that your software could generate wrong results is critical to reducing the frequency and minimizing the impact of errors. 
 
+Of course, being humble does not mean refraining from ever giving advice or making suggestions. There will surely be times when it's appropriate for the analytics team to jump in and use their expertise to drive change. The value of humility is that it 1) makes the partner team more receptive to the feedback or suggestions when it comes and 2) increases the chances that the suggestions are well-informed and actionable for the partner team.
+
 ### Helpfulness
 Analytics teams should strive to _help_ their partner teams (and be sure to share the glory in whatever they partner on). In my experience, a little dose of helpfulness goes a long way -- even when the helpfulness doesn't directly relate to the project at hand. A good way that the analytics team can often help out partner teams is with simple workflow automation -- many times I've taken a slow and cumbersome excel workflow off of someone's hands and sped up the process dramatically by re-organizing the excel file and moving some of the heavy computation into SQL. This made my partner's life easier (saving them 15 painful minutes every morning) _and_ made them especially keen to help me when I need their assisstance with some other project.
 
