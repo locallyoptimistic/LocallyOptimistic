@@ -17,7 +17,7 @@ Once you have received your invite, please do the following:
 
 * Read our [code of conduct]({{< relref "code_of_conduct.md" >}})
 * Enter your full name (this community will work best if we are all real humans), but feel free to add a custom "display name"
-* Add a headline in the "what I do" box (can be "title @ company" or anthing that helps people know who they are chatting with)
+* Add a headline in the "what I do" box (can be "title @ company" or anything that helps people know who they are chatting with)
 * Add a profile photo
 * Introduce yourself in the [#introductions](https://locallyoptimistic.slack.com/messages/CBB4QCX4N) channel
 
