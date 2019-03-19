@@ -1,8 +1,20 @@
+---
+author: Michael Kaminsky
+title: "A Culture of Partnership"
+cover: "/img/culture_of_partnership.jpg"
+publishDate: "2019-03-22"
+tags: 
+ - analytics
+ - process
+ - communication
+ - team
+---
+
 # A Culture of Partnership
 
 During my time leading an analytics and data science team, I spent a lot of time thinking about how an ideal analytics team should operate -- how the team should work together, how the team should prioritize their work, and how the team can most effectively partner with the broader organization to generate business value.
 
-I believe that for an analytics team to be effective, the team must develop a strong culture of partnership in order to actually drive business value. An analytics team that operates in a silo, despite being filled with super talented analysts, engineers[backlink], and data scientists will often end up spinning its wheels and failing to impact the bottom-line of the organization.
+I believe that for an analytics team to be effective, the team must develop a strong culture of partnership in order to actually drive business value. An analytics team that operates in a silo, despite being filled with super talented analysts, [engineers](https://www.locallyoptimistic.com/post/analytics-engineer/), and data scientists will often end up spinning its wheels and failing to impact the bottom-line of the organization.
 
 ## Why partnership?
 
@@ -16,6 +28,7 @@ In most companies, analytics and data teams are cost-centers rather than revenue
 While it may be obvious that it's important to have a culture of partnership, it's devilishly un-obvious how to go about _building_ a culture of partnership either when building a team from scratch or when trying to change the culture of an existing org. In this post I'll talk about how I think about building a strong culture of partnership that can help an analytics team identify the most important opportunities in the business and work effectively with key stakeholders and partner teams to drive value.
 
 I'll break this post into 3 parts:
+
 * Team values
 * Field research 
 * Building relationships
