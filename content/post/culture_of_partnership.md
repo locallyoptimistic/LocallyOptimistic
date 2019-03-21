@@ -2,7 +2,7 @@
 author: Michael Kaminsky
 title: "A Culture of Partnership"
 cover: "/img/culture_of_partnership.jpg"
-publishDate: "2019-03-22"
+publishDate: "2019-03-21"
 tags: 
  - analytics
  - process
