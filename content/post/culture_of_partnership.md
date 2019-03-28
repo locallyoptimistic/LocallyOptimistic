@@ -18,7 +18,7 @@ I believe that for an analytics team to be effective, the team must develop a st
 
 ## Why partnership?
 
-In most companies, analytics and data teams are cost-centers rather than revenue drivers for a business. In order to generate as much valuable as possible (and avoid getting your budget slashed) it's critical that your analytics team form deep and long-lasting partnerships with others throughout the organization. The benefits of these partnerships are myriad, but to start they can: 
+In most companies, analytics and data teams are cost-centers rather than revenue drivers for a business. In order to generate as much value as possible (and avoid getting your budget slashed) it's critical that your analytics team form deep and long-lasting partnerships with others throughout the organization. The benefits of these partnerships are myriad, but to start they can: 
 
 * Give you and your team additional insight into underlying business complexities
 * Provide you a _source_ of new data that you can feed into the [data quality flywheel](https://www.locallyoptimistic.com/post/data-dies-in-darkness/)
