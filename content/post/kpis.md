@@ -7,22 +7,55 @@ date: 2019-03-30T21:19:01-04:00
 draft: true
 ---
 
-Everyone wants to know how their business is doing. They also want to know what the levers available to them are, and how to see if those levers make a difference. Enter the Key Performance Indicator (KPI). KPIs are a common tool for quantifying the performance of your business. They're also a symbol for folks in the organization to rally around and anchor against, providing clarity and aligning cross departmental objectives.
+Key Performance Indicators (KPIs) are management tools for monitoring and improving business processes. KPIs are helpful in understanding if you're hitting your business objectives, improving over time, or helping to forecast future growth. They are also a symbol for folks in the organization to rally around and anchor against, providing clarity and aligning cross departmental objectives.
 
 <!--more-->
 
-There is a lot of content out there on what a KPI is (and what a metric is, and what a measure is, ..) and why they are important[^1]. This content is also usually written for non-analysts -- useful, but invariably leaves me wanting more. Today I'm going to outline a few key principles related to KPIs aimed specifically at analysts and data scientists. I think about KPI principles along two levels:
+There is a lot of content out there on what a KPI is (and what a metric is, and what a measure is, ...) and why they are important[^1]. This content is also usually written for non-analysts -- useful, but invariably leaves me wanting more. Today I'm going to outline a few key principles related to KPIs aimed specifically at analysts and data scientists. I'll discuss:
 
-<li> The KPI itself
-<li> The context for the KPI
+<li> How KPIs should be structured within an organization
+<li> How to best partner with stakeholders in determining the best KPIs for them
 
-As I've done a few iterations of working with stakeholders to determine KPIs, I found the above to be helpful in structuring my approach.
+## KPIs should fit into the organization's framework
 
-## KPI specific principles
+Key Performance Indicators are indicators of progress towards some objective. They are important because they provide direction for folks using them as well as visibility for management to understand how the business is trending. 
 
-Before considering who the audience is or where the KPI will live, there are a few important KPI centric considerations to work through.
+However, it's easy to overdo KPIs, e.g., just because some are good, does not mean that more is better. KPIs should be sensible across teams and up-and-down the organization.
 
-### Start with KPIs that you can affect
+### KPIs should tell a story
+
+KPIs should tell a story -- ideally the story that your organization wants to tell. KPIs help folks transform a qualitative narrative ("We're bringing joy to under served communities") into a quantitative measure ("% of engaged users within the past 30 days"). 
+
+The story should start at the company level and filter down to every team and individual. At each layer there should exist a set of KPIs that are connected, however loosely, like a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+
+![DAG](/img/kpi_dag.png)
+
+Figuring out KPIs are related is a useful exercise and ensures everyone is working towards the same goals. I like to sketch these out and make visible to all teams.
+
+### Ensure that it makes sense for your organization
+
+Some KPIs may be very specific indeed, and only a few folks on a certain team will care. But as indicated above, every KPI is related in some way to other KPIs elsewhere in the organization. Teams can't optimize in silos. Improving a KPI on one team should not come at the expense of another team. One common example of this is bringing in lots of leads that don't end up converting down stream. Marketing may be crushing their top line goals but Product ends up overloaded with unqualified users who drop out of the acquisition funnel.
+
+Another example: Finance wants to achieve a specific profit margin in a business line, and they identify some cost cutting measures, which mean that some teams need to change their priorities. Both of those functions need to work together to determine how they'll achieve their objectives without creating friction.
+
+## Identify the right KPIs for each team
+
+Once a KPI framework is in place, the analyst should consider how to select the best set of KPIs at each level (Org, Team, Individual). The first step is to identify someone that is ultimately responsible (accountable) for the KPI, even if multiple folks contribute to it. You should find one stakeholder per team or function that will act as your [thought partner]({{< relref "culture_of_partnership.md" >}}) and KPI owner. Work with this individual to iron out the details about:
+
+* What is the KPI actually measuring?
+* How much influence do you have over the KPI?
+* What will you do when it varies?
+* How frequently should you view it?
+
+### Everyone should agree and understand what exactly is being measure
+
+The stakeholder should know exactly what goes into the calculation of the KPI. For example, if you wanted to count the growth in Monthly Active Users, it's crucial that your definition and calculation lines up with what the business expects. 
+
+* Does "monthly" mean past 30 days or as of the end of the previous full month?
+* What is an "active user"? At least one click? At least one share? And does everyone on the team agree with this defintion (hint: put this in your [data dictionary]({{< relref "building-a-data-practice.md" >}}))?
+* How are you thinking about growth? Is it vs. the last 30 days? This time last year?
+
+### Make sure you can affect change
 
 Some KPIs are vanity metrics that folks need to internalize but don't expect to affect much, if at all. Most "All time" numbers qualify as vanity metrics. It's great to know how many subscriptions you have for PR or morale or for a board meeting, but not very useful in your day to day. Other KPIs are directly _affectable_. These KPIs are very specific and may only apply to a handful of folks on a given team. Examples include:
 
@@ -46,30 +79,6 @@ Related to the above, just because the KPI varies doesn't necessarily mean you s
 * Control for cohorts -- this should always be true for time-based KPIs. Remember that cohorts of different ages will mature in different times and make some apples-to-apples comparisons more difficult. 
 
 Reviewing KPIs at the appropriate cadence will take a few iterations, but if you pair the affectability of a KPI and have an action plan already, then it'll help you take a structured approach to understanding and acting on the information if provides.
-
-## Everything else
-
-Now that you've settled on a reasonable set of KPIs that are affectable by your stakeholders and they have a reasonable sense of what to do as it moves around, how does it fit into the bigger picture?
-
-### Ensure that it makes sense for your organization
-
-Some KPIs may be very specific indeed, and only a few folks on a certain team will care. It's critical, however, that every KPI is related in some way to other KPIs elsewhere in the organization. Specifically, teams can't optimize in silos. Improving a KPI on one team should not come at the expense of another team. One ubiquitous example of this is bringing in lots of leads that don't end up converting down stream. Marketing may be crushing their top line goals but Product ends up overloaded with unqualified users who drop out of the acquisition funnel.
-
-Another example: Finance wants to achieve a specific profit margin in a business line, and they identify some cost cutting measures, which mean that some teams need to change their priorities. Both of those functions need to work together to determine how they'll achieve their objectives without creating friction.
-
-### KPIs die in darkness
-
-In addition to being aligned across teams, KPIs should be "vertically integrated". Consider a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) -- Company level KPIs are supported by Team level KPIs which are in turn supported by individual KPIs. It needn't be one to one, but there should not be any down stream KPIs which do not in some indirect way support an upstream KPI. Figuring out how they are related is a useful exercise and ensures everyone is working towards the same goals. I like to sketch these out and make visible to all teams.
-
-### Find a partner
-
-Every organization has a different level of data sophistication. In general though, you should find one stakeholder per team or function that will act as your thought partner. Work with this individual to iron out the details outlined above, including the actual definition of the KPI. For example, if you wanted to count the growth in Monthly Active Users, it's crucial that your definition and calculation lines up with what the business expects. 
-
-* Does "monthly" mean past 30 days or as of the end of the previous full month?
-* What is an "active user"? At least one click? At least one share? And does everyone on the team agree with this defintion (hint: put this in your [data dictionary](https://www.locallyoptimistic.com/post/building-a-data-practice/))?
-* How are you thinking about growth? Is it vs. the last 30 days? This time last year?
-
-These are details that usually come at the end, but are important to iron out because they'll help provide the context for how to interpret the KPI.
 
 ## Conclusion
 
