@@ -7,7 +7,6 @@ tags:
  - analytics
  - org
  - team
-draft: true
 ---
 
 Hi Everyone! It is hard to believe that Locally Optimistic started [a year ago today]({{< relref "one-size-fits-none.md" >}}). In the last year we evolved from a blog (29 posts!) to a thriving [slack community](https://www.locallyoptimistic.com/community/) (515 members!).
