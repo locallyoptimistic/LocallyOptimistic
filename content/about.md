@@ -43,14 +43,15 @@ Sam is the Head of Data at [Bowery Farming](http://boweryfarming.com/how-it-work
 [linkedIn](https://www.linkedin.com/in/samswift/) | [github](https://github.com/swiftsam) | [twitter](https://twitter.com/swiftsam) | [web](http://swift.pw/)
 
 <div class="break"></div>
-{{< figure src="/img/im_face.png" alt="Ilan Man" width="200" height="150" title="" class="portrait" >}}
+{{< figure src="/img/LRG_DSC01685.png" alt="Ilan Man" width="200" height="260" title="" class="portrait" >}}
 
 ### Ilan Man
 
-Ilan is the Head of Data at [Trialspark](http://www.trialspark.com) where he's helping to modernize the clinical drug trial process in order to bring drugs to patients who need them, faster. He loves thinking about numbers, optimal bike routes around the city, and how we lack Free Will (obviously he wrote that). When he isn't thinking, he's running around Prospect Park or riding his bike to Bear Mountain. 
+Ilan is the Head of Data at [TrialSpark](http://www.trialspark.com) where he's helping to modernize the clinical drug trial process in order to bring treatments to patients who need them, faster. He loves thinking about numbers, musing philosophically and mapping optimal bike routes around the city. When he isn't thinking, he's running around Prospect Park or riding his bike to Bear Mountain. 
 
 [linkedIn](https://www.linkedin.com/in/ilanman/) | [github](https://github.com/ilanman) | [web](http://www.ilanman.io)
 
+<br>
 
 ## Guest contributors & supporters
 
