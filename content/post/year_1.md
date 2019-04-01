@@ -9,7 +9,9 @@ tags:
  - team
 ---
 
-Hi Everyone! It is hard to believe that Locally Optimistic started [a year ago today]({{< relref "one-size-fits-none.md" >}}). In the last year we evolved from a blog (29 posts!) to a thriving [slack community](https://www.locallyoptimistic.com/community/) (515 members!).
+Hi Everyone! 
+
+It is hard to believe that Locally Optimistic started [a year ago today]({{< relref "one-size-fits-none.md" >}}). In the last year we evolved from a blog (29 posts!) to a thriving [slack community](https://www.locallyoptimistic.com/community/) (515 members!).
 
 <!--more-->
 
@@ -18,4 +20,4 @@ We would like to take the chance to thank each and everyone of you for making th
 Here's to another great year of creating a place for current and aspiring data analytics leaders to learn and grow.
 
 Thank you,
-LO Editorial Team
+<br>LO Editorial Team
