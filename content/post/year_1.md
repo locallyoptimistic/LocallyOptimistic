@@ -4,9 +4,8 @@ title: "Happy Birthday Locally Optimistic"
 cover: "/img/year_1.jpg"
 publishDate: "2019-04-01"
 tags: 
- - analytics
- - org
- - team
+ - birthday
+ - 365 days
 ---
 
 Hi Everyone! 
