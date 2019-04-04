@@ -43,7 +43,7 @@ Sam is the Head of Data at [Bowery Farming](http://boweryfarming.com/how-it-work
 [linkedIn](https://www.linkedin.com/in/samswift/) | [github](https://github.com/swiftsam) | [twitter](https://twitter.com/swiftsam) | [web](http://swift.pw/)
 
 <div class="break"></div>
-{{< figure src="/img/LRG_DSC01685.png" alt="Ilan Man" width="200" height="260" title="" class="portrait" >}}
+{{< figure src="/img/im_face.png" alt="Ilan Man" width="200"  title="" class="portrait">}}
 
 ### Ilan Man
 
