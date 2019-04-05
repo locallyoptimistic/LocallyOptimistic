@@ -35,7 +35,7 @@ I'll break this post into 3 parts:
 
 ## Team values
 
-When I started building the analytics team at [Harry's](www.harrys.com), one of the first things I did was I sat down and wrote out what I wanted the core values of my team to be -- the first two things on the list were that an analytics team should be _humble_ and _helpful_.
+When I started building the analytics team at [Harry's](https://www.harrys.com), one of the first things I did was I sat down and wrote out what I wanted the core values of my team to be -- the first two things on the list were that an analytics team should be _humble_ and _helpful_.
 
 These two values are critical to building an analytics team that exhibits a culture of partnership (and, in turn, building a high-functioning analytics team). Humility is how analytics practitioners should engage both with potential partners but also with their own work -- hubris is the enemy of good research. Helpfulness is the best tool for helping the analytics team build effective partnerships with other teams that might not always understand what the analytics team _actually does_.
 
