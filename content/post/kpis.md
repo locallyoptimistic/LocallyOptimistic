@@ -7,16 +7,16 @@ date: 2019-03-30T21:19:01-04:00
 draft: true
 ---
 
-Key Performance Indicators (KPIs) are management tools for monitoring and improving business processes. KPIs are helpful in understanding if you're hitting your business objectives, improving over time, or helping to forecast future growth. They are also a symbol for folks in the organization to rally around and anchor against, providing clarity and aligning cross departmental objectives.
+Key Performance Indicators (KPIs) are management tools for monitoring and improving business processes. KPIs are helpful in understanding if you're hitting your business objectives, improving over time, and helping to forecast future growth. They are also a symbol for folks in the organization to rally around and anchor against, providing clarity and aligning cross departmental objectives.
 
 <!--more-->
 
 There is a lot of content out there on what a KPI is (and what a metric is, and what a measure is, ...) and why they are important[^1]. This content is also usually written for non-analysts -- useful, but invariably leaves me wanting more. Today I'm going to outline a few key principles related to KPIs aimed specifically at analysts and data scientists. I'll discuss:
 
 <li> How KPIs should be structured within an organization
-<li> How to best partner with stakeholders in determining the best KPIs for them
+<li> How, and why Analytics, can best partner with stakeholders in determining the best KPIs for them
 
-## KPIs should fit into the organization's framework
+## KPIs should fit into the organization's operational framework
 
 Key Performance Indicators are indicators of progress towards some objective. They are important because they provide direction for folks using them as well as visibility for management to understand how the business is trending. 
 
@@ -24,19 +24,27 @@ However, it's easy to overdo KPIs, e.g., just because some are good, does not me
 
 ### KPIs should tell a story
 
-KPIs should tell a story -- ideally the story that your organization wants to tell. KPIs help folks transform a qualitative narrative ("We're bringing joy to under served communities") into a quantitative measure ("% of engaged users within the past 30 days"). 
+Ideally KPIs should tell the story that your organization wants to tell. KPIs help folks transform a qualitative narrative ("We're bringing joy to under served communities") into a quantitative measure ("% of engaged users within the past 30 days"). 
 
 The story should start at the company level and filter down to every team and individual. At each layer there should exist a set of KPIs that are connected, however loosely, like a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
-![DAG](/img/kpi_dag.png)
+![](/img/kpi_dag.png)
 
-Figuring out KPIs are related is a useful exercise and ensures everyone is working towards the same goals. I like to sketch these out and make visible to all teams.
+Figuring out how KPIs are related is a useful exercise and ensures everyone is working towards the same goals. I like to sketch these out and make visible to all teams.
 
-### Ensure that it makes sense for your organization
+### KPIs should makes sense for your organization
 
-Some KPIs may be very specific indeed, and only a few folks on a certain team will care. But as indicated above, every KPI is related in some way to other KPIs elsewhere in the organization. Teams can't optimize in silos. Improving a KPI on one team should not come at the expense of another team. One common example of this is bringing in lots of leads that don't end up converting down stream. Marketing may be crushing their top line goals but Product ends up overloaded with unqualified users who drop out of the acquisition funnel.
+Some KPIs may be very specific indeed, and only a few folks on a certain team will care. But as indicated above, every KPI is related in some way to other KPIs elsewhere in the organization. Teams can't globally optimize in silos. Improving a KPI on one team should not come at the expense of another team. One common example of this is bringing in lots of leads that don't end up converting down stream. Marketing may be crushing their top line goals but Product ends up overloaded with unqualified users who drop out of the acquisition funnel.
 
-Another example: Finance wants to achieve a specific profit margin in a business line, and they identify some cost cutting measures, which mean that some teams need to change their priorities. Both of those functions need to work together to determine how they'll achieve their objectives without creating friction.
+Another example: Finance wants to achieve a specific profit margin in a business line, and they identify some cost cutting measures, which mean that some teams need to change their priorities. Those functions need to work together to determine how they'll achieve their objectives without creating friction.
+
+### Analytics needs to get involved
+
+The Analytics team is best positioned to help teams think about KPIs because:
+<li> They typically support many operational functions, and therefore have insight into what those functions do and how they're connected
+<li> Analytics owns, or works closely with, the data model, infrastructure, and dashboarding solution. Analysts should be opinionated as to how KPIs are calculated and how they can be reconciled against each other. 
+
+For example, Finance may be looking at cost per acquisition (CPA) by product line and Marketing may be considering CPA by marketing channel. Analytics must ensure that these two KPIs are calculated from the same source of truth and are reconcilable, otherwise folks won't know which KPI to trust and it'll add confusion to decision making.
 
 ## Identify the right KPIs for each team
 
