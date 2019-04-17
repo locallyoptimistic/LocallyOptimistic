@@ -30,7 +30,7 @@ The story should start at the company level and filter down to every team and in
 
 ![](/img/kpi_dag.png)
 
-Figuring out how KPIs are related is a useful exercise and ensures everyone is working towards the same goals. I like to sketch these out and make visible to all teams.
+Figuring out how KPIs are related is a useful exercise and ensures everyone is working towards the same goals.
 
 ### KPIs should makes sense for your organization
 
@@ -55,7 +55,7 @@ Once a KPI framework is in place, the analyst should consider how to select the 
 * What will you do when it varies?
 * How frequently should you view it?
 
-### Everyone should agree and understand what exactly is being measure
+### Everyone should agree and understand what exactly is being measured
 
 The stakeholder should know exactly what goes into the calculation of the KPI. For example, if you wanted to count the growth in Monthly Active Users, it's crucial that your definition and calculation lines up with what the business expects. 
 
