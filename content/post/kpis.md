@@ -1,9 +1,9 @@
 ---
 title: "KPI Principles"
 author: "Ilan Man"
-cover: "/img/cover.jpg"
+cover: "/img/kpis.jpg"
 tags: ["analytics", "KPI"]
-date: 2019-03-30T21:19:01-04:00
+date: 2019-04-21T21:19:01-04:00
 draft: true
 ---
 
