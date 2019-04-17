@@ -4,7 +4,7 @@ author: "Ilan Man"
 cover: "/img/kpis.jpg"
 tags: ["analytics", "KPI"]
 date: 2019-04-21T21:19:01-04:00
-draft: true
+draft: false 
 ---
 
 Key Performance Indicators (KPIs) are management tools for monitoring and improving business processes. KPIs are helpful in understanding if you're hitting your business objectives, improving over time, and helping to forecast future growth. They are also a symbol for folks in the organization to rally around and anchor against, providing clarity and aligning cross departmental objectives.
