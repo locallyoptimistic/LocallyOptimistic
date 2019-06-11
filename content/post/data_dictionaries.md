@@ -17,12 +17,12 @@ Instead of investing in building out traditional data dictionaries, we recommend
 <!--more-->
 
 # What is a data dictionary?
-In this post we’ll use the term “data dictionary” to a range of products that include both “data dictionaries” and “data catalogs”. In general, we’re referring to documents that contain metadata about tables in a data warehouse -- most commonly, they have one section per table with one row per column including information like the column-name, the column-type, any relevant foreign-keys, and a brief description of the column. Sometimes there will be additional metadata about the source of the table (a source system or potentially a person).
+In this post we’ll use the term “data dictionary” to describe a range of products that include both “data dictionaries” and “data catalogs”. In general, we’re referring to documents that contain metadata about tables in a data warehouse -- most commonly, they have one section per table with one row per column including information like the column-name, the column-type, any relevant foreign-keys, and a brief description of the column. Sometimes there will be additional metadata about the source of the table (a source system or potentially a person).
 
 [INSERT SCREEN-SHOT OF DATA DICTIONARY]
 
 # Why are data dictionaries created?
-Listen. There’s no activity the two of us like better for enjoying a beautiful spring Saturday than sitting down at our disk, cracking open a cold Kombucha, and writing some damn documentation. Most data dictionaries are born from a zeal for documentation that we applaud, but we also believe that it’s important to find the right documentation and tools for the goals that you want to achieve. People tend to embark on the data dictionary journey with a few varied and vague goals in mind. They want to 1) enable more data exploration, 2) codify a single source of truth for data definitions, and 3) document the provenance of particular pieces of business logic.
+Listen. There’s no activity the two of us like better for enjoying a beautiful spring Saturday than sitting down at our desk, cracking open a cold Kombucha, and writing some damn documentation. While we definitely understand the desire to document-all-the-things, we also believe that it is important to find the right documentation and tools for the goals that you want to achieve. People tend to embark on the data dictionary journey with a few varied and vague goals in mind. They want to 1) enable more data exploration, 2) codify a single source of truth for data definitions, and 3) document the provenance of particular pieces of business logic.
 
 These are all great goals! However, we do not believe that data dictionaries are the best tool for achieving any of these objectives. We will talk a bit about why we do not believe that data dictionaries, as traditionally constituted, work very well before diving into alternative ways to achieve those goals.
 
@@ -31,7 +31,7 @@ With your traditional data dictionary, you start small and simple.  Maybe just d
 
 But new use cases are always coming up, new ways of looking at data and measuring success (that you really want to standardize) -- and so the list grows.
 
-If your KPIs aren’t just pulling from a single table or a single system, now you need to start documenting how different sources join together in a wild mess of foreign key relationships. Maybe you even create some ERDs -- pictures speak a thousand words after all.
+If your KPIs aren’t just pulling from a single table or a single system, now you need to start documenting how different sources join together in a wild mess of foreign key relationships. Maybe you even create [some ERDs](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) -- pictures speak a thousand words after all.
 
 And everything is great...until you run into the issue of different audiences:
 
@@ -41,7 +41,7 @@ And everything is great...until you run into the issue of different audiences:
 
 Which means that realistically, to solve everyone’s use case, you’ll need to write three versions of documentation (or one, very large version) for any given piece of data -- not fun.
 
-But even if you’re willing to go down that path...eventually something will change. Maybe your definition of NPS or Conversion just shifted a little bit (as we all know, business logic is a fickle master), and all of a sudden you have to update it not only in your data model and dashboards/reports, but also 3 documents and 2 diagrams.
+But even if you’re willing to go down that path, eventually something will change. Maybe your definition of NPS or Conversion just shifted a little bit (as we all know, business logic can be extremely ... slippery ), and all of a sudden you have to update it not only in your data model and dashboards/reports, but also 3 documents and 2 diagrams.
 
 **The maintenance burden very quickly grows into a scalability issue,** and a serious blocker to the development / iteration speed of the entire data team. Not only does maintaining the documentation slow you down, but once the documentation starts to slip (as it inevitably will) the consumers of the data dictionary will begin to lose trust in it, and you will be investing time in maintaining this document that people do not even trust (and therefore will not use).
 
@@ -122,4 +122,4 @@ These two use-cases are pretty niche, and we do not believe they apply to most i
 
 # Conclusion
 
-Overall, we think that data dictionaries tend not to be very useful, and a data team’s time will be better spent maintaining a well-organized code-base that is self-documenting and providing well-designed BI tools to end-users that do not require much documentation. Where possible, teams should make of tools for automatically generating documentation directly from code in order to prevent concept drift.
+Overall, we think that data dictionaries tend not to be very useful, and a data team’s time will be better spent maintaining a well-organized code-base that is self-documenting and providing well-designed BI tools to end-users that do not require much documentation. Where possible, teams should make use of tools for automatically generating documentation directly from code in order to prevent concept drift.
