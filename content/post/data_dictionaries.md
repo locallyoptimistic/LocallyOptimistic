@@ -2,7 +2,7 @@
 author: Alex Jia & Michael Kaminsky
 title: "You probably don't need a data dictionary"
 cover: "/img/data_dictionary.jpg"
-publishDate: "2019-06-18"
+publishDate: "2019-06-17"
 draft: True
 tags: 
  - analytics
