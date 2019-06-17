@@ -1,8 +1,8 @@
 ---
 author: Alex Jia & Michael Kaminsky
 title: "You probably don't need a data dictionary"
-cover: "/img/data-warehouse-sla-p2.jpg"
-publishDate: "2019-06-15"
+cover: "/img/data_dictionary.jpg"
+publishDate: "2019-06-18"
 draft: True
 tags: 
  - analytics
@@ -19,7 +19,7 @@ Instead of investing in building out traditional data dictionaries, we recommend
 # What is a data dictionary?
 In this post we’ll use the term “data dictionary” to describe a range of products that include both “data dictionaries” and “data catalogs”. In general, we’re referring to documents that contain metadata about tables in a data warehouse -- most commonly, they have one section per table with one row per column including information like the column-name, the column-type, any relevant foreign-keys, and a brief description of the column. Sometimes there will be additional metadata about the source of the table (a source system or potentially a person).
 
-[INSERT SCREEN-SHOT OF DATA DICTIONARY]
+{{< figure src="/img/data-dict_example.png" title="A screenshot from an unhelpful data dictionary.">}}
 
 # Why are data dictionaries created?
 Listen. There’s no activity the two of us like better for enjoying a beautiful spring Saturday than sitting down at our desk, cracking open a cold Kombucha, and writing some damn documentation. While we definitely understand the desire to document-all-the-things, we also believe that it is important to find the right documentation and tools for the goals that you want to achieve. People tend to embark on the data dictionary journey with a few varied and vague goals in mind. They want to 1) enable more data exploration, 2) codify a single source of truth for data definitions, and 3) document the provenance of particular pieces of business logic.
@@ -77,10 +77,12 @@ We do not want to go into a full-fledged comparison between BI platforms here (h
   * Do you allow people to save their own reports/dashboards? Define their own dimensions / measures / transformations?
 5. Self Documenting Code
 
-In a good BI tool, it should be easy for business users to find existing reports/dashboards that they can **easily modify** (or leverage as a starting point for additional exploration). The tool should provide guard-rails for them that help them avoid making common mistakes, and it should provide enough metadata (either through tool-tips or text descriptions) that help business users both find what they are looking for and avoid common pitfalls.
+In a good BI tool, it should be easy for business users to find existing reports/dashboards that they can **easily modify** (or leverage as a starting point for additional exploration). The tool should provide guard-rails for them that help them avoid making common mistakes, and it should provide enough metadata (either through tool-tips or text descriptions) that help business users both find what they are looking for and avoid common pitfalls. The difference between these tool-tips and a a data dictionary is that the tool tips live with the data as they are actually used by business users and reflect the post-business-logic description of the entity which is generally much  more useful to end-users[^1]. 
 
-If your BI tool has these qualities, then your business users will not need (or wouldn’t get 
-any value out of) a data dictionary. Since the BI tool should help business users answer business questions, your business users should not have to know anything about the underlying data structures in order to achieve their goals. If you find your business users asking for a data dictionary, you should be thinking about building them better tools rather than just documenting the current suboptimal system.
+If your BI tool has these qualities, then your business users will not need (or wouldn’t get any value out of) a data dictionary. Since the BI tool should help business users answer business questions, your business users should not have to know anything about the underlying data structures in order to achieve their goals. If you find your business users asking for a data dictionary, you should be thinking about building them better tools rather than just documenting the current suboptimal system.
+
+Depending on the size of your team and the complexity of your database, you may need to augment your BI tool with some additional tooling in the form of a wiki or knowledge-base (more on this below). For your non-technical users this is best used as a reference for "who is the expert" that they should go talk to if they want to get started in a new domain area. 
+
 
 For **the business / data analyst**:
 For the people in your organization who are rolling up their sleeves and diving into the data, there should be two sources of documentation that are most relevant:
@@ -103,7 +105,7 @@ For the *data scientist / engineer*:
 For the most technical folks on your team you can add some additional tooling that can help them find information that will be most useful to them. In addition to the self-documenting code-base (which is ***easily the most important concept in this blog post***), you can think about adding:
 
 * [Knowledge-repo](https://github.com/airbnb/knowledge-repo): This tool is used to keep track of analyses that have happened in the past, and can be a great resource for both analysts and data scientists to see 1) example uses of certain data sets and 2) analyses that are related to the topic they are working on. Seeing how someone else used a given table is often the best way for someone to understand its intricacies.
-* Programmatically-generated ERDs: rather than maintaining these types of documentation by hand, programmatically-generated ERDs or data-heritage DAGs ([from a tool like dbt](https://www.getdbt.com/)) are the best way to ensure that  your documentation actually matches your code.
+* Programmatically-generated ERDs: rather than maintaining these types of documentation by hand, programmatically-generated ERDs or data-heritage DAGs (from a tool like [dbt](https://www.getdbt.com/) or [airflow](https://airflow.apache.org/)) are the best way to ensure that  your documentation actually matches your code.
 * Architecture Design Documentation: this is often an artifact of the development process that includes an in-depth description of requirements, technical decisions made, architecture, etc
 
 Other important things to keep in mind:
@@ -123,3 +125,5 @@ These two use-cases are pretty niche, and we do not believe they apply to most i
 # Conclusion
 
 Overall, we think that data dictionaries tend not to be very useful, and a data team’s time will be better spent maintaining a well-organized code-base that is self-documenting and providing well-designed BI tools to end-users that do not require much documentation. Where possible, teams should make use of tools for automatically generating documentation directly from code in order to prevent concept drift.
+
+[^1]: If you're interested in upgrading your Looker tool-tips, the good folks at WW (formerly weight watchers) have released some [neat tools](https://medium.com/ww-tech-blog/releasing-lookml-tools-better-looker-code-user-experience-and-data-governance-a24c0324257c) to help maintain good descriptions.
