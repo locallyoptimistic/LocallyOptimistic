@@ -93,7 +93,7 @@ The first place an analyst should look when trying to understand a table or colu
 
 For the types of knowledge that are not easy to see in the code itself, it can be helpful to have a knowledge base that people can review for high-level information about a given concept. This documentation ***should not*** be a simple catalog of “what is in the data warehouse” but rather should include information about the who, what, and why behind broad concepts in the business:
 
-* What is [NPS, ARR, Conversion, insert your concept here], how do we define it, how is it made (data processes, business logic), why is it important, and what are the next steps?
+* What is (NPS, ARR, Conversion, insert your concept here), how do we define it, how is it made (data processes, business logic), why is it important, and what are the next steps?
 * Important context and history (“this is the story of why it takes 5 joins to connect our historical email data to our coupon code system”).
 * Any potential “gotchas” (“we know that this logic is incorrect for some number of users, but the last time we checked it impacted less than 1% of users and so we ignored it”).
 
