@@ -11,7 +11,7 @@ weight: 50
 
 We are thrilled you have decided to join our community. We have a growing [Slack community](https://locallyoptimistic.slack.com) where current and aspiring analytics leaders discuss and share lessons and challenges from their experience working with data.
 
-If you have not already, please [reach out](mailto:locally-optimistic-admins@googlegroups.com) to ask for an invite to our Slack group. 
+If you have not already, please [reach out](mailto:locally-optimistic-admins@googlegroups.com) to ask for an invite to our Slack group. In your email, please tell us a little bit about yourself and why you're interested in joining your community.
 
 Once you have received your invite, please do the following:
 
