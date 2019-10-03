@@ -1,7 +1,6 @@
 ---
 author: Caitlin Moorman
 title: "Glue Work"
-date: 2019-10-02T21:18:45-04:00
 publishDate: "2019-10-XX"
 draft: true
 tags:
@@ -77,5 +76,4 @@ Maybe you are not in a position to change the system - yet. So what can you do t
 
 Glue work puts the health of the team ahead of individual accomplishments. It is core to the success of individual projects, but also to maximizing the impact of the analytics team overall. Explicitly valuing glue work and not relying on volunteers to do it levels the playing field and improves gender equity.
 
-
-I would love to hear what glue work looks like on your analytics team, and what you’ve done to address it. Send me an email or come have a chat in our slack channel!
+I would love to hear what glue work looks like on your analytics team, and what you’ve done to address it. [Send me an email](mailto:caitlinmoorman@gmail.com) or come [have a chat in our slack channel](https://www.locallyoptimistic.com/community/)!
