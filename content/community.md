@@ -28,6 +28,19 @@ In Slack, remember that channels are free. If you want to start a conversation o
 
 In general, in this community, we trust that everyone will behave in ways that they believe are appropriate. There are some hard-and-fast rules in our [code of conduct]({{< relref "code_of_conduct.md" >}}), which we expect everyone to adhere to: specifically, rules prohibiting harassment and intolerant behavior. However, in general, we prefer to have guidelines for behavior rather than hard-and-fast rules in a way that promotes organic growth and discussion. 
 
+### Solicitation
+
+This community is built for data practitioners to discuss the work that they do, the ideas that they have, and the things that they are learning. It is not intended to be lead generation for vendors or recruiters. Vendors can add enormous value to the community by being there to answer questions about their products when questions arise, but we do not want the community to become a sales-channel that drowns out organic discussion.
+
+If someone mentions a problem that your product could help with, it is appropriate to add a comment to a thread saying "Hey I work at X and we have a solution that addresses this problem. PM me for information". It _*is not*_ appropriate to:
+
+* Directly private-message someone about your product without being asked
+* Contact someone outside of the slack channel (e.g., handing their contact info to your sales team). 
+
+Similarly, it is not appropriate to directly reach out to community members to recruit them for a role. You may post a JD in the #jobs channel and invite interested candidates to reach out to you directly.
+
+### Vendor participation
+
 We have had some great discussion in the #communityrules channel about how community members who also work for vendors should behave with respect to their and their competitor's competitors' products. There are three concerns we (the community) feel the need to address explicitly:
 
 * It should be clear when someone is making a comment if they are potentially biased
