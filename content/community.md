@@ -30,7 +30,7 @@ In general, in this community, we trust that everyone will behave in ways that t
 
 ### Solicitation
 
-This community is built for data practitioners to discuss the work that they do, the ideas that they have, and the things that they are learning. It is not intended to be lead generation for vendors or recruiters. Vendors can add enormous value to the community by being there to answer questions about their products when questions arise, but we do not want the community to become a sales-channel that drowns out legitimate discussion.
+This community is built for data practitioners to discuss the work that they do, the ideas that they have, and the things that they are learning. It is not intended to be lead generation for vendors or recruiters. Vendors can add enormous value to the community by being there to answer questions about their products when questions arise, but we do not want the community to become a sales-channel that drowns out organic discussion.
 
 If someone mentions a problem that your product could help with, it is appropriate to add a comment to a thread saying "Hey I work at X and we have a solution that addresses this problem. PM me for information". It _*is not*_ appropriate to:
 
