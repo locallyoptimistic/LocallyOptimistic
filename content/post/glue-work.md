@@ -1,7 +1,7 @@
 ---
 author: Caitlin Moorman
 title: "Glue Work"
-publishDate: "2019-10-XX"
+publishDate: "2019-10-15"
 draft: true
 tags:
  - analytics
