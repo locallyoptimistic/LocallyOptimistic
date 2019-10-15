@@ -1,7 +1,7 @@
 ---
 author: Caitlin Moorman
 title: "Glue Work"
-cover: "/img/agile-analytics-p1.jpg"
+cover: "/img/glue-work.jpg"
 publishDate: "2019-10-15"
 tags:
  - analytics
