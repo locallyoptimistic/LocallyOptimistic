@@ -27,16 +27,19 @@ From the small sample of teams I've been on, there may be as much variance betwe
 
 ### A Few Examples 
 The short answer is, what is promotable varies depending on what is (and isn't) in your job description or on your career ladder. Glue work might include any of the following:
+
 - Cross-functional collaboration: building a [culture of partnership](https://www.locallyoptimistic.com/post/culture_of_partnership/), [communicating well](https://www.locallyoptimistic.com/post/bad_communication/), and training stakeholders on tools or data sources
 - Ensuring smooth analytics team functioning: interviewing and then onboarding new team members, unblocking your teammates, designing new templates or [processes](https://www.locallyoptimistic.com/post/agile-analytics-p1/), planning offsites
 - The necessary but less exciting parts of our jobs: responding to ad-hoc questions and triaging inbound requests, documentation, scheduling meetings  
 
 Sometimes within analytics teams, it’s work that crosses job descriptions. It can be:
+
 - The analyst who implements automated testing
 - The engineer who reaches out directly to a sales rep to understand how the data they scrape ultimately gets used so they can improve the quality
 - The junior team member who remembers what a debacle their onboarding was, and creates a new onboarding plan for the next hire
 
 And sometimes, technical data folks report into or have to pitch their promotion recommendations to a less technical leader. In that case, highly technical work can actually become glue work, including:
+
 - Designing processes and systems that scale well
 - Implementing monitoring and alerts for data freshness or quality
 - Improving query performance
@@ -61,6 +64,7 @@ The problem of glue work is fixable. If your team is doing work that helps impro
 
 ### Managers
 If you are in a position to drive systematic change in your organization, you can help align valued and valuable:
+
 - Figure out what your team is doing that is not written in their job descriptions. Watch them, and ask them - about themselves and their teammates. Separate the list into work that requires an analyst’s skills and improves the output of the analytics team, and work that doesn’t.
 - If the work is truly valuable to your team's mandate, write clear career ladders that reward what needs to be done - including glue work. This might include documentation, relationship-building, onboarding new team members, and building subject matter expertise. I have a lot more to say on this - enough to fill another post, coming soon.
 - If the work just needs to be done, but is not particularly relevant to your team’s mandate, then find a fair way to assign it. There will always be tasks that are non-promotable but need to get done, like scheduling meetings or planning team off-sites. Either you do that work as team manager, or explicitly assign a fair rotation of these tasks within your team. Don’t wait for volunteers.
@@ -70,6 +74,7 @@ If you are in a position to drive systematic change in your organization, you ca
 
 ### Non-Managers
 Maybe you are not in a position to change the system - yet. So what can you do to make it more likely that you’ll get promoted (and eventually be able to make those changes yourself)?
+
 - Understand where you want to go. If you are aiming for a promotion within analytics, talk to your manager to understand what it takes to get there. If you have another goal, find a mentor who can help you create a path. “Promotable” is only meaningful when you know what promotion you’re aiming for.
 - Figure out what you are doing that is not on that path. Talk to your manager and/or mentor about those tasks - find out if that glue work will help you reach your goals, or if she truly doesn’t value it. In a perfect world, your manager sees the value in your glue work and adjust the career ladder to reflect it. But the world isn't perfect, so . . .  
 - Tell the story of your glue work. If your manager doesn't initially consider your work progress toward a promotion, help her really understand it. Explain how long the work takes, and how it adds value. Quantify the impact if you can - have ad-hoc requests declined since you started spending more time training people on internal tools? Has the new hire become productive 3 weeks faster because of your new onboarding program? Make it real to her. 
