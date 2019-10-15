@@ -34,14 +34,16 @@ Often, the iteration that a data scientist goes through are opaque to their coll
 
 When it comes to understanding *_why_* a given model is structured the way it is, you need a history of what was already tried and what worked and what didn’t. If someone on the team wants to pick up where the first practitioner left off, they can avoid lots of wasted effort if they know what was attempted before.
 
+The lab book for data scientists is very similar to the lab book for traditional scientits. The biggest difference may be that data scientists aren't in the habit of using lab books! Lab scientists are often working with physical materials in the real world (and sometimes using a physical binder to store their records), but because the work of a data scientist is similar to that of a physical-world scientist, we can use some of their techniques to improve our own work. 
+
 ## When to use the lab book?
 
 Have you ever found yourself in a situation where you are working on a gnarly piece of code and you feel like you are just slamming your head into a brick wall over and over and over again? This happens to me pretty frequently and, if you’re around me while I’m going through this, you’ll hear me repeatedly say, aloud, “how on earth could *_that_* be happening?”. At about the third time I say that phrase aloud, I know I need to bust out the lab book.
 
 Software complexity (especially in the data science space) can make it difficult or impossible to reason about what’s happening. For example:
 
-* Working third-party opaque libraries
-* Stochastic processes
+* Working with third-party opaque libraries (e.g., the [prophet library](https://facebook.github.io/prophet/docs/quick_start.html#r-api))
+* Stochastic processes (e.g., complex Bayesian models returning unexpected results)
 * “Black-box” ML models
 * Any piece of software sufficiently complex that you can’t hold all of the state in your head at a given time
 
@@ -72,6 +74,8 @@ Here’s an example template:
 **Conditions:** 
 **Results:**   
 **Git commit:**  
+
+Using git for this process is a bit non-standard, but what I normally do is create a separate branch for the analysis (that will generally never get merged into master) and I'll make a commit for each experiment that I run so that I can trace the exact conditions of the experiment. Of course, you have to be careful not to delete this branch the next time you're cleaning up the repo!
 
 ## What does the lab book get you?
 
