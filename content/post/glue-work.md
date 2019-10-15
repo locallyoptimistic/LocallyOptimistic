@@ -3,7 +3,6 @@ author: Caitlin Moorman
 title: "Glue Work"
 cover: "/img/agile-analytics-p1.jpg"
 publishDate: "2019-10-15"
-draft: true
 tags:
  - analytics
  - org
