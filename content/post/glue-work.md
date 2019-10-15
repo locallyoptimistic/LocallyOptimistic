@@ -1,6 +1,7 @@
 ---
 author: Caitlin Moorman
 title: "Glue Work"
+cover: "/img/agile-analytics-p1.jpg"
 publishDate: "2019-10-15"
 draft: true
 tags:
@@ -8,7 +9,6 @@ tags:
  - org
  - teams
  - management
-
 ---
 
 If you're lucky, you know what it will take to get your next promotion. Maybe you need to work on communicating your analyses at the C-level instead of primarily to functional managers. Maybe you need to finish a complex project like a predictive churn model. But there is lot of work in every analytics role that just has to be done, even if it doesn’t seem to help you get from where you are to where you want to be. You have ad-hoc requests coming in, you want to test out a new tool that looks like it will really improve productivity, and you spend an awful lot of time in cross-functional meetings just trying to stay plugged into what is going on around the company. 
