@@ -1,8 +1,8 @@
 ---
 author: Michael Kaminsky
 title: "The Data Science Lab Book"
-cover: "/img/agile-analytics-p1.jpg"
-publishDate: "2019-11-30"
+cover: "/img/Lab_Notebook.jpg"
+publishDate: "2019-12-03"
 tags: 
  - data science 
  - process
