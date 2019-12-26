@@ -9,7 +9,7 @@ draft: true
 
 Data analysts at early stage, tech-adjacent, start ups have the coolest jobs. For junior and mid level folks especially, there's so much to learn (hopefully an exciting proposition!) and being an analyst is a great way to do that because you're forced to wear many different hats. In addition, there are numerous career paths to take once you've cut your teeth for a few years as an analyst. Being an analyst however could mean different things to different people. 
 
-Folks outside of Data sometimes struggle with answering the question: "what does Data do here?". While folks can can reason around "analysis" and "reporting" and "insights", their understanding is usually surface level -- which is okay! It can, however, be helpful to explain to folks what their Analytics team does in terms of other job functions they might be more familiar with. 
+Folks outside of Data sometimes struggle with answering the question: "what does Data do here?". While folks can reason around "analysis" and "reporting" and "insights", their understanding is usually surface level -- which is okay! It can, however, be helpful to explain to folks what their Analytics team does in terms of other job functions they might be more familiar with. 
 
 <!--more-->
 
@@ -49,7 +49,7 @@ The downside of too much engineering is less time performing analysis. Writing c
 
 Until the Data team gets larger, analysts must manage their workloads, scope projects, break up Epics into smaller tasks, prioritize and communicate with stakeholders. Analysts likely work in a matrix or pseudo-matrix organization, reporting to a Data lead but with dotted lines to the business. Even on a centralized Data team, there are likely several non-Data teams that use the result of the work produced by the analyst to make decisions. This means analysts need to balance competing priorities, communicate cross functionally, set expectations, and meet with stakeholders on a constant basis. Engineers have Product Managers who can help with all of these tasks, allowing them to focus purely on the code and architecture. 
 
-Some of this kind of work may be done by Analytics Managers, but a lot will still fall on the analyst's shoulders. PMing their own work does force analysts' to build up that muscle which will make their overall work product better in the end. They'll be working within the context of stakeholders, biasing their work to be of higher importance, than if they simply did their own work without regard to external teams. 
+Some of this kind of work may be done by Analytics Managers, but a lot will still fall on the analyst's shoulders. PMing their own work does force analysts to build up that muscle which will make their overall work product better in the end. As a result of working closer with stakeholders, their work product will already be of higher value, all else equal, than had they begun working on something that no one asked for.
 
 Having said that, project managing your own workflow can add a lot of administrative overhead. This means more meetings, documentation and emails, all of which take away from the core job of an analyst -- analyzing!  
 
@@ -65,7 +65,7 @@ Analysis is many things. A non-exhaustive list includes:
 
 All of the above, and more, requires time and space to perform it, not dissimilar to what a researcher must do. Unlike researchers however, analysts need to ensure they are getting deliverables out the door. It's a fine balance to strike, which makes the job of an analyst all the more interesting.
 
-To perform analysis well and efficiently presumes, among other things, that tools are built (engineering), problems are scoped well enough (project managing), and the analyst has enough domain knowledge (business analysis) to work on the right kinds of problems. Else it really is just a research problem, which is why the analyst needs to have a strong working knowledge of all the above roles.
+To perform analysis well and efficiently presumes, among other things, that tools are built (engineering), problems are scoped well enough (project managing), and the analyst has enough domain knowledge (business analysis) to work on the right kinds of problems. Otherwise it really is just a research problem, which is why the analyst needs to have a strong working knowledge of all the above roles.
 
 ### Where to next?
 
