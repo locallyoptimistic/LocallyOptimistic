@@ -1,8 +1,8 @@
 ---
 author: Caitlin Moorman
 title: "Why You Need A Career Ladder"
-cover: ""
-draft: true
+cover: "/img/career-ladders-part-1.jpg"
+draft: false
 publishDate: "2019-01-06"
 tags:
  - analytics
@@ -11,7 +11,7 @@ tags:
  - management
 ---
 
-Happy New Year! In the blank slate of January, many of us are thinking about what's next. Maybe you need a [roap map](https://www.locallyoptimistic.com/post/roadmap/) for the projects your team will tackle this year, or maybe you need a road map for yourself. What should you focus on this year to get yourself to the next level? How do you help your team do the same? A career ladder is one effective tool to help answer those questions - and on top of that, a good ladder can help mitigate bias and eliminate glue work. 
+Happy New Year! In the blank slate of January, many of us are thinking about what's next. Maybe you need a [roap map](https://www.locallyoptimistic.com/post/roadmap/) for the projects your team will tackle this year, or maybe you need a road map for yourself. What should you focus on this year to get yourself to the next level? How do you help your team do the same? A career ladder is one effective tool to help answer those questions - and on top of that, a good ladder can help mitigate bias and eliminate glue work.
 
 <!--more-->
 
