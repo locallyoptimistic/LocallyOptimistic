@@ -16,6 +16,7 @@ Happy New Year! In the blank slate of January, many of us are thinking about wha
 <!--more-->
 
 This post is the first of a three part series on career ladders:
+
 - Part 1 (this post): Why you need a career ladder
 - [Part 2](https://www.locallyoptimistic.com/post/career-ladders-part-2/): How to create an effective career ladder
 - Part 3 (coming soon): How to use a career ladder once you've got it, and what to do as an individual contributor if you don't have one.
@@ -44,6 +45,7 @@ Each level should align with a pay band. Many startups don't have explicit pay s
 
 ## Why Not Create a Career Ladder?
 It's a significant undertaking to create a career ladder, and you may wonder if it's worth it, or if now is the right time. Here are a few common counter-arguments I've heard, and my thoughts on them:
+
 - **It's too early.** Your team is young and you're still figuring out how the team should be structured - is now really the right time to take on creating and maintaining a ladder? It's true - at early stage companies, things change quickly and many people end up taking career paths that weren't contemplated a year before. But high potential folks are attracted to startups precisely because there is a lot of opportunity for growth, so it's helpful to give them some direction on where to focus in order to maximize that opportunity. Maybe that isn't a fully detailed ladder, but some guiding principles on what the next level looks like is a good start. More on those principles in Part 2 of this series.
 - **My team is too small.** As a team of one or two, do you really need this overhead? If you or your teammate hope to get promoted, then some kind of ladder is helpful. Again, it's possible to streamline the process and still get some benefits, but thinking about the areas where you most need to grow - and agreeing on that structure with your manager - will help facilitate growth and promotion conversations down the line.
 - **This is HR's job. Or, HR wants this to be their job but won't do it right now.** In many organizations, HR/People Operations wants to create a consistent level structure across teams and ensure that career ladders align with that leveling strategy. When that happens, it is a great opportunity to collaborate and create a ladder with cross-organizational consistency and real staying power. But even as part of an HR-led, organization-wide effort, you should own the majority of the work of creating your team's ladder - after all, who knows better than you what you team does and what the next level looks like?
