@@ -1,9 +1,9 @@
 ---
 author: Caitlin Moorman
 title: "How to Create a Career Ladder"
-cover: ""
-draft: true
-publishDate: "2019-01-13"
+cover: "/img/career-ladders-part-2.jpg"
+draft: false
+publishDate: "2020-01-13"
 tags:
  - analytics
  - org
@@ -29,6 +29,8 @@ Some examples of guiding principles:
 My own principles are not so pithy. When I think about how analytics team members work at different levels and how to clearly articulate the difference between roles, there are two key areas where I see step changes with experience: scope of influence, and what deliverables look like. Here is my matrix for those principles for individual contributors:
 
 {{< figure src="/img/career-ladders-guiding-principles.png" title="Guiding principles for individual contributors">}}
+
+These principles are the key to communicating the need for promotions outside your team (to your manager and other senior managers), so I very intentionally focus most on areas that are visible outside the analytics team and that clearly impact stakeholders. We'll get to technical proficiency a bit later - it's an important part of the role, but often significantly harder to communicate to those who have to buy into promotions for my team. 
 
 Guiding principles align levels across the team, setting the stage for the role-specific competencies that come next. These consistent principles enable you to create flexibility and variations of the ladder as needed. You can modify a career ladder for various flavors - if your team includes data scientists, analytics engineers, data product managers, data engineers, or other roles, your guiding principles should work across disciplines, providing continuity in levels as well as making the path between specialties clearer. You can even modify a career ladder for a single individual who wants to follow a specialist path if that makes sense for the team. I manage fairly small teams and am happy to accommodate different career paths; knowing the guiding principles has allowed me to create a Product/UX Analyst ladder and a Sales Operations Analyst ladder that spoke to the skills and roles of particular individuals more specifically, but still aligned very clearly with the team's overall leveling framework.
 
