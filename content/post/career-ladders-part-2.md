@@ -21,6 +21,7 @@ This is part 2 of a series on career ladders - you may want to read part 1, [why
 Guiding principles are simple heuristics that capture how roles differ from each other. You don’t get promoted for just getting better at the same job, you get promoted for showing that you can do a different job - or in many organizations, that you've already been operating at the next level for some amount of time.
 
 Some examples of guiding principles:
+
 - A general management heuristic we use at [Yerdle](https://www.yerdlerecommerce.com/about-us): a Manager executes a program with some direction, while a Director can create a program from scratch.
 - Software Engineering at [Microsoft](https://www.quora.com/What-are-the-differences-between-SDE-SDE-II-and-Senior-SDE-at-Microsoft): a Software Engineer creates complex solutions to simple problems, a Software Engineer II creates simple solutions to simple problems, a Senior Software Engineer creates simple solutions to complex problems, and a Principal Software Engineer makes complex problems disappear.
 - Design at [Lyst](https://medium.com/designing-lyst/career-progression-for-product-designers-user-researchers-at-lyst-49c0c6cb9003): Junior contributes to the work, Mid does the work, Senior leads the work, and Lead leads the team.
@@ -44,6 +45,7 @@ The guiding principles are also helpful in framing the answer to two key questio
 
 ## Specific Competencies
 Once you identify your guiding principles, you can flesh out the skills and behaviors associated with each level. These should be specific enough to guide your team’s behavior, and concrete enough to enable provide an objective measure of success. I focus on a few main types of skills, then provide several examples of how a person can demonstrate competency at each level. Those categories are:
+
 - Technical skills
 - Analysis and business acumen
 - Operational skills
