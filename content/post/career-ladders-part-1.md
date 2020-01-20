@@ -19,7 +19,7 @@ This post is the first of a three part series on career ladders:
 
 - Part 1 (this post): Why you need a career ladder
 - [Part 2](https://www.locallyoptimistic.com/post/career-ladders-part-2/): How to create an effective career ladder
-- Part 3 (coming soon): How to use a career ladder once you've got it, and what to do as an individual contributor if you don't have one.
+- [Part 3](https://www.locallyoptimistic.com/post/career-ladders-part-2/): How to use a career ladder once you've got it, and what to do as an individual contributor if you don't have one.
 
 ## What Is a Career Ladder, and Why Do I Need One?
 A career ladder is a framework that documents the path(s) an individual can take as they develop within their company. It describes different roles (hopefully both individual contributor and manager roles), outlines the expectations for each, and provides sufficiently detailed information to map a path from one role to another. A career ladder can include hard skills, as well as an outline of *how* one should work in each role and the type of impact that role should have.
@@ -54,4 +54,4 @@ Sometimes HR wants to own career ladders but doesn't agree with you on when a la
 - **I'm not a manager, so I can't create a ladder for myself even if I want one.** That's true, it isn't your job to create the career ladder even though the ladder is valuable, and that makes it [glue work](https://www.locallyoptimistic.com/post/glue-work/). In Part 3 of this series, I'll share some light weight ways to get more explicit guidance on growth from your manager even if you don't have a career ladder.
 
 ## Great, How Do I Build It?
-Crafting a thoughtful career ladder takes time, but I think is one of the the most valuable management tools I have. Next week I'll be back with more detail on how to craft a ladder that reflects your priorities, builds internal alignment, and retains enough flexibility to evolve with your team. In the meantime, I would love to hear more about your experience with career ladders - do you have one? Do you ever actually look at it? Send me an [email](mailto:caitlinmoorman@gmail.com) or come have a chat in our [Slack channel](https://www.locallyoptimistic.com/community/)!
+Crafting a thoughtful career ladder takes time, but I think is one of the the most valuable management tools I have. [Part 2](https://www.locallyoptimistic.com/post/career-ladders-part-2/) covers more detail on how to craft a ladder that reflects your priorities, builds internal alignment, and retains enough flexibility to evolve with your team. I would love to hear more about your experience with career ladders - do you have one? Do you ever actually look at it? Send me an [email](mailto:caitlinmoorman@gmail.com) or come have a chat in our [Slack channel](https://www.locallyoptimistic.com/community/)!
