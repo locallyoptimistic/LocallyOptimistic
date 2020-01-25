@@ -20,7 +20,7 @@ Quick note: The views and opinions expressed on this blog are those of the autho
 
 ### Scott Breitenother
 
-Scott is an investor and advisor who specializes in building data driven organizations. He was employee #16 at direct-to-consumer mattress startup [Casper](https://casper.com/) and founded the company’s Data & Analytics team. In a former life, Scott was a Management Consultant (which is probably where he developed his love of frameworks and structure). When he’s not blogging about analytics trends, you can find him walking around Brooklyn with his wife and daughter.
+Scott is an investor and advisor who specializes in building data driven organizations. He currently leads [Brooklyn Data Co.](https://brooklyndata.co/), a consultancy offering full-stack data and analytics team as a service. He was employee #16 at direct-to-consumer mattress startup [Casper](https://casper.com/) and founded the company’s data and analytics team. When he’s not blogging about analytics trends, you can find him walking around Brooklyn with his wife and children.
 
 [linkedIn](https://www.linkedin.com/in/scottbreitenother/) | [github](https://github.com/sbreitenother)
 
