@@ -1,5 +1,5 @@
 ---
-title: "The Analyst career path"
+title: "The many hats of a data analyst"
 author: "Ilan Man"
 cover: "/img/cover.jpg"
 tags: ["Analytics", "Org Structure"]
@@ -7,7 +7,9 @@ date: 2020-01-26T21:16:09-05:00
 draft: true
 ---
 
-Data analysts at early stage, tech-adjacent start ups have unique jobs that allow you to work on a bunch of different things which then opens up a ton of opportunities for career progression. However because of an analyst's broad set of responsibilities, folks often struggle with understanding what exactly an analyst does. I’ve found it helpful to explain what the Analytics team does in terms of other job functions with which people might be more familiar.
+I've often found that it's difficult to explain to business stakeholders what exactly a data analyst on my analytics team does. And even beyond that, I've sometimes found it difficult to explain to the data analysts themselves why their job is so valuable to the business and what their future career opportunities might look like.
+
+Data analysts at early stage, tech-adjacent start ups have unique jobs that allow you to work on a bunch of different things which then opens up a ton of opportunities for career progression, and in this post I'll talk about all of the different roles data analysts play and what that means for future opportunities.
 
 <!--more-->
 
