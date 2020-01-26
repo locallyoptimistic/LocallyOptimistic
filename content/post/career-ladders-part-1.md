@@ -19,7 +19,7 @@ This post is the first of a three part series on career ladders:
 
 - Part 1 (this post): Why you need a career ladder
 - [Part 2](https://www.locallyoptimistic.com/post/career-ladders-part-2/): How to create an effective career ladder
-- [Part 3](https://www.locallyoptimistic.com/post/career-ladders-part-2/): How to use a career ladder once you've got it, and what to do as an individual contributor if you don't have one.
+- [Part 3](https://www.locallyoptimistic.com/post/career-ladders-part-3/): How to use a career ladder once you've got it, and what to do as an individual contributor if you don't have one.
 
 ## What Is a Career Ladder, and Why Do I Need One?
 A career ladder is a framework that documents the path(s) an individual can take as they develop within their company. It describes different roles (hopefully both individual contributor and manager roles), outlines the expectations for each, and provides sufficiently detailed information to map a path from one role to another. A career ladder can include hard skills, as well as an outline of *how* one should work in each role and the type of impact that role should have.
