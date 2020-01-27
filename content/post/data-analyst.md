@@ -7,9 +7,9 @@ date: 2020-01-27T12:16:09-05:00
 draft: false
 ---
 
-I've often found that it's difficult to explain to business stakeholders what exactly a data analyst on my analytics team does. And even beyond that, I've sometimes found it difficult to explain to the data analysts themselves why their job is so valuable to the business and what their future career opportunities might look like.
+I have often found that it is difficult to explain to business stakeholders what exactly a data analyst on my analytics team does. And even beyond that, I have sometimes found it difficult to explain to the data analysts themselves why their job is so valuable to the business and what their future career opportunities might look like.
 
-Data analysts at early stage, tech-adjacent start ups have unique jobs that allow you to work on a bunch of different things which then opens up a ton of opportunities for career progression, and in this post I'll talk about all of the different roles data analysts play and what that means for future opportunities.
+Data analysts at early stage, tech-adjacent start ups have unique jobs that allow you to work on a bunch of different things which then opens up a ton of opportunities for career progression, and in this post I will talk about all of the different roles data analysts play and what that means for future opportunities.
 
 <!--more-->
 
