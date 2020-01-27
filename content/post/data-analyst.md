@@ -3,7 +3,7 @@ title: "The many hats of a data analyst"
 author: "Ilan Man"
 cover: "/img/data-analyst-career-path.jpg"
 tags: ["Analytics", "Org Structure"]
-date: 2020-01-27T21:16:09-05:00
+date: 2020-01-27T12:16:09-05:00
 draft: false
 ---
 
