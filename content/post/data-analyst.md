@@ -1,10 +1,10 @@
 ---
 title: "The many hats of a data analyst"
 author: "Ilan Man"
-cover: "/img/cover.jpg"
+cover: "/img/data-analyst-career-path.jpg"
 tags: ["Analytics", "Org Structure"]
-date: 2020-01-26T21:16:09-05:00
-draft: true
+date: 2020-01-27T21:16:09-05:00
+draft: false
 ---
 
 I've often found that it's difficult to explain to business stakeholders what exactly a data analyst on my analytics team does. And even beyond that, I've sometimes found it difficult to explain to the data analysts themselves why their job is so valuable to the business and what their future career opportunities might look like.
