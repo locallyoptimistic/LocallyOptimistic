@@ -21,7 +21,7 @@ tags:
 ---
 ```
 
-5. Write a draft of your post for review. Ideally the post should be complete (i.e. intro, body and conclusion fully wrtten) so that the reviewer can review a complete post. Follow the styleguide.
+5. Write a draft of your post for review. Ideally the post should be complete (i.e. intro, body and conclusion fully wrtten) so that the reviewer can review a complete post. Follow the [styleguide](https://github.com/locallyoptimistic/LocallyOptimistic/blob/master/style_guide.md).
 6. Create a PR to master (remove `draft: true`) and request a review from one of the maintainers (Michael Kaminsky, Sam Swift, Scott Breitenother, Ilan Man). For good measure you may also want to post the PR on slack. If a post has at least one approval and no "rejections", that is enough to merge a PR and publish the content. 
 
 
