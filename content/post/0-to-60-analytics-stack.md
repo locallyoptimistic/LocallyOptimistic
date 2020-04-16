@@ -8,12 +8,11 @@ date: 2020-03-30T12:16:09-05:00
 draft: false
 ---
 
-Congratulations, you are launching an analytics/data function! Maybe you are the first
-analytics hire at a brand new company, or perhaps you are bringing analytics to a mature
-company that historically lacked a comprehensive data strategy. You sold the vision and also put together a roadmap based on your experience and current best practices. What could go wrong (and who could argue that refactoring from a star to snowflake schema is an important company-wide goal)?
+Congratulations, you are launching an analytics/data function! Maybe you are the first analytics hire at a brand new company, or perhaps you are bringing analytics to a mature company that historically lacked a comprehensive data strategy. You sold the vision and also put together a roadmap based on your experience and current best practices. What could go wrong (and who could argue that refactoring from a star to snowflake schema is an important company-wide goal)?
 
-The reality is that, like any other function, analytics and data exist within the
-context of an organization - an organization that has competing priorities,
+<!--more-->
+
+The reality is that, like any other function, analytics and data exist within the context of an organization - an organization that has competing priorities,
 politics, and limited resourcing. I wrote this article to help you combine pragmatism with best practices and prepare for the discussions with engineering, finance, and possibly the senior leadership team that you did not realize you needed to have. 
 
 Over the past 5 years, analytics technology has coalesced around three components: a data-moving tool (possibly referred by EL or ETL), a data warehouse to store beforementioned data, and a BI layer to analyze the data. As your company grows, you will also realize you need a centralized business-logic layer, as well as an org plan for empowering teams to use analytics when the company is too big for you to personally know everyone.
