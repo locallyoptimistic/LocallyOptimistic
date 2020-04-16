@@ -18,6 +18,17 @@ politics, and limited resourcing. I wrote this article to help you combine pragm
 
 Over the past 5 years, analytics technology has coalesced around three components: a data-moving tool (possibly referred by EL or ETL), a data warehouse to store beforementioned data, and a BI layer to analyze the data. As your company grows, you will also realize you need a centralized business-logic layer, as well as an org plan for empowering teams to use analytics when the company is too big for you to personally know everyone.
 
+I am going to sort the article by tool, since realistically you are making discrete decisions per tool. But when talking to the org, you need to do the opposite! It's time to put on your salesperson hat, in two specific ways:
+
+
+1. You are not buying tools - You are solving problems! Create your "elevator pitch", framed in terms of the benefits - faster results because X, more revenue because Y - and not in terms of "this one is more expensive, but you can visualize as a directed acyclic graph!". If two of these tools are most easily explained as solving a single problem, pitch them that way, and combine the cost estimates. Put simply, no one cares if the float cup, flapper, and flush valve cost $3, $5, and $8, they just want a working toilet and are willing to pay $20. 
+
+
+2. You need to understand who in leadership has decision-making power and engage them early to understand the steps towards approval. Otherwise, you can waste a lot of time trotting out presentations to anyone willing to listen. 
+
+Now, I will cover some aspects of the analytics stack on a per-tool basis:
+
+
 ## ETL Tool:
 
 - Some solutions you might consider: Stitch, Fivetran, tray.io
@@ -31,6 +42,9 @@ From the engineering side, you may get “Don't waste money - we could do this o
 3. Is excited to be on-call 24/7 to fix issues.
 
 
+Finally, consider what connectors you will need in the next several years. It is worth opting for a tool that covers software you're planning on using next year to avoid the switching cost down the road, and this is easy to explain.
+
+
 ## Analytics Database:
 
 - Some solutions you might consider: Postgres, Redshift, Snowflake, Google Cloud
@@ -38,9 +52,9 @@ From the engineering side, you may get “Don't waste money - we could do this o
 There are more posts comparing analytics databases than there are rows *in* my database, so I will spare details and instead discuss a useful framework for choosing open-source vs. paid. 
 It is tempting to spin up a open-source database and use it for analytics, but you should carefully evaluate if the benefit of cost savings is worth the switching costs you will incur later. 
 
-In my case, I balked at the price of snowflake and tried to use a postgres instance for analytics because we had a small amount of data. This was dumb, because the savings of (snowflake – postgres) * (time before we needed to switch to snowflake) is less than the cost of spending time trying to diagnose random postgres issues once a week. Don't undervalue your own time!
+In my case, I balked at the price of Snowflake and tried to use a Postgres instance for analytics because we had a small amount of data. In hindsight, this was a poor decision, because the savings of (Snowflake – Postgres) * (time before we needed to switch to Snowflake) is less than the cost of spending time trying to diagnose random Postgres issues once a week. Don't undervalue your own time!
 
-For finance, again, different providers have different billing structures and you may not realize how much of a sticking point this can be. Additionally, your company may want to stick with the default analytics DB of the cloud provider you are already using. However, unlike data moving, there are substantial feature differences between paid options. You should be prepared to advocate for your preferred solution by articulating the value-add in terms of faster project throughput and/or lower human intervention costs.
+For finance, again, different providers have different billing structures and you may not realize how much of a sticking point this can be. Additionally, your company may want to stick with the default analytics DB of the cloud provider you are already using. However, unlike data moving, there are substantial feature a differences between paid options. You should be prepared to advocate for your preferred solution by articulating the value add in terms of faster project throughput and/or less human intervention costs.
 
 
 ## Business Intelligence & Visualization:
@@ -55,7 +69,7 @@ I made one specific mistake here that I want to share: Looker was much more expe
 
 1.  Business users still need a baseline skill level to use Looker. A surprisingly effective rule-of-thumb is that if a person is comfortable with pivot tables in Excel, they can do Looker. Do a quick calculation of how many people in your org need data, and of those, how many of them you would trust to make a pivot table.
 
-2. There are benefits to hiring an analyst beyond simply doing SQL queries. Looker saved us from hiring an analyst, but that analyst could also have added value by connecting the dots of cross-functional business requests into product priorities. Unless you are severely budget constrained, it doesn’t hurt to have another bright technical person around, and the earlier you hire them, the better.
+2. There are benefits to hiring an analyst beyond simply doing SQL queries. Looker saved us from hiring an analyst to do simple SQL queries, but led to more complex follow-up questions, so there was still a lot of work. Also, another analyst could also have added value by connecting the dots of cross-functional business requests into product priorities. Unless you are severely budget constrained, it doesn’t hurt to have another bright technical person around, and the earlier you hire them, the better.
 
 Here is a simple chart I wish I would have used to diagnose analytics needs:
 
@@ -67,13 +81,11 @@ This concludes the three main “courses” of an analytics stack. If you are st
 ## Business Logic Layer:  
 - You might consider: Looker, DBT
 
- Once you get to more than 3 SQL writers, each will use slightly different JOIN conditions and aggregations, and it will cause problems. These problems may be technical (the same expensive queries getting run repeatedly) but certainly analytical problems as different teams build out slightly different queries for the same metrics.
-Business logic layers solve this problem by centralizing and documenting the (business logic <-> data) interface.
+ What is a "business logic layer"? Great question. If you are querying against copies of raw production tables, eventually different analysts will each use slightly different JOIN conditions and aggregations (`COUNT`? `COUNT(DISTINCT ..)`?, and it will cause two types of problems. First, technically, the same expensive queries are getting run. Second, and more importantly (now that database compute power is quite cheap), different teams will build out slightly different queries for the same metrics. Soon, you will end up spending more time resolving query discrepencies than doing analytics.
+**Business logic layers solve this problem by centralizing and documenting the (business logic <-> data) interface.**
 
-I was comparing DBT with Looker, but the important takeaway is to consider the tradeoffs between a comprehensive system  DBT overlaps a lot with LookML in this regard. If you don’t use Looker, you should definitely use DBT. If you do use Looker, the gains to using DBT are less. I opted to use DBT because it will make it much easier to move off of Looker, if I ever need to, allows us to use DBT’s cleaned data for data science instead of trapping that data in Looker, and has some more advanced features not found in LookML's PDTs. You can opt for DBT open source or their paid hosted version, DBT Cloud. DBT Cloud is more user friendly, but still requires a fair amount of technical knowledge to operate.
+I was comparing dbt with Looker, but the important takeaway is to consider the tradeoffs between a comprehensive system  dbt overlaps a lot with LookML in this regard. If you don’t use Looker, you should at least consider dbt. If you do use Looker, the gains to using dbt are less. I opted to use dbt because it will make it much easier to move off of Looker, if I ever need to, allows us to use dbt’s cleaned data for data science instead of trapping that data in Looker, and has some more advanced features not found in LookML's PDTs. You can opt for dbt open source or their paid hosted version, dbt Cloud. dbt Cloud is more user friendly, but still requires a fair amount of technical knowledge to operate.
 
-In terms of internal discussions, since dbt is either free (run yourself) or very cheap (dbt Cloud), this is likely an easy talk. I regret setting up dbt on an EC2 box instead of going directly to dbt’s paid cloud offering. dbt is much more technical than Looker, so your average business user is either going to need to level up their command line skills, or not be involved in the dbt process. dbt Cloud doesn't offer automated user provisioning, so this will be yet-another-tool to admin. C'est la vie!
+Org Discussion Points: Since dbt is either free (run yourself) or very cheap (dbt cloud), this is likely an easy talk. I regret setting up dbt on an EC2 box instead of going directly to dbt’s paid cloud offering, because I had to monitor the EC2 box's status, and coordinating deployments with other data coworkers was difficult.
 
-## Org & On-going training:
-
-Once you reach about 100 employees, the way you communicate cross-org is going to be more important than everything I just wrote about (unless you really screwed it up). There is a great post on this by TJ Murphy: [Lessons learned managing the GitLab Data team](https://about.gitlab.com/blog/2020/02/10/lessons-learned-as-data-team-manager/). For a deeper dive on org structure (embedded or centralized analysts?), selecting KPIs, and driving prioritization, I recommend Carl Anderson’s “Creating a Data-Driven Organization” and, of course, [Locally Optimistic blog](https://www.locallyoptimistic.com/)
+dbt is much more technical than looker, so your average business user is either going to need to level up their command line skills, or not be involved in the dbt process. dbt Cloud doesn't offer automated user provisioning, so this will be yet-another-tool to admin. C'est la vie!
