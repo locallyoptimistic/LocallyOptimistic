@@ -8,3 +8,4 @@
 * Headings
   * Main topics in blog post should use `##` heading2
   * Sub topics should use `###` heading3
+* Insert <!--more--> after the first paragraph it indicate where the intro ends (the text before <!--more--> will appear on the homepage).
