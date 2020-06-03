@@ -56,7 +56,7 @@ Ilan is the Head of Data at [TrialSpark](http://www.trialspark.com) where he's h
 
 ### Caitlin Moorman
 
-Caitlin is the Head of Analytics at [Yerdle Recommerce](https://www.yerdlerecommerce.com/), where she helps brands create circular retail models at scale - buying back and reselling their products to extend their useful life. She previously led data teams in crowdfunding and self-publishing. When she's not optimizing single-item pricing or operations, she's usually drinking a cup of tea and watching her chickens peck around the back yard.
+Caitlin is the Head of Analytics at [Trove Recommerce](https://www.trove.co/), where she helps brands create circular retail models at scale - buying back and reselling their products to extend their useful life. She previously led data teams in crowdfunding and self-publishing. When she's not optimizing single-item pricing or operations, she's usually drinking a cup of tea and watching her chickens peck around the back yard.
 
 [linkedIn](https://www.linkedin.com/in/caitlin-moorman/) | [github](https://github.com/caitlinmoorman)
 
