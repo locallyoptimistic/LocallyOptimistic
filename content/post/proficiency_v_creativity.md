@@ -1,9 +1,9 @@
 ---
 author: Caitlin Moorman
 title: "Proficiency v. Creativity"
-cover: ""
-draft: true
-publishDate: "2020-06-01"
+cover: "/img/proficiency_v_creativity.jpg"
+draft: false
+publishDate: "2020-06-03"
 tags:
  - org
  - teams
@@ -13,7 +13,7 @@ tags:
 
 Your data team has to produce solid data. The pipelines have to run, the logic in your transformations has to be sound, and the report has to show accurate revenue. Those fundamentals are hard to argue with. But if that's all you're doing, your team is probably bored and your organization definitely isn't getting as much value as it could out of its data.
 
-Most of us get into the field because we want to take that solid data and create something new with it. We want discover insights that enable the organization to identify opportunities to improve processes, appeal to new customers, or build better products. Sure, we can help diagnose why those metrics don't line up, but that kind of work can feel like a distraction from where we could be adding more value. One of the fundamental challenges of managing a data team is balancing the need for rigor and reliability with the team's desire to spend most of their time creating new knowledge. How do we manage those sometimes conflicting priorities?
+Open-ended creative work is a huge part of the appeal of working in this field - identifying opportunities to improve processes, appeal to new customers, or build better products adds value for the organization, but it is also just incredibly personally satisfying. One of the fundamental challenges of managing a data team is balancing the need for rigor and reliability with the team's desire to spend most of their time creating new knowledge. How do we manage those sometimes conflicting priorities?
 
 <!--more-->
 
@@ -43,7 +43,7 @@ But as much as I value a robust data warehouse and [accurate reporting](https://
 ## Creativity
 The creativity of analytics is why I show up to work each morning, and I think that’s true for many of us. We want to turn data into new knowledge and products - to learn from the past in order to shape the future. We want to explore and uncover new insights that suggest a path forward for the business. We want to predict who is going to churn instead of reporting on who churned last week. We want to create beautiful and signal-rich visualizations that allow our colleagues to immediately grasp relevant trends and patterns. And though I argued that the *outputs* of analytics engineering encourage proficiency just a few paragraphs ago, I think the *emergence* of analytics engineering as a discipline is also an act of creativity. Very smart folks are thinking outside the box to create tools and processes that apply engineering best practices and solutions to the problems analysts face.
 
-Leading for creativity means fostering systems that consistently churn out fresh ideas, even if many of those ideas don’t turn out to be successful. Your team has to understand that failure is not just a possibility, it's a necessary output of both research and creative processes. Every failure is an opportunity to change your perspective, reframe either the problem or the solution, and over time hone in on a more refined idea of what approaches are likely to be fruitful.
+Leading for creativity means fostering systems that consistently churn out fresh ideas, even if many of those ideas don’t turn out to be successful. Your team has to understand that failure is not just a possibility, it's a necessary output of both research and creative processes. Every failure is an opportunity to change your perspective, reframe either the problem or the solution, and over time home in on a more refined idea of what approaches are likely to be fruitful.
 
 To generate creativity, empowerment is critical - providing support and tools to enable the team and letting them loose. Creativity also requires a real focus on the team’s dynamic and sense of psychological safety. Teams should celebrate individuals who take initiative and generate new ideas, but not all those ideas will ultimately be good ones. Folks need to feel safe suggesting something they aren’t quite sure is fully baked, as well as giving authentic feedback on someone else’s idea in an honest but respectful way.
 
