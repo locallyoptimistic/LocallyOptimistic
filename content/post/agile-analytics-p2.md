@@ -35,7 +35,7 @@ As a researcher, I often find the most valuable insights I generate come from in
 
 
 ## Exploratory data analysis
-While exploratory analysis can start from a fortuitous finding, it can also start from general curiosity, a specific hypothesis, or the belief that no one has looked at this before, so there must me insights to be found. Exploratory data analysis is an important part of the "basic research" function of an Analytics or Data Science team. 
+While exploratory analysis can start from a fortuitous finding, it can also start from general curiosity, a specific hypothesis, or the belief that no one has looked at this before, so there must be insights to be found. Exploratory data analysis is an important part of the "basic research" function of an Analytics or Data Science team.
 
 Unfortunately, it is very hard to write "user stories" or "acceptance criteria" for this sort of work because ... the whole point is that you are not sure what you are going to find, and it requires a researcher's intuition to know when the story is "done" (because there are always more hypotheses you *could* look into, but often those marginal investigations are not valuable).
 
@@ -57,4 +57,4 @@ In general, the Agile approach can be foreign to non-tech companies (companies t
 
 # Conclusion
 
-After reading this post you may feel like scrum and analytics are completely incompatible. Agile fans, don't lose heart just yet. In my next post I will propose some adjustments to the scrum methodology that address the challenges that come with the hybrid research - engineering nature of analytics. I believe, scrum -- when adapted -- can power a high performing Analytics team that balances short term needs with the value of longer term research pursuits.
+After reading this post you may feel like scrum and analytics are completely incompatible. Agile fans, don't lose heart just yet. In my [next post](https://www.locallyoptimistic.com/post/agile-analytics-p3/) I will propose some adjustments to the scrum methodology that address the challenges that come with the hybrid research - engineering nature of analytics. I believe, scrum -- when adapted -- can power a high performing Analytics team that balances short term needs with the value of longer term research pursuits.
