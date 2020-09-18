@@ -55,6 +55,8 @@ In order to address these, we (the community) want to propose two rules and two 
 * Guideline: vendors should generally avoid promoting their own product unless there is a very clear use-case. If someone asks about tools to solve a certain problem, a vendor could say “the big three service providers are alpha, beta, and gamma — I work at gamma so I'm biased toward that one. If you want to discuss more about the details, direct message me," and that would be fine. Constantly posting "you should check out gamma" is not.
 * Rule: vendors should not send unsolicited sales direct-messages to members of the community -- if you are a vendor and someone direct-messages you to learn more about your product, that's great, but we do not want people using locally optimistic direct messages to spam for new customers.
 
+## Reach out to the Admins
+
 If you observe anyone violating these rules or guidelines (or you just see something that makes you uncomfortable or you believe is hurting the community) please reach out to an admin (@scott, @michael, @ilan, or @sam swift) and we'll address it. You can also send us an [email](mailto:locally-optimistic-admins@googlegroups.com). And, of course, we expect that we will need to continuously evolve as a community, so joining the #communityrules channel is a great place to participate if you have thoughts on how we can make the community better.
 
 ## Inviting Others
